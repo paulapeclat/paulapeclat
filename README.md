@@ -196,9 +196,14 @@ Estou aberta a:
 
 <br>
 
-### 📫 Contato
+### 📫 Contato & redes
 
-[paulapeclat.com.br](https://paulapeclat.com.br) · [@paulapeclat.oficial](https://instagram.com/paulapeclat.oficial)
+[![Site](https://img.shields.io/badge/paulapeclat.com.br-22C3D9?style=flat-square&logo=googlechrome&logoColor=white)](https://paulapeclat.com.br)
+[![Currículo Lattes](https://img.shields.io/badge/Curr%C3%ADculo%20Lattes-4B7CB6?style=flat-square)](https://lattes.cnpq.br/7801922150368918)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6535-7090)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulapeclat/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@ppeclat)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405B?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/paulapeclat.oficial)
 
 ---
 
