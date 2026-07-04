@@ -1,0 +1,170 @@
+<div align="center">
+
+<img src="assets/banner.svg" alt="Paula Peclat" width="100%">
+
+<a href="https://paulapeclat.com.br"><img src="assets/typing.svg" alt="typing" height="40"></a>
+
+<a href="https://paulapeclat.com.br"><strong>→ paulapeclat.com.br</strong></a> ·
+<a href="https://instagram.com/paulapeclat.oficial"><strong>@paulapeclat.oficial</strong></a>
+
+</div>
+
+<br>
+
+### 🎮 A Trilha
+
+<div align="center">
+<img src="assets/trilha-rpg.svg" alt="Trilha da jornada — Pedagogia, Python, Roblox/Luau, GDevelop, APedê Digital, Mestrado UFRRJ e o próximo nível" width="100%">
+</div>
+
+<br>
+
+### 🧭 Expedição Estelar — jogue agora
+
+Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-preenchida e um robô processa sua jogada em ~30 segundos. Colete a ⭐!
+
+<div align="center">
+
+<img src="assets/expedicao.svg" alt="Tabuleiro da Expedição Estelar — jogo coletivo controlado por issues" width="100%">
+
+<table>
+<tr>
+<td></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cnorte&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬆️<br><strong>norte</strong></a></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Coeste&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬅️ <strong>oeste</strong></a></td>
+<td></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cleste&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80"><strong>leste</strong> ➡️</a></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Csul&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬇️<br><strong>sul</strong></a></td>
+<td></td>
+</tr>
+</table>
+
+<sub>o tabuleiro pode levar alguns minutos para atualizar por causa do cache de imagens do GitHub</sub>
+
+</div>
+
+<br>
+
+### 📌 Agora
+
+<!--STATUS-START-->
+🟢 Finalizando a qualificação do mestrado
+<!--STATUS-END-->
+
+<sub>(esta linha é atualizada automaticamente — ver `scripts/update_status.py`)</sub>
+
+<br>
+
+### 🗺️ Mapa de Alcance
+
+<div align="center">
+<img src="assets/mapa-alcance.svg" alt="Mapa surreal de alcance — alunos em 10+ estados do Brasil, Portugal e Nova York, com rotas partindo do Rio de Janeiro" width="100%">
+<br>
+<sub>gerado a partir de <code>data/alcance.json</code> — para adicionar um estado, basta editar o JSON e comitar</sub>
+</div>
+
+<br>
+
+### 🕹️ Ficha de Jogadora
+
+<div align="center">
+<img src="assets/rpg-card.svg" alt="Ficha RPG — habilidades, XP do mestrado e conquistas" width="49%">&nbsp;<img src="assets/stats.svg" alt="GitHub stats" width="45%">
+</div>
+
+<br>
+
+### 🌆 Contribuições em 3D
+
+<div align="center">
+
+<!-- gerado pelo workflow contrib-3d.yml — aparece após a primeira execução na aba Actions -->
+<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="Calendário 3D de contribuições" width="100%">
+
+<!-- gerado pelo workflow snake.yml — aparece após a primeira execução na aba Actions -->
+<img src="assets/github-snake.svg" alt="Cobrinha comendo as contribuições" width="100%">
+
+</div>
+
+<br>
+
+### 🪐 Objetos 3D
+
+<div align="center">
+
+<!-- gerado pelo workflow render-3d-hero.yml — aparece após a primeira execução na aba Actions -->
+<img src="assets/hero-3d.webp" alt="Cena 3D surreal — icosaedro com anel, lua orbitando e ilhas flutuantes na paleta do site" width="100%">
+
+<sub>Cena Three.js renderizada automaticamente em <code>scripts/render-3d-hero.js</code> — loop perfeito, sem JavaScript no README</sub>
+
+</div>
+
+<br>
+
+### 🌐 Ver em 3D
+
+<div align="center">
+<a href="https://paulapeclat.com.br">
+  <img src="assets/portfolio-3d-preview.webp" alt="Preview 3D do portfólio" width="600">
+</a>
+<br>
+<sub>Prévia gerada automaticamente a partir de paulapeclat.com.br</sub>
+</div>
+
+<br>
+
+### 🔭 O que eu faço
+
+**Pesquisa** — Mestrado em Educação (PPGEduc/UFRRJ), sob orientação da Profª Drª Anelise Monteiro do Nascimento. Investigo infâncias digitais a partir da Sociologia da Infância (Corsaro, Sarmento), tratando crianças como produtoras de cultura, não consumidoras passivas de mídia.
+
+**Ensino** — Fundadora da [APedê Digital](https://paulapeclat.com.br), plataforma de educação em tecnologia para crianças. Currículo em Python, Roblox/Luau, GDevelop e microStudio, com progressão do concreto ao abstrato.
+
+**Projetos** — Ferramentas que atravessam pesquisa e prática: scripts educacionais, simuladores de sala de aula, análises de dados de jogos.
+
+<br>
+
+### 🛠️ Tecnologias
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Roblox](https://img.shields.io/badge/Roblox%20Studio-000000?style=flat-square&logo=roblox&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![GDevelop](https://img.shields.io/badge/GDevelop-FFA500?style=flat-square&logo=gdevelop&logoColor=white)
+
+<br>
+
+### 📚 Metodologia
+
+- **Criança-centrada** — Escuto, observo e construo a partir das curiosidades das crianças
+- **Prático-reflexiva** — Teoria informando prática; prática gerando novos dados
+- **Progressivo** — Do concreto ao abstrato, do lúdico ao formal
+- **Colaborativa** — Espaço aberto para construção conjunta
+
+<br>
+
+### 💼 Colaborações Abertas
+
+Estou aberta a:
+- **Pesquisa** em infâncias digitais, educação em tecnologia, game design educacional
+- **Ensino** via parcerias em oficinas, cursos, mentoria de projetos
+- **Desenvolvimento** de ferramentas educacionais e simuladores pedagógicos
+
+<br>
+
+### 📫 Contato
+
+[paulapeclat.com.br](https://paulapeclat.com.br) · [@paulapeclat.oficial](https://instagram.com/paulapeclat.oficial)
+
+---
+
+<div align="center">
+<sub>Profile gamificado e atualizado automaticamente — ver <a href="https://github.com/paulapeclat/paulapeclat/tree/main/scripts">scripts</a> e <a href="https://github.com/paulapeclat/paulapeclat/tree/main/.github/workflows">workflows</a></sub>
+</div>

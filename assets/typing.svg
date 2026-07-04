@@ -1,0 +1,39 @@
+<svg viewBox="0 0 720 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clipPT">
+      <rect x="0" y="0" width="0" height="50">
+        <animate attributeName="width"
+          keyTimes="0;0.1875;0.3125;0.4125;1"
+          values="0;620;620;0;0"
+          dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipEN">
+      <rect x="0" y="0" width="0" height="50">
+        <animate attributeName="width"
+          keyTimes="0;0.5;0.6875;0.8125;0.9125;1"
+          values="0;0;620;620;0;0"
+          dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <style>
+      text {
+        font-family: 'Segoe UI', 'Arial', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        fill: #22C3D9;
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clipPT)">
+    <text x="4" y="32">Pesquiso como crianças produzem cultura digital</text>
+  </g>
+  <g clip-path="url(#clipEN)">
+    <text x="4" y="32">I study how children produce digital peer culture</text>
+  </g>
+
+  <rect x="620" y="10" width="3" height="28" fill="#F23D91">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+</svg>

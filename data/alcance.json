@@ -1,0 +1,6 @@
+{
+  "base": "RJ",
+  "estados": ["RJ", "SP", "MG", "DF", "BA", "PE", "CE", "AM", "PR", "RS"],
+  "chip_mundo": "3 países · 3 continentes",
+  "chip_modo": "aulas online e presenciais"
+}

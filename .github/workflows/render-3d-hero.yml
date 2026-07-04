@@ -1,0 +1,53 @@
+name: Renderizar objetos 3D do perfil
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"   # todo domingo, 06:00 UTC — a cena é determinística, roda pouco
+  workflow_dispatch: {}   # permite rodar manualmente pela aba Actions
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependências (Puppeteer)
+        run: npm install puppeteer
+
+      - name: Renderizar cena 3D determinística
+        run: node scripts/render-3d-hero.js
+
+      - name: Converter frames em WebP animado
+        run: |
+          ffmpeg -y -framerate 12 \
+            -i tmp-frames-hero/frame-%03d.png \
+            -vcodec libwebp -lossless 0 -q:v 70 -loop 0 -an -vsync 0 \
+            assets/hero-3d.webp
+
+      - name: Limpar frames temporários
+        run: rm -rf tmp-frames-hero
+
+      - name: Comitar cena atualizada (se houver mudança)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/hero-3d.webp
+          git diff --cached --quiet || git commit -m "chore: atualiza objetos 3D do perfil"
+          git push
+
+      - name: Salvar frames como artefato em caso de falha
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-frames-hero
+          path: tmp-frames-hero/
+          retention-days: 3

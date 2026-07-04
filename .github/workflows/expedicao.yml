@@ -1,0 +1,56 @@
+name: Expedição — processar movimento
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# jogadas em fila, nunca em paralelo (evita conflito de push)
+concurrency:
+  group: expedicao
+  cancel-in-progress: false
+
+jobs:
+  mover:
+    if: startsWith(github.event.issue.title, 'expedicao|mover|')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Processar movimento
+        id: jogada
+        env:
+          TITULO: ${{ github.event.issue.title }}
+          JOGADOR: ${{ github.event.issue.user.login }}
+        run: |
+          DIRECAO="${TITULO##*|}"
+          MSG=$(python scripts/expedicao.py move "$DIRECAO" "$JOGADOR")
+          echo "msg=$MSG" >> "$GITHUB_OUTPUT"
+
+      - name: Comitar tabuleiro atualizado (se houver mudança)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/expedicao.svg data/expedicao.json
+          git diff --cached --quiet || git commit -m "chore(expedicao): jogada de @${{ github.event.issue.user.login }}"
+          git push
+
+      - name: Responder e fechar a issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MSG: ${{ steps.jogada.outputs.msg }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "$MSG"
+          gh issue close "$NUM" --repo "$GITHUB_REPOSITORY" --reason completed

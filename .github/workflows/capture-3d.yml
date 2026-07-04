@@ -1,0 +1,54 @@
+name: Atualizar prévia 3D do portfólio
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # toda segunda-feira, 06:00 UTC (~03:00 horário de Brasília)
+  workflow_dispatch: {}   # permite rodar manualmente pela aba Actions
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependências (Puppeteer)
+        run: npm install puppeteer
+
+      - name: Capturar frames da cena 3D
+        run: node scripts/capture-3d.js
+
+      - name: Converter frames em WebP animado
+        run: |
+          ffmpeg -y -framerate 6.67 \
+            -i tmp-frames/frame-%03d.png \
+            -vf "scale=600:-1" \
+            -vcodec libwebp -lossless 0 -q:v 60 -loop 0 -an -vsync 0 \
+            assets/portfolio-3d-preview.webp
+
+      - name: Limpar frames temporários
+        run: rm -rf tmp-frames
+
+      - name: Comitar prévia atualizada (se houver mudança)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/portfolio-3d-preview.webp
+          git diff --cached --quiet || git commit -m "chore: atualiza prévia 3D do portfólio"
+          git push
+
+      - name: Salvar frames como artefato em caso de falha
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-frames
+          path: tmp-frames/
+          retention-days: 3

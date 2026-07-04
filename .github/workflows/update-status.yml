@@ -1,0 +1,34 @@
+name: Atualizar status no README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "status.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Atualizar README a partir de status.json
+        run: python scripts/update_status.py
+
+      - name: Comitar mudanças (se houver)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: atualiza status automaticamente"
+          git push
