@@ -26,6 +26,9 @@ jobs:
       - name: Renderizar cena 3D determinística
         run: node scripts/render-3d-hero.js
 
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
       - name: Converter frames em WebP animado
         run: |
           ffmpeg -y -framerate 12 \
@@ -42,6 +45,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/hero-3d.webp
           git diff --cached --quiet || git commit -m "chore: atualiza objetos 3D do perfil"
+          git pull --rebase origin main
           git push
 
       - name: Salvar frames como artefato em caso de falha
