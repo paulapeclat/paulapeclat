@@ -1,0 +1,20 @@
+{
+  "nome": "Paula Peclat",
+  "classe": "★ multiclasse",
+  "xp": {
+    "rotulo": "XP · Mestrado — qualificação",
+    "percentual": 78
+  },
+  "habilidades": [
+    { "nome": "Ensino", "valor": 95 },
+    { "nome": "Pesquisa", "valor": 85 },
+    { "nome": "Game design", "valor": 75 },
+    { "nome": "Python · Luau", "valor": 65 }
+  ],
+  "conquistas": [
+    { "emoji": "🎓", "rotulo": "mestrado" },
+    { "emoji": "🕹️", "rotulo": "APedê Digital" },
+    { "emoji": "🌍", "rotulo": "3 continentes" },
+    { "emoji": "📚", "rotulo": "27 estados" }
+  ]
+}

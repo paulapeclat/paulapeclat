@@ -1,4 +1,4 @@
-name: Atualizar mapa e trilha
+name: Atualizar mapa, trilha e ficha
 
 on:
   push:
@@ -6,8 +6,10 @@ on:
     paths:
       - "data/alcance.json"
       - "data/trilha.json"
+      - "data/rpg.json"
       - "scripts/generate_map.py"
       - "scripts/generate_trilha.py"
+      - "scripts/generate_rpg.py"
   workflow_dispatch: {}
 
 permissions:
@@ -31,11 +33,14 @@ jobs:
       - name: Gerar trilha a partir de data/trilha.json
         run: python scripts/generate_trilha.py
 
+      - name: Gerar ficha RPG a partir de data/rpg.json
+        run: python scripts/generate_rpg.py
+
       - name: Comitar visuais atualizados (se houver mudança)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/mapa-alcance.svg assets/trilha-rpg.svg
-          git diff --cached --quiet || git commit -m "chore: atualiza mapa de alcance e trilha"
+          git add assets/mapa-alcance.svg assets/trilha-rpg.svg assets/rpg-card.svg
+          git diff --cached --quiet || git commit -m "chore: atualiza mapa de alcance, trilha e ficha"
           git pull --rebase origin main
           git push
