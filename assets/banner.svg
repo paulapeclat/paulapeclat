@@ -59,10 +59,10 @@
   </circle>
 
   <text x="80" y="150" font-size="56" font-weight="800" fill="url(#textGrad)" letter-spacing="-1">Paula Peclat</text>
-  <text x="80" y="190" font-size="20" font-weight="500" fill="#F2A2C0" letter-spacing="0.5">Pedagoga · Pesquisadora em Educação · Educadora Digital</text>
+  <text x="80" y="190" font-size="20" font-weight="500" fill="#F2A2C0" letter-spacing="0.5">Pedagoga · Pesquisadora em Educação Midiática · Educadora Digital</text>
 
   <text x="80" y="240" font-size="15" fill="rgba(255,255,255,0.55)">Mestranda PPGEduc/UFRRJ · Fundadora, APedê Digital</text>
-  <text x="80" y="266" font-size="15" fill="rgba(255,255,255,0.55)">Infâncias digitais · Cultura de pares · Python · Roblox/Luau</text>
+  <text x="80" y="266" font-size="15" fill="rgba(255,255,255,0.55)">Infâncias · Mídias digitais · Jogos digitais · Políticas educacionais para o contexto digital</text>
 
   <rect x="78" y="292" width="150" height="28" rx="14" fill="rgba(34,195,217,0.12)" stroke="rgba(34,195,217,0.4)"/>
   <text x="153" y="310" font-size="12" font-weight="600" fill="#22C3D9" text-anchor="middle" letter-spacing="0.5">paulapeclat.com.br</text>

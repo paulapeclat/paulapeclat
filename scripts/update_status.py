@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Lê status.json e substitui o conteúdo entre os marcadores
-<!--STATUS-START--> e <!--STATUS-END--> no README.md.
+<!--STATUS-START--> e <!--STATUS-END--> no README.md e no README.en.md.
 
-Paula só edita status.json (emoji + texto) e comita.
-O workflow do GitHub Actions roda este script automaticamente.
+Paula só edita status.json (emoji + texto; "text_en" é opcional para a
+versão em inglês) e comita. O workflow roda este script automaticamente.
 """
 import json
 import re
@@ -13,10 +13,27 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 STATUS_FILE = ROOT / "status.json"
-README_FILE = ROOT / "README.md"
 
 START_MARKER = "<!--STATUS-START-->"
 END_MARKER = "<!--STATUS-END-->"
+
+PATTERN = re.compile(re.escape(START_MARKER) + r".*?" + re.escape(END_MARKER), re.DOTALL)
+
+
+def atualizar(readme: Path, emoji: str, text: str) -> bool:
+    if not readme.exists():
+        return False
+    conteudo = readme.read_text(encoding="utf-8")
+    if not PATTERN.search(conteudo):
+        print(f"Erro: marcadores STATUS não encontrados em {readme.name}", file=sys.stderr)
+        sys.exit(1)
+    novo = PATTERN.sub(f"{START_MARKER}\n{emoji} {text}\n{END_MARKER}", conteudo)
+    if novo != conteudo:
+        readme.write_text(novo, encoding="utf-8")
+        print(f"{readme.name} atualizado com novo status.")
+        return True
+    print(f"{readme.name}: nenhuma mudança necessária.")
+    return False
 
 
 def main():
@@ -27,26 +44,10 @@ def main():
     status = json.loads(STATUS_FILE.read_text(encoding="utf-8"))
     emoji = status.get("emoji", "🟢")
     text = status.get("text", "")
+    text_en = status.get("text_en") or text  # cai no texto em PT se não houver tradução
 
-    readme = README_FILE.read_text(encoding="utf-8")
-
-    pattern = re.compile(
-        re.escape(START_MARKER) + r".*?" + re.escape(END_MARKER),
-        re.DOTALL,
-    )
-
-    if not pattern.search(readme):
-        print("Erro: marcadores STATUS-START/STATUS-END não encontrados no README.md", file=sys.stderr)
-        sys.exit(1)
-
-    replacement = f"{START_MARKER}\n{emoji} {text}\n{END_MARKER}"
-    new_readme = pattern.sub(replacement, readme)
-
-    if new_readme != readme:
-        README_FILE.write_text(new_readme, encoding="utf-8")
-        print("README.md atualizado com novo status.")
-    else:
-        print("Nenhuma mudança necessária.")
+    atualizar(ROOT / "README.md", emoji, text)
+    atualizar(ROOT / "README.en.md", emoji, text_en)
 
 
 if __name__ == "__main__":
