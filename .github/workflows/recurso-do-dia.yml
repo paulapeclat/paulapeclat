@@ -1,0 +1,33 @@
+name: Recurso do dia — educação midiática
+
+on:
+  schedule:
+    - cron: "20 12 * * *"   # todo dia, 12:20 UTC (~09:20 horário de Brasília), após a publicação da fila
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rotacionar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rotacionar recurso do dia
+        run: python scripts/recurso_do_dia.py
+
+      - name: Comitar mudança (se houver)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md README.en.md
+          git diff --cached --quiet || git commit -m "chore: rotaciona recurso do dia de educação midiática"
+          git pull --rebase origin main
+          git push
