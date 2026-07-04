@@ -90,7 +90,7 @@
 
     <circle cx="324" cy="296" r="16" fill="rgba(242,162,192,0.10)" stroke="rgba(242,162,192,0.5)" stroke-width="1.2"/>
     <text x="324" y="302" font-size="15" text-anchor="middle">📚</text>
-    <text x="324" y="328" font-size="9.5" fill="rgba(255,255,255,0.5)" text-anchor="middle">10+ estados</text>
+    <text x="324" y="328" font-size="9.5" fill="rgba(255,255,255,0.5)" text-anchor="middle">27 estados</text>
 
     <circle cx="416" cy="296" r="16" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.2" stroke-dasharray="4 4">
       <animateTransform attributeName="transform" type="rotate" values="0 416 296;360 416 296" dur="16s" repeatCount="indefinite"/>

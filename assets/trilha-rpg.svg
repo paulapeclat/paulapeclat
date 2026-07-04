@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre as estações">
+<svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre 11 estações — da Pedagogia ao Mestrado">
   <defs>
     <radialGradient id="tGlowCyan" cx="12%" cy="18%" r="55%">
       <stop offset="0%" stop-color="#22C3D9" stop-opacity="0.28"/>
@@ -32,30 +32,30 @@
     </style>
   </defs>
 
-  <!-- fundo -->
-  <rect width="1000" height="460" fill="#000000"/>
-  <rect width="1000" height="460" fill="url(#tGlowCyan)"/>
-  <rect width="1000" height="460" fill="url(#tGlowPink)"/>
-  <rect width="1000" height="460" fill="url(#tGlowYellow)"/>
-  <rect width="1000" height="460" filter="url(#tGrain)" opacity="0.5"/>
+  <rect width="1000" height="640" fill="#000000"/>
+  <rect width="1000" height="640" fill="url(#tGlowCyan)"/>
+  <rect width="1000" height="640" fill="url(#tGlowPink)"/>
+  <rect width="1000" height="640" fill="url(#tGlowYellow)"/>
+  <rect width="1000" height="640" filter="url(#tGrain)" opacity="0.5"/>
 
   <!-- estrelas -->
   <g>
     <circle cx="140" cy="90" r="2.4" fill="#22C3D9"><animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/></circle>
     <circle cx="330" cy="60" r="1.8" fill="#F2A2C0"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.4s" begin="0.8s" repeatCount="indefinite"/></circle>
     <circle cx="520" cy="110" r="2" fill="#ECBE40"><animate attributeName="opacity" values="0.4;1;0.4" dur="5s" begin="1.4s" repeatCount="indefinite"/></circle>
-    <circle cx="660" cy="70" r="1.6" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.4s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="760" cy="120" r="2.2" fill="#22C3D9"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" begin="0.4s" repeatCount="indefinite"/></circle>
-    <circle cx="90" cy="220" r="1.7" fill="#F23D91"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.6s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="470" cy="200" r="1.5" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="5.2s" begin="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="940" cy="330" r="2" fill="#ECBE40"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.2s" begin="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="230" cy="160" r="1.4" fill="#8CD9E6"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" begin="0.2s" repeatCount="indefinite"/></circle>
-    <circle cx="880" cy="380" r="1.8" fill="#F2A2C0"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="130" r="1.6" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.4s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="110" r="2.2" fill="#22C3D9"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="300" r="1.7" fill="#F23D91"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.6s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="290" r="1.5" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="5.2s" begin="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="300" r="2" fill="#ECBE40"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.2s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="160" r="1.4" fill="#8CD9E6"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="580" r="1.8" fill="#F2A2C0"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="80" cy="600" r="1.6" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.1s" begin="1.2s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- planetinha surreal -->
-  <g transform="translate(695,45)">
-    <animateTransform attributeName="transform" type="translate" values="695 45;695 39;695 45" dur="9s" repeatCount="indefinite"/>
+  <g transform="translate(640,58)">
+    <animateTransform attributeName="transform" type="translate" values="640 58;640 52;640 58" dur="9s" repeatCount="indefinite"/>
     <circle r="13" fill="#F23D91" opacity="0.85"/>
     <circle r="13" fill="url(#tGlowPink)"/>
     <ellipse rx="22" ry="5.5" fill="none" stroke="#ECBE40" stroke-width="1.6" opacity="0.7" transform="rotate(-18)"/>
@@ -70,92 +70,121 @@
   <text x="878" y="49" font-size="12" font-weight="600" fill="#22C3D9" text-anchor="middle" letter-spacing="0.5">XP: +∞ curiosidade</text>
 
   <!-- trilha: leito, linha-guia e fluxo de pontos -->
-  <path id="trail" d="M 90 370 C 150 370 190 320 250 320 C 310 320 350 360 410 360 C 470 360 510 290 570 290 C 630 290 660 330 720 330 C 780 330 800 220 860 220 C 900 220 928 172 950 145" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="16" stroke-linecap="round"/>
+  <path id="trail" d="M 80 510 L 830 510 Q 905 510 905 435 Q 905 360 825 360 L 175 360 Q 95 360 95 285 Q 95 210 175 210 L 860 210" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="16" stroke-linecap="round"/>
   <use href="#trail" stroke="rgba(255,255,255,0.14)" stroke-width="2" stroke-dasharray="6 10"/>
-  <path d="M 90 370 C 150 370 190 320 250 320 C 310 320 350 360 410 360 C 470 360 510 290 570 290 C 630 290 660 330 720 330 C 780 330 800 220 860 220 C 900 220 928 172 950 145" fill="none" stroke="#22C3D9" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 16" opacity="0.85">
+  <path d="M 80 510 L 830 510 Q 905 510 905 435 Q 905 360 825 360 L 175 360 Q 95 360 95 285 Q 95 210 175 210 L 860 210" fill="none" stroke="#22C3D9" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 16" opacity="0.85">
     <animate attributeName="stroke-dashoffset" values="0;-16.1" dur="1.2s" repeatCount="indefinite"/>
   </path>
 
   <!-- ilhas flutuantes sob as estações -->
   <g fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)">
-    <ellipse cx="90" cy="386" rx="32" ry="8"/>
-    <ellipse cx="250" cy="336" rx="32" ry="8"/>
-    <ellipse cx="410" cy="376" rx="32" ry="8"/>
-    <ellipse cx="570" cy="306" rx="32" ry="8"/>
-    <ellipse cx="720" cy="346" rx="32" ry="8"/>
-    <ellipse cx="860" cy="236" rx="34" ry="9"/>
-  </g>
-  <!-- pedrinhas flutuantes -->
-  <circle cx="226" cy="356" r="2.6" fill="rgba(255,255,255,0.25)"><animate attributeName="cy" values="356;350;356" dur="5s" repeatCount="indefinite"/></circle>
-  <circle cx="272" cy="362" r="1.8" fill="rgba(255,255,255,0.18)"><animate attributeName="cy" values="362;357;362" dur="6s" begin="1s" repeatCount="indefinite"/></circle>
-  <circle cx="546" cy="326" r="2.4" fill="rgba(255,255,255,0.25)"><animate attributeName="cy" values="326;320;326" dur="5.5s" begin="0.6s" repeatCount="indefinite"/></circle>
-  <circle cx="596" cy="332" r="1.7" fill="rgba(255,255,255,0.18)"><animate attributeName="cy" values="332;327;332" dur="6.4s" begin="1.6s" repeatCount="indefinite"/></circle>
-  <circle cx="834" cy="258" r="2.6" fill="rgba(255,255,255,0.25)"><animate attributeName="cy" values="258;252;258" dur="5.2s" begin="0.3s" repeatCount="indefinite"/></circle>
-  <circle cx="890" cy="264" r="1.8" fill="rgba(255,255,255,0.18)"><animate attributeName="cy" values="264;259;264" dur="6.2s" begin="1.2s" repeatCount="indefinite"/></circle>
-
-  <!-- estações concluídas -->
-  <g>
-    <circle cx="90" cy="370" r="16" fill="#22C3D9" opacity="0.15"/>
-    <circle cx="90" cy="370" r="11" fill="#22C3D9"/>
-    <use href="#check" x="90" y="370"/>
-    <text x="90" y="410" font-size="13" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Pedagogia</text>
-
-    <circle cx="250" cy="320" r="16" fill="#ECBE40" opacity="0.15"/>
-    <circle cx="250" cy="320" r="11" fill="#ECBE40"/>
-    <use href="#check" x="250" y="320"/>
-    <text x="250" y="296" font-size="13" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Python</text>
-
-    <circle cx="410" cy="360" r="16" fill="#F23D91" opacity="0.15"/>
-    <circle cx="410" cy="360" r="11" fill="#F23D91"/>
-    <use href="#check" x="410" y="360"/>
-    <text x="410" y="400" font-size="13" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Roblox · Luau</text>
-
-    <circle cx="570" cy="290" r="16" fill="#22C3D9" opacity="0.15"/>
-    <circle cx="570" cy="290" r="11" fill="#22C3D9"/>
-    <use href="#check" x="570" y="290"/>
-    <text x="570" y="266" font-size="13" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">GDevelop</text>
-
-    <circle cx="720" cy="330" r="16" fill="#ECBE40" opacity="0.15"/>
-    <circle cx="720" cy="330" r="11" fill="#ECBE40"/>
-    <use href="#check" x="720" y="330"/>
-    <text x="720" y="370" font-size="13" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">APedê Digital</text>
+    <ellipse cx="130" cy="526" rx="30" ry="8"/>
+    <ellipse cx="320" cy="526" rx="30" ry="8"/>
+    <ellipse cx="510" cy="526" rx="30" ry="8"/>
+    <ellipse cx="700" cy="526" rx="30" ry="8"/>
+    <ellipse cx="740" cy="376" rx="30" ry="8"/>
+    <ellipse cx="560" cy="376" rx="30" ry="8"/>
+    <ellipse cx="380" cy="376" rx="30" ry="8"/>
+    <ellipse cx="200" cy="376" rx="30" ry="8"/>
+    <ellipse cx="280" cy="226" rx="30" ry="8"/>
+    <ellipse cx="470" cy="226" rx="30" ry="8"/>
+    <ellipse cx="660" cy="226" rx="30" ry="8"/>
   </g>
 
-  <!-- estação atual: Mestrado (pulsando) -->
+  <!-- estações -->
   <g>
-    <circle cx="860" cy="220" r="13" fill="none" stroke="#F23D91" stroke-width="2">
+    <circle cx="130" cy="510" r="16" fill="#22C3D9" opacity="0.15"/>
+    <circle cx="130" cy="510" r="11" fill="#22C3D9"/>
+    <use href="#check" x="130" y="510"/>
+    <text x="130" y="554" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Pedagogia</text>
+  </g>
+  <g>
+    <circle cx="320" cy="510" r="16" fill="#ECBE40" opacity="0.15"/>
+    <circle cx="320" cy="510" r="11" fill="#ECBE40"/>
+    <use href="#check" x="320" y="510"/>
+    <text x="320" y="476" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Coordenação Pedagógica</text>
+  </g>
+  <g>
+    <circle cx="510" cy="510" r="16" fill="#F23D91" opacity="0.15"/>
+    <circle cx="510" cy="510" r="11" fill="#F23D91"/>
+    <use href="#check" x="510" y="510"/>
+    <text x="510" y="554" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Pedagogia Digital</text>
+  </g>
+  <g>
+    <circle cx="700" cy="510" r="16" fill="#22C3D9" opacity="0.15"/>
+    <circle cx="700" cy="510" r="11" fill="#22C3D9"/>
+    <use href="#check" x="700" y="510"/>
+    <text x="700" y="476" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Tecnologias Educacionais</text>
+  </g>
+  <g>
+    <circle cx="740" cy="360" r="16" fill="#ECBE40" opacity="0.15"/>
+    <circle cx="740" cy="360" r="11" fill="#ECBE40"/>
+    <use href="#check" x="740" y="360"/>
+    <text x="740" y="404" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">JavaScript</text>
+  </g>
+  <g>
+    <circle cx="560" cy="360" r="16" fill="#F23D91" opacity="0.15"/>
+    <circle cx="560" cy="360" r="11" fill="#F23D91"/>
+    <use href="#check" x="560" y="360"/>
+    <text x="560" y="326" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Python</text>
+  </g>
+  <g>
+    <circle cx="380" cy="360" r="16" fill="#22C3D9" opacity="0.15"/>
+    <circle cx="380" cy="360" r="11" fill="#22C3D9"/>
+    <use href="#check" x="380" y="360"/>
+    <text x="380" y="404" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Roblox · Luau</text>
+  </g>
+  <g>
+    <circle cx="200" cy="360" r="16" fill="#ECBE40" opacity="0.15"/>
+    <circle cx="200" cy="360" r="11" fill="#ECBE40"/>
+    <use href="#check" x="200" y="360"/>
+    <text x="200" y="326" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">GDevelop</text>
+  </g>
+  <g>
+    <circle cx="280" cy="210" r="16" fill="#F23D91" opacity="0.15"/>
+    <circle cx="280" cy="210" r="11" fill="#F23D91"/>
+    <use href="#check" x="280" y="210"/>
+    <text x="280" y="254" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">Jogos Digitais</text>
+  </g>
+  <g>
+    <circle cx="470" cy="210" r="16" fill="#22C3D9" opacity="0.15"/>
+    <circle cx="470" cy="210" r="11" fill="#22C3D9"/>
+    <use href="#check" x="470" y="210"/>
+    <text x="470" y="176" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">APedê Digital</text>
+  </g>
+  <g>
+    <circle cx="660" cy="210" r="13" fill="none" stroke="#F23D91" stroke-width="2">
       <animate attributeName="r" values="13;30" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="860" cy="220" r="13" fill="none" stroke="#F23D91" stroke-width="2">
+    <circle cx="660" cy="210" r="13" fill="none" stroke="#F23D91" stroke-width="2">
       <animate attributeName="r" values="13;30" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="860" cy="220" r="18" fill="#F23D91" opacity="0.2"/>
-    <circle cx="860" cy="220" r="13" fill="#F23D91"/>
-    <text x="860" y="225.5" font-size="13" font-weight="700" fill="#06090C" text-anchor="middle">★</text>
-    <text x="860" y="192" font-size="13" font-weight="700" fill="#F2A2C0" text-anchor="middle">Mestrado UFRRJ</text>
-    <text x="898" y="205" font-size="12" font-weight="700" fill="#ECBE40" text-anchor="middle" opacity="0">
+    <circle cx="660" cy="210" r="18" fill="#F23D91" opacity="0.2"/>
+    <circle cx="660" cy="210" r="13" fill="#F23D91"/>
+    <text x="660" y="215.5" font-size="13" font-weight="700" fill="#06090C" text-anchor="middle">★</text>
+    <text x="660" y="254" font-size="12.5" font-weight="700" fill="#F2A2C0" text-anchor="middle">Mestrado UFRRJ</text>
+    <text x="698" y="195" font-size="12" font-weight="700" fill="#ECBE40" text-anchor="middle" opacity="0">
       +10 XP
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -20" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="3s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- próxima estação: ??? -->
   <g>
-    <circle cx="950" cy="145" r="11" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2" stroke-dasharray="4 5">
-      <animateTransform attributeName="transform" type="rotate" values="0 950 145;360 950 145" dur="14s" repeatCount="indefinite"/>
+    <circle cx="860" cy="210" r="11" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2" stroke-dasharray="4 5">
+      <animateTransform attributeName="transform" type="rotate" values="0 860 210;360 860 210" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <text x="950" y="150" font-size="12" font-weight="700" fill="rgba(255,255,255,0.55)" text-anchor="middle">?</text>
-    <text x="950" y="120" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" text-anchor="middle">próximo nível</text>
+    <text x="860" y="215" font-size="12" font-weight="700" fill="rgba(255,255,255,0.55)" text-anchor="middle">?</text>
+    <text x="860" y="184" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" text-anchor="middle">próximo nível</text>
   </g>
 
   <!-- faísca companheira (segue a heroína com atraso) -->
   <g>
-    <animateMotion dur="27s" repeatCount="indefinite" rotate="0" calcMode="linear" begin="-25.4s"
-      keyPoints="0;0.1667;0.1667;0.3333;0.3333;0.5;0.5;0.6667;0.6667;0.8333;0.8333;1;1"
-      keyTimes="0;0.111;0.167;0.278;0.333;0.444;0.5;0.611;0.667;0.778;0.833;0.944;1">
+    <animateMotion dur="40.8s" repeatCount="indefinite" rotate="0" begin="-39.2s" calcMode="linear"
+      keyPoints="0;0.0193;0.0193;0.0929;0.0929;0.1664;0.1664;0.2399;0.2399;0.4189;0.4189;0.4886;0.4886;0.5582;0.5582;0.6279;0.6279;0.7756;0.7756;0.8491;0.8491;0.9226;0.9226;1;1"
+      keyTimes="0;0.0539;0.0833;0.1373;0.1667;0.2206;0.25;0.3039;0.3333;0.3873;0.4167;0.4706;0.5;0.5539;0.5833;0.6373;0.6667;0.7206;0.75;0.8039;0.8333;0.8873;0.9167;0.9706;1">
       <mpath xlink:href="#trail"/>
     </animateMotion>
     <circle cy="-14" r="5" fill="#F2A2C0" opacity="0.25"/>
@@ -166,31 +195,26 @@
 
   <!-- a heroína -->
   <g>
-    <animateMotion dur="27s" repeatCount="indefinite" rotate="0" calcMode="linear"
-      keyPoints="0;0.1667;0.1667;0.3333;0.3333;0.5;0.5;0.6667;0.6667;0.8333;0.8333;1;1"
-      keyTimes="0;0.111;0.167;0.278;0.333;0.444;0.5;0.611;0.667;0.778;0.833;0.944;1">
+    <animateMotion dur="40.8s" repeatCount="indefinite" rotate="0" calcMode="linear"
+      keyPoints="0;0.0193;0.0193;0.0929;0.0929;0.1664;0.1664;0.2399;0.2399;0.4189;0.4189;0.4886;0.4886;0.5582;0.5582;0.6279;0.6279;0.7756;0.7756;0.8491;0.8491;0.9226;0.9226;1;1"
+      keyTimes="0;0.0539;0.0833;0.1373;0.1667;0.2206;0.25;0.3039;0.3333;0.3873;0.4167;0.4706;0.5;0.5539;0.5833;0.6373;0.6667;0.7206;0.75;0.8039;0.8333;0.8873;0.9167;0.9706;1">
       <mpath xlink:href="#trail"/>
     </animateMotion>
     <ellipse cx="0" cy="1" rx="9" ry="2.6" fill="#000000" opacity="0.55"/>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 -2;0 -6;0 -2" dur="1.4s" repeatCount="indefinite"/>
-      <!-- propulsão -->
       <ellipse cx="0" cy="-3" rx="6.5" ry="3" fill="#22C3D9" opacity="0.45">
         <animate attributeName="opacity" values="0.45;0.12;0.45" dur="0.7s" repeatCount="indefinite"/>
       </ellipse>
-      <!-- corpo -->
       <rect x="-10" y="-32" width="20" height="23" rx="8" fill="url(#heroGrad)" stroke="rgba(255,255,255,0.55)" stroke-width="1"/>
-      <!-- bracinhos -->
       <rect x="-13.5" y="-21" width="4" height="8" rx="2" fill="#1795A8"/>
       <rect x="9.5" y="-21" width="4" height="8" rx="2" fill="#1795A8"/>
-      <!-- visor -->
       <rect x="-7" y="-28" width="14" height="9.5" rx="4.75" fill="#06090C"/>
       <g>
         <animate attributeName="opacity" values="1;1;0.1;1" keyTimes="0;0.9;0.94;1" dur="3.6s" repeatCount="indefinite"/>
         <circle cx="-3" cy="-23.2" r="1.7" fill="#7FF3FF"/>
         <circle cx="3" cy="-23.2" r="1.7" fill="#7FF3FF"/>
       </g>
-      <!-- antena -->
       <line x1="0" y1="-32" x2="0" y2="-38" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
       <circle cx="0" cy="-40" r="2.6" fill="#F23D91">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
@@ -199,5 +223,5 @@
   </g>
 
   <!-- legenda -->
-  <text x="40" y="440" font-size="11" fill="rgba(255,255,255,0.4)">▣ concluído&#160;&#160;&#160;★ em andamento&#160;&#160;&#160;? em breve — a personagem caminha sozinha, espere e veja</text>
+  <text x="40" y="618" font-size="11" fill="rgba(255,255,255,0.4)">▣ concluído&#160;&#160;&#160;★ em andamento&#160;&#160;&#160;? em breve — a personagem caminha sozinha, espere e veja</text>
 </svg>

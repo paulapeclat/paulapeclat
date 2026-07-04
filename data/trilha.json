@@ -1,0 +1,15 @@
+{
+  "estacoes": [
+    { "nome": "Pedagogia" },
+    { "nome": "Coordenação Pedagógica" },
+    { "nome": "Pedagogia Digital" },
+    { "nome": "Tecnologias Educacionais" },
+    { "nome": "JavaScript" },
+    { "nome": "Python" },
+    { "nome": "Roblox · Luau" },
+    { "nome": "GDevelop" },
+    { "nome": "Jogos Digitais" },
+    { "nome": "APedê Digital" },
+    { "nome": "Mestrado UFRRJ", "atual": true }
+  ]
+}

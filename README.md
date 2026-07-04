@@ -14,7 +14,9 @@
 ### 🎮 A Trilha
 
 <div align="center">
-<img src="assets/trilha-rpg.svg" alt="Trilha da jornada — Pedagogia, Python, Roblox/Luau, GDevelop, APedê Digital, Mestrado UFRRJ e o próximo nível" width="100%">
+<img src="assets/trilha-rpg.svg" alt="Trilha da jornada — da Pedagogia às especializações, de JavaScript e Python a Jogos Digitais, até a APedê Digital e o Mestrado UFRRJ" width="100%">
+<br>
+<sub>gerada a partir de <code>data/trilha.json</code> — cada nova conquista é uma linha no JSON</sub>
 </div>
 
 <br>
@@ -64,7 +66,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### 🗺️ Mapa de Alcance
 
 <div align="center">
-<img src="assets/mapa-alcance.svg" alt="Mapa surreal de alcance — alunos em 10+ estados do Brasil, Portugal e Nova York, com rotas partindo do Rio de Janeiro" width="100%">
+<img src="assets/mapa-alcance.svg" alt="Mapa de alcance com geografia real — alunos de todos os 27 estados do Brasil, Portugal e Nova York, com rotas partindo do Rio de Janeiro" width="100%">
 <br>
 <sub>gerado a partir de <code>data/alcance.json</code> — para adicionar um estado, basta editar o JSON e comitar</sub>
 </div>
