@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc)** — Periódico brasileiro de referência na interface comunicação/educação. <sub>(PT)</sub>
+🎯 **[Lei 15.100/2025 — uso de celulares nas escolas](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15100.htm)** — Restringe o uso de dispositivos móveis na educação básica; contexto essencial para o debate de mediação escolar. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

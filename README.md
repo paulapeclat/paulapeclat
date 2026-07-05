@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc)** — Periódico brasileiro de referência na interface comunicação/educação.
+🎯 **[Lei 15.100/2025 — uso de celulares nas escolas](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15100.htm)** — Restringe o uso de dispositivos móveis na educação básica; contexto essencial para o debate de mediação escolar.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
