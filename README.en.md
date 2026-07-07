@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Microsoft MakeCode Arcade](https://arcade.makecode.com)** — Jogos retrô por blocos com transição gradual para JavaScript/Python. <sub>(PT)</sub>
+🎯 **[Cursos EducaMídia](https://educamidia.org.br)** — Formações gratuitas em educação midiática para educadores brasileiros. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
