@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Cursos EducaMídia](https://educamidia.org.br)** — Formações gratuitas em educação midiática para educadores brasileiros.
+🎯 **[Lupa Educação](https://lupa.uol.com.br/educacao)** — Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
