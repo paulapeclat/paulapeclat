@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Lupa Educação](https://lupa.uol.com.br/educacao)** — Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas. <sub>(PT)</sub>
+🎯 **[EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br)** — Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
