@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br)** — Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo. <sub>(PT)</sub>
+🎯 **[Marco Civil da Internet — Lei 12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)** — Princípios, garantias e deveres para o uso da internet no Brasil. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
