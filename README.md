@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Comunicar](https://www.revistacomunicar.com)** — Revista ibero-americana de comunicação e educação, indexada internacionalmente.
+🎯 **[UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy)** — Programa global de alfabetização midiática e informacional; Semana Global de MIL.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
