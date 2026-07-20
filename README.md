@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[BNCC — Base Nacional Comum Curricular](http://basenacionalcomum.mec.gov.br)** — A Competência Geral 5 trata de cultura digital; base para inserir educação midiática no currículo.
+🎯 **[Lei 14.533/2023 — Política Nacional de Educação Digital (PNED)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14533.htm)** — Estrutura a educação digital no Brasil em quatro eixos, incluindo capacitação e letramento digital.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
