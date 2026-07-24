@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[LGPD — Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)** — Proteção de dados pessoais, com atenção especial a crianças e adolescentes (art. 14).
+🎯 **[Estatuto da Criança e do Adolescente (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm)** — Fundamento dos direitos de crianças e adolescentes, inclusive no ambiente digital.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
