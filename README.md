@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Instituto Alana](https://alana.org.br)** — Direitos da criança, incluindo o programa Criança e Consumo e o debate sobre publicidade infantil.
+🎯 **[CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br)** — Governança da internet no Brasil; publicações e princípios.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
