@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[TIC Kids Online Brasil (CETIC.br)](https://cetic.br/pesquisa/kids-online/)** — Principal levantamento nacional sobre uso de internet por crianças e adolescentes.
+🎯 **[Global Kids Online](http://globalkidsonline.net)** — Rede internacional de pesquisa sobre infâncias e internet (LSE/UNICEF).
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
