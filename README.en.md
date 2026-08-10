@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Code.org — formação para educadores](https://code.org/educate)** — Trilhas gratuitas de ciência da computação com foco pedagógico (inglês/português parcial). <sub>(PT)</sub>
+🎯 **[Code.org](https://code.org)** — Programação em blocos com trilhas estruturadas por faixa etária. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
