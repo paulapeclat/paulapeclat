@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Scratch](https://scratch.mit.edu)** — Criação de histórias, jogos e animações; comunidade e remix como prática de cultura participativa.
+🎯 **[Thunkable](https://thunkable.com)** — Criação de aplicativos móveis por blocos.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
