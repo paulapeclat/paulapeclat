@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Thunkable](https://thunkable.com)** — Criação de aplicativos móveis por blocos.
+🎯 **[Microsoft MakeCode Arcade](https://arcade.makecode.com)** — Jogos retrô por blocos com transição gradual para JavaScript/Python.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
