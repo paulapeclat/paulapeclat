@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[microStudio](https://microstudio.dev)** — Engine de jogos leve e gratuita, ponte entre blocos e código.
+🎯 **[GDevelop](https://gdevelop.io)** — Engine de jogos sem código (eventos), open source.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
