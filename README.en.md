@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Teachable Machine](https://teachablemachine.withgoogle.com)** — Treinamento de modelos de IA sem código; ótima porta de entrada para discutir vieses e dados. <sub>(PT)</sub>
+🎯 **[Canva para Educação](https://www.canva.com/pt_br/educacao/)** — Produção de mídia (design, apresentações, vídeo) com contas educacionais gratuitas. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
