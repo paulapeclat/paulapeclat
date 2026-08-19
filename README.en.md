@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Canva para Educação](https://www.canva.com/pt_br/educacao/)** — Produção de mídia (design, apresentações, vídeo) com contas educacionais gratuitas. <sub>(PT)</sub>
+🎯 **[Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br)** — Material aberto e didático sobre segurança digital, mantido pelo CERT.br. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
