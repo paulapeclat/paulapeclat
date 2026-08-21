@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[InternetSegura.br (NIC.br)](https://internetsegura.br)** — Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas.
+🎯 **[EduCapes](https://educapes.capes.gov.br)** — Repositório de recursos educacionais abertos mantido pela CAPES.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
