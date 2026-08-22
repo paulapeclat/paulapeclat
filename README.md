@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[EduCapes](https://educapes.capes.gov.br)** — Repositório de recursos educacionais abertos mantido pela CAPES.
+🎯 **[Plataforma MEC RED](https://plataformaintegrada.mec.gov.br)** — Plataforma do MEC de recursos educacionais digitais para professores.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[EduCapes](https://educapes.capes.gov.br)** — Repositório de recursos educacionais abertos mantido pela CAPES. <sub>(PT)</sub>
+🎯 **[Plataforma MEC RED](https://plataformaintegrada.mec.gov.br)** — Plataforma do MEC de recursos educacionais digitais para professores. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
