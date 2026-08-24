@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Data Detox Kit (Tactical Tech)](https://datadetoxkit.org)** — Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português.
+🎯 **[Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc)** — Periódico brasileiro de referência na interface comunicação/educação.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
