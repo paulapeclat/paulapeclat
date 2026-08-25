@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc)** — Periódico brasileiro de referência na interface comunicação/educação.
+🎯 **[Comunicar](https://www.revistacomunicar.com)** — Revista ibero-americana de comunicação e educação, indexada internacionalmente.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
