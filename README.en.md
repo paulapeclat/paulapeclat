@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy)** — Programa global de alfabetização midiática e informacional; Semana Global de MIL. <sub>(PT)</sub>
+🎯 **[EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online)** — Rede europeia de pesquisa sobre crianças e internet. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
