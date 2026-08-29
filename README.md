@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[5Rights Foundation](https://5rightsfoundation.com)** — Direitos digitais de crianças e adolescentes; incidência em design e regulação.
+🎯 **[Media Education Lab](https://mediaeducationlab.com)** — Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
