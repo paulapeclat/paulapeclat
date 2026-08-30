@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Media Education Lab](https://mediaeducationlab.com)** — Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
+🎯 **[MediaSmarts](https://mediasmarts.ca)** — Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês).
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
