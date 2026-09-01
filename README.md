@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Common Sense Media](https://www.commonsensemedia.org)** — Resenhas e guias de mídia para famílias, organizados por idade (inglês).
+🎯 **[BNCC — Base Nacional Comum Curricular](http://basenacionalcomum.mec.gov.br)** — A Competência Geral 5 trata de cultura digital; base para inserir educação midiática no currículo.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
