@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Estatuto da Criança e do Adolescente (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm)** — Fundamento dos direitos de crianças e adolescentes, inclusive no ambiente digital. <sub>(PT)</sub>
+🎯 **[EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br)** — Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

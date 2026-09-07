@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Estatuto da Criança e do Adolescente (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm)** — Fundamento dos direitos de crianças e adolescentes, inclusive no ambiente digital.
+🎯 **[EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br)** — Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
