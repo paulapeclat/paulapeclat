@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br)** — Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo.
+🎯 **[SaferNet Brasil](https://www.safernet.org.br)** — Cidadania digital, enfrentamento a violências online e canal de denúncias.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
