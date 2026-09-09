@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[SaferNet Brasil](https://www.safernet.org.br)** — Cidadania digital, enfrentamento a violências online e canal de denúncias.
+🎯 **[Instituto Alana](https://alana.org.br)** — Direitos da criança, incluindo o programa Criança e Consumo e o debate sobre publicidade infantil.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
