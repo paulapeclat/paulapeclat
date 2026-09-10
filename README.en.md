@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Instituto Alana](https://alana.org.br)** — Direitos da criança, incluindo o programa Criança e Consumo e o debate sobre publicidade infantil. <sub>(PT)</sub>
+🎯 **[CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br)** — Governança da internet no Brasil; publicações e princípios. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
