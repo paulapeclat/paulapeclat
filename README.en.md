@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br)** — Governança da internet no Brasil; publicações e princípios. <sub>(PT)</sub>
+🎯 **[Common Sense Education](https://www.commonsense.org/education)** — Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
