@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Common Sense Education](https://www.commonsense.org/education)** — Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês).
+🎯 **[NAMLE — National Association for Media Literacy Education](https://namle.net)** — Rede norte-americana de educação midiática (inglês).
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
