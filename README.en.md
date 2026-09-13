@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[NAMLE — National Association for Media Literacy Education](https://namle.net)** — Rede norte-americana de educação midiática (inglês). <sub>(PT)</sub>
+🎯 **[Instituto Vero](https://vero.org.br)** — Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
