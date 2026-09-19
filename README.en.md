@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Global Kids Online](http://globalkidsonline.net)** — Rede internacional de pesquisa sobre infâncias e internet (LSE/UNICEF). <sub>(PT)</sub>
+🎯 **[CETIC.br](https://cetic.br)** — Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação; dados sobre TIC em educação, domicílios e cultura. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
