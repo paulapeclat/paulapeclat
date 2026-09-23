@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Code.org — formação para educadores](https://code.org/educate)** — Trilhas gratuitas de ciência da computação com foco pedagógico (inglês/português parcial).
+🎯 **[Code.org](https://code.org)** — Programação em blocos com trilhas estruturadas por faixa etária.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
