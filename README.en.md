@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Scratch](https://scratch.mit.edu)** — Criação de histórias, jogos e animações; comunidade e remix como prática de cultura participativa. <sub>(PT)</sub>
+🎯 **[Thunkable](https://thunkable.com)** — Criação de aplicativos móveis por blocos. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
