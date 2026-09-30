@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Roblox Studio + Roblox Education](https://education.roblox.com)** — Criação de experiências 3D com Luau; materiais educacionais oficiais.
+🎯 **[Teachable Machine](https://teachablemachine.withgoogle.com)** — Treinamento de modelos de IA sem código; ótima porta de entrada para discutir vieses e dados.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
