@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br)** — Material aberto e didático sobre segurança digital, mantido pelo CERT.br. <sub>(PT)</sub>
+🎯 **[InternetSegura.br (NIC.br)](https://internetsegura.br)** — Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
