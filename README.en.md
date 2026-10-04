@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[InternetSegura.br (NIC.br)](https://internetsegura.br)** — Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas. <sub>(PT)</sub>
+🎯 **[EduCapes](https://educapes.capes.gov.br)** — Repositório de recursos educacionais abertos mantido pela CAPES. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
