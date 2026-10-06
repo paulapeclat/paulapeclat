@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[Plataforma MEC RED](https://plataformaintegrada.mec.gov.br)** — Plataforma do MEC de recursos educacionais digitais para professores.
+🎯 **[Data Detox Kit (Tactical Tech)](https://datadetoxkit.org)** — Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
