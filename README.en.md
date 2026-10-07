@@ -91,7 +91,7 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[Data Detox Kit (Tactical Tech)](https://datadetoxkit.org)** — Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português. <sub>(PT)</sub>
+🎯 **[Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc)** — Periódico brasileiro de referência na interface comunicação/educação. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
