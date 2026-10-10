@@ -91,7 +91,7 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### ✨ Recurso do dia — educação midiática
 
 <!--RECURSO-START-->
-🎯 **[UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy)** — Programa global de alfabetização midiática e informacional; Semana Global de MIL.
+🎯 **[EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online)** — Rede europeia de pesquisa sobre crianças e internet.
 <!--RECURSO-END-->
 
 <sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
