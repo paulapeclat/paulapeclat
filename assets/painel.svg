@@ -1,17 +1,17 @@
 <svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de competências da Educação Tecnológica Paula Peclat: 19 anos em sala de aula, alunos em 27 estados, gráfico radar de competências docentes e escada do currículo do concreto ao abstrato">
   <defs>
-    <radialGradient id="pGlow1" cx="12%" cy="90%" r="60%"><stop offset="0" stop-color="#0284c7" stop-opacity=".22"/><stop offset="1" stop-color="#0284c7" stop-opacity="0"/></radialGradient>
-    <radialGradient id="pGlow2" cx="90%" cy="8%" r="55%"><stop offset="0" stop-color="#a855f7" stop-opacity=".18"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pGlow1" cx="12%" cy="90%" r="60%"><stop offset="0" stop-color="#12A9DB" stop-opacity=".22"/><stop offset="1" stop-color="#12A9DB" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pGlow2" cx="90%" cy="8%" r="55%"><stop offset="0" stop-color="#8D48E5" stop-opacity=".18"/><stop offset="1" stop-color="#8D48E5" stop-opacity="0"/></radialGradient>
     <style>
       text { font-family: 'Segoe UI', 'Arial', sans-serif }
-      .h1 { font-size: 24px; font-weight: 800; fill: #f4f4f5; letter-spacing: 1px }
+      .h1 { font-size: 24px; font-weight: 800; fill: #F2EFEA; letter-spacing: 1px }
       .sub { font-size: 13px; fill: #a1a1aa }
-      .kpi { font-size: 28px; font-weight: 800; fill: #f4f4f5 }
+      .kpi { font-size: 28px; font-weight: 800; fill: #F2EFEA }
       .rot { font-size: 11.5px; fill: #a1a1aa }
-      .h2 { font-size: 13px; font-weight: 700; fill: #f4f4f5; letter-spacing: .5px }
+      .h2 { font-size: 13px; font-weight: 700; fill: #F2EFEA; letter-spacing: .5px }
       .h2s { font-size: 11px; fill: #71717a }
       .eixo { font-size: 12px; fill: #a1a1aa }
-      .val { font-size: 12px; font-weight: 700; fill: #f4f4f5 }
+      .val { font-size: 12px; font-weight: 700; fill: #F2EFEA }
       .tipo { font-size: 11px; fill: #71717a }
       .mini { font-size: 10.5px; fill: #71717a }
       @keyframes cresce { from { transform: scale(.2); opacity: 0 } to { transform: scale(1); opacity: 1 } }
@@ -20,7 +20,7 @@
     </style>
   </defs>
 
-  <rect width="1000" height="600" rx="18" fill="#000"/>
+  <rect width="1000" height="600" rx="18" fill="#000104"/>
   <rect width="1000" height="600" rx="18" fill="url(#pGlow1)"/>
   <rect width="1000" height="600" rx="18" fill="url(#pGlow2)"/>
 
@@ -29,25 +29,25 @@
 
   <g>
     <rect x="30" y="96" width="223" height="78" rx="12" fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.08)"/>
-    <rect x="30" y="112" width="3" height="46" rx="1.5" fill="#38bdf8"/>
+    <rect x="30" y="112" width="3" height="46" rx="1.5" fill="#8D48E5"/>
     <text x="50" y="140" class="kpi">19</text>
     <text x="50" y="160" class="rot">anos em sala de aula, desde 2007</text>
   </g>
   <g>
     <rect x="268" y="96" width="223" height="78" rx="12" fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.08)"/>
-    <rect x="268" y="112" width="3" height="46" rx="1.5" fill="#ec4899"/>
+    <rect x="268" y="112" width="3" height="46" rx="1.5" fill="#12A9DB"/>
     <text x="288" y="140" class="kpi">27</text>
     <text x="288" y="160" class="rot">estados com alunos meus</text>
   </g>
   <g>
     <rect x="506" y="96" width="223" height="78" rx="12" fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.08)"/>
-    <rect x="506" y="112" width="3" height="46" rx="1.5" fill="#d97706"/>
+    <rect x="506" y="112" width="3" height="46" rx="1.5" fill="#80C733"/>
     <text x="526" y="140" class="kpi">3</text>
     <text x="526" y="160" class="rot">países com aulas</text>
   </g>
   <g>
     <rect x="744" y="96" width="223" height="78" rx="12" fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.08)"/>
-    <rect x="744" y="112" width="3" height="46" rx="1.5" fill="#a855f7"/>
+    <rect x="744" y="112" width="3" height="46" rx="1.5" fill="#F6B50D"/>
     <text x="764" y="140" class="kpi">7</text>
     <text x="764" y="160" class="rot">ferramentas no currículo</text>
   </g>
@@ -66,18 +66,18 @@
     <line x1="257" y1="415" x2="257.0" y2="515.0" stroke="rgba(255,255,255,0.08)"/>
     <line x1="257" y1="415" x2="170.4" y2="465.0" stroke="rgba(255,255,255,0.08)"/>
     <line x1="257" y1="415" x2="170.4" y2="365.0" stroke="rgba(255,255,255,0.08)"/>
-    <polygon class="area" points="257.0,320.0 334.9,370.0 330.6,457.5 257.0,490.0 196.4,450.0 200.7,382.5" fill="#38bdf8" fill-opacity=".18" stroke="#38bdf8" stroke-width="2" stroke-linejoin="round"/>
-    <circle cx="257.0" cy="320.0" r="4.5" fill="#38bdf8" stroke="#0b0b12" stroke-width="2"><title>Ensino: 95</title></circle>
+    <polygon class="area" points="257.0,320.0 334.9,370.0 330.6,457.5 257.0,490.0 196.4,450.0 200.7,382.5" fill="#12A9DB" fill-opacity=".18" stroke="#12A9DB" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="257.0" cy="320.0" r="4.5" fill="#12A9DB" stroke="#000104" stroke-width="2"><title>Ensino: 95</title></circle>
     <text x="257.0" y="287.0" text-anchor="middle" class="eixo"><tspan x="257.0" dy="0">Ensino</tspan><tspan class="val"> 95</tspan></text>
-    <circle cx="334.9" cy="370.0" r="4.5" fill="#38bdf8" stroke="#0b0b12" stroke-width="2"><title>Mediação com crianças: 90</title></circle>
+    <circle cx="334.9" cy="370.0" r="4.5" fill="#12A9DB" stroke="#000104" stroke-width="2"><title>Mediação com crianças: 90</title></circle>
     <text x="362.7" y="344.0" text-anchor="start" class="eixo"><tspan x="362.7" dy="0">Mediação com</tspan><tspan x="362.7" dy="14">crianças</tspan><tspan class="val"> 90</tspan></text>
-    <circle cx="330.6" cy="457.5" r="4.5" fill="#38bdf8" stroke="#0b0b12" stroke-width="2"><title>Pesquisa: 85</title></circle>
+    <circle cx="330.6" cy="457.5" r="4.5" fill="#12A9DB" stroke="#000104" stroke-width="2"><title>Pesquisa: 85</title></circle>
     <text x="362.7" y="480.0" text-anchor="start" class="eixo"><tspan x="362.7" dy="0">Pesquisa</tspan><tspan class="val"> 85</tspan></text>
-    <circle cx="257.0" cy="490.0" r="4.5" fill="#38bdf8" stroke="#0b0b12" stroke-width="2"><title>Game design: 75</title></circle>
+    <circle cx="257.0" cy="490.0" r="4.5" fill="#12A9DB" stroke="#000104" stroke-width="2"><title>Game design: 75</title></circle>
     <text x="257.0" y="551.0" text-anchor="middle" class="eixo"><tspan x="257.0" dy="0">Game design</tspan><tspan class="val"> 75</tspan></text>
-    <circle cx="196.4" cy="450.0" r="4.5" fill="#38bdf8" stroke="#0b0b12" stroke-width="2"><title>Produção de mídia: 70</title></circle>
+    <circle cx="196.4" cy="450.0" r="4.5" fill="#12A9DB" stroke="#000104" stroke-width="2"><title>Produção de mídia: 70</title></circle>
     <text x="151.3" y="466.0" text-anchor="end" class="eixo"><tspan x="151.3" dy="0">Produção de</tspan><tspan x="151.3" dy="14">mídia</tspan><tspan class="val"> 70</tspan></text>
-    <circle cx="200.7" cy="382.5" r="4.5" fill="#38bdf8" stroke="#0b0b12" stroke-width="2"><title>Programação: 65</title></circle>
+    <circle cx="200.7" cy="382.5" r="4.5" fill="#12A9DB" stroke="#000104" stroke-width="2"><title>Programação: 65</title></circle>
     <text x="151.3" y="358.0" text-anchor="end" class="eixo"><tspan x="151.3" dy="0">Programação</tspan><tspan class="val"> 65</tspan></text>
   </g>
 
@@ -86,25 +86,25 @@
   <text x="520" y="239" class="h2s">a ordem em que ensino, do concreto ao abstrato</text>
   <g>
     <text x="638" y="278" text-anchor="end" class="eixo">Code.org</text>
-    <rect x="648" y="265" width="32.1" height="19" rx="4" fill="#e9d5ff"><title>Code.org: blocos</title></rect>
+    <rect x="648" y="265" width="32.1" height="19" rx="4" fill="#E4D3FA"><title>Code.org: blocos</title></rect>
     <text x="688.1" y="278" class="tipo">blocos</text>
     <text x="638" y="309" text-anchor="end" class="eixo">Thunkable</text>
-    <rect x="648" y="296" width="64.3" height="19" rx="4" fill="#d8b4fe"><title>Thunkable: blocos + apps</title></rect>
+    <rect x="648" y="296" width="64.3" height="19" rx="4" fill="#CDB0F5"><title>Thunkable: blocos + apps</title></rect>
     <text x="720.3" y="309" class="tipo">blocos + apps</text>
     <text x="638" y="340" text-anchor="end" class="eixo">MakeCode Arcade</text>
-    <rect x="648" y="327" width="96.4" height="19" rx="4" fill="#c084fc"><title>MakeCode Arcade: blocos ↔ JavaScript</title></rect>
+    <rect x="648" y="327" width="96.4" height="19" rx="4" fill="#B48BF0"><title>MakeCode Arcade: blocos ↔ JavaScript</title></rect>
     <text x="752.4" y="340" class="tipo">blocos ↔ JavaScript</text>
     <text x="638" y="371" text-anchor="end" class="eixo">microStudio</text>
-    <rect x="648" y="358" width="128.6" height="19" rx="4" fill="#a855f7"><title>microStudio: código simples</title></rect>
+    <rect x="648" y="358" width="128.6" height="19" rx="4" fill="#9E68EA"><title>microStudio: código simples</title></rect>
     <text x="784.6" y="371" class="tipo">código simples</text>
     <text x="638" y="402" text-anchor="end" class="eixo">GDevelop</text>
-    <rect x="648" y="389" width="160.7" height="19" rx="4" fill="#9333ea"><title>GDevelop: eventos</title></rect>
+    <rect x="648" y="389" width="160.7" height="19" rx="4" fill="#8D48E5"><title>GDevelop: eventos</title></rect>
     <text x="816.7" y="402" class="tipo">eventos</text>
     <text x="638" y="433" text-anchor="end" class="eixo">Roblox Studio</text>
-    <rect x="648" y="420" width="192.9" height="19" rx="4" fill="#7e22ce"><title>Roblox Studio: Luau</title></rect>
+    <rect x="648" y="420" width="192.9" height="19" rx="4" fill="#7A3AD4"><title>Roblox Studio: Luau</title></rect>
     <text x="848.9" y="433" class="tipo">Luau</text>
     <text x="638" y="464" text-anchor="end" class="eixo">Python</text>
-    <rect x="648" y="451" width="225.0" height="19" rx="4" fill="#6b21a8"><title>Python: texto puro</title></rect>
+    <rect x="648" y="451" width="225.0" height="19" rx="4" fill="#6C36D0"><title>Python: texto puro</title></rect>
     <text x="881.0" y="464" class="tipo">texto puro</text>
     <line x1="648" y1="485" x2="873" y2="485" stroke="rgba(255,255,255,0.08)"/>
     <text x="648" y="501" class="mini">concreto</text>
@@ -114,6 +114,6 @@
     <text x="520" y="540" class="eixo">Mestrado PPGEduc/UFRRJ · qualificação</text>
     <text x="960" y="540" text-anchor="end" class="val">78%</text>
     <rect x="520" y="550" width="440" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
-    <rect x="520" y="550" width="343.2" height="8" rx="4" fill="#ec4899"/>
+    <rect x="520" y="550" width="343.2" height="8" rx="4" fill="#E14489"/>
   </g>
 </svg>

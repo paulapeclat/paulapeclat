@@ -21,7 +21,7 @@
         font-family: 'Segoe UI', 'Arial', sans-serif;
         font-size: 22px;
         font-weight: 600;
-        fill: #22C3D9;
+        fill: #12A9DB;
       }
     </style>
   </defs>
@@ -33,7 +33,7 @@
     <text x="4" y="32">I study how children produce digital peer culture</text>
   </g>
 
-  <rect x="620" y="10" width="3" height="28" fill="#F23D91">
+  <rect x="620" y="10" width="3" height="28" fill="#E14489">
     <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 </svg>

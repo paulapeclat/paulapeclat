@@ -39,12 +39,12 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 ### 🧠 Temas de interesse
 
-![educação midiática](https://img.shields.io/badge/educa%C3%A7%C3%A3o%20midi%C3%A1tica-F23D91?style=flat-square)
-![infâncias](https://img.shields.io/badge/inf%C3%A2ncias-22C3D9?style=flat-square)
-![mídias digitais](https://img.shields.io/badge/m%C3%ADdias%20digitais-F2A2C0?style=flat-square)
-![tecnologias educacionais](https://img.shields.io/badge/tecnologias%20educacionais-ECBE40?style=flat-square)
-![jogos digitais](https://img.shields.io/badge/jogos%20digitais-8CD9E6?style=flat-square)
-![políticas educacionais para o contexto digital](https://img.shields.io/badge/pol%C3%ADticas%20educacionais%20para%20o%20contexto%20digital-F23D91?style=flat-square)
+![educação midiática](https://img.shields.io/badge/educa%C3%A7%C3%A3o%20midi%C3%A1tica-E14489?style=flat-square)
+![infâncias](https://img.shields.io/badge/inf%C3%A2ncias-12A9DB?style=flat-square)
+![mídias digitais](https://img.shields.io/badge/m%C3%ADdias%20digitais-8D48E5?style=flat-square)
+![tecnologias educacionais](https://img.shields.io/badge/tecnologias%20educacionais-E98504?style=flat-square)
+![jogos digitais](https://img.shields.io/badge/jogos%20digitais-80C733?style=flat-square)
+![políticas educacionais para o contexto digital](https://img.shields.io/badge/pol%C3%ADticas%20educacionais%20para%20o%20contexto%20digital-6C36D0?style=flat-square)
 
 <br>
 
@@ -168,7 +168,7 @@ Adoro uma parceria! Se você pensa em algum destes caminhos, me chama:
 
 ### 📫 Contato & redes
 
-[![Site](https://img.shields.io/badge/paulapeclat.com.br-22C3D9?style=flat-square&logo=googlechrome&logoColor=white)](https://paulapeclat.com.br)
+[![Site](https://img.shields.io/badge/paulapeclat.com.br-12A9DB?style=flat-square&logo=googlechrome&logoColor=white)](https://paulapeclat.com.br)
 [![Currículo Lattes](https://img.shields.io/badge/Curr%C3%ADculo%20Lattes-4B7CB6?style=flat-square)](https://lattes.cnpq.br/7801922150368918)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6535-7090)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulapeclat/)

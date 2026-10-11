@@ -1,9 +1,9 @@
 <svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre 11 estações, da Pedagogia ao Mestrado">
   <defs>
     <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2f86e6"/>
-      <stop offset="65%" stop-color="#6cb8f2"/>
-      <stop offset="100%" stop-color="#a9dcfb"/>
+      <stop offset="0%" stop-color="#188FEB"/>
+      <stop offset="65%" stop-color="#12A9DB"/>
+      <stop offset="100%" stop-color="#A9E2F5"/>
     </linearGradient>
     <radialGradient id="sol" cx="8%" cy="6%" r="38%">
       <stop offset="0%" stop-color="#fff6c8" stop-opacity="0.9"/>
@@ -16,8 +16,8 @@
       <ellipse cx="12" cy="-14" rx="26" ry="21"/>
     </g>
     <linearGradient id="heroGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#8CD9E6"/>
-      <stop offset="100%" stop-color="#22C3D9"/>
+      <stop offset="0%" stop-color="#7FD3EE"/>
+      <stop offset="100%" stop-color="#12A9DB"/>
     </linearGradient>
     <g id="check">
       <path d="M -4.5 0.5 L -1.5 3.5 L 5 -4.5" fill="none" stroke="#06090C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -78,79 +78,79 @@
 
   <!-- estações -->
   <g>
-    <circle cx="130" cy="510" r="16" fill="#22C3D9" opacity="0.15"/>
-    <circle cx="130" cy="510" r="11" fill="#22C3D9"/>
+    <circle cx="130" cy="510" r="16" fill="#12A9DB" opacity="0.15"/>
+    <circle cx="130" cy="510" r="11" fill="#12A9DB"/>
     <use href="#check" x="130" y="510"/>
     <text x="130" y="554" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Pedagogia</text>
   </g>
   <g>
-    <circle cx="320" cy="510" r="16" fill="#ECBE40" opacity="0.15"/>
-    <circle cx="320" cy="510" r="11" fill="#ECBE40"/>
+    <circle cx="320" cy="510" r="16" fill="#F6B50D" opacity="0.15"/>
+    <circle cx="320" cy="510" r="11" fill="#F6B50D"/>
     <use href="#check" x="320" y="510"/>
     <text x="320" y="476" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Coordenação Pedagógica</text>
   </g>
   <g>
-    <circle cx="510" cy="510" r="16" fill="#F23D91" opacity="0.15"/>
-    <circle cx="510" cy="510" r="11" fill="#F23D91"/>
+    <circle cx="510" cy="510" r="16" fill="#80C733" opacity="0.15"/>
+    <circle cx="510" cy="510" r="11" fill="#80C733"/>
     <use href="#check" x="510" y="510"/>
     <text x="510" y="554" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Pedagogia Digital</text>
   </g>
   <g>
-    <circle cx="700" cy="510" r="16" fill="#22C3D9" opacity="0.15"/>
-    <circle cx="700" cy="510" r="11" fill="#22C3D9"/>
+    <circle cx="700" cy="510" r="16" fill="#8D48E5" opacity="0.15"/>
+    <circle cx="700" cy="510" r="11" fill="#8D48E5"/>
     <use href="#check" x="700" y="510"/>
     <text x="700" y="476" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Tecnologias Educacionais</text>
   </g>
   <g>
-    <circle cx="740" cy="360" r="16" fill="#ECBE40" opacity="0.15"/>
-    <circle cx="740" cy="360" r="11" fill="#ECBE40"/>
+    <circle cx="740" cy="360" r="16" fill="#12A9DB" opacity="0.15"/>
+    <circle cx="740" cy="360" r="11" fill="#12A9DB"/>
     <use href="#check" x="740" y="360"/>
     <text x="740" y="404" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">JavaScript</text>
   </g>
   <g>
-    <circle cx="560" cy="360" r="16" fill="#F23D91" opacity="0.15"/>
-    <circle cx="560" cy="360" r="11" fill="#F23D91"/>
+    <circle cx="560" cy="360" r="16" fill="#F6B50D" opacity="0.15"/>
+    <circle cx="560" cy="360" r="11" fill="#F6B50D"/>
     <use href="#check" x="560" y="360"/>
     <text x="560" y="326" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Python</text>
   </g>
   <g>
-    <circle cx="380" cy="360" r="16" fill="#22C3D9" opacity="0.15"/>
-    <circle cx="380" cy="360" r="11" fill="#22C3D9"/>
+    <circle cx="380" cy="360" r="16" fill="#80C733" opacity="0.15"/>
+    <circle cx="380" cy="360" r="11" fill="#80C733"/>
     <use href="#check" x="380" y="360"/>
     <text x="380" y="404" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Roblox · Luau</text>
   </g>
   <g>
-    <circle cx="200" cy="360" r="16" fill="#ECBE40" opacity="0.15"/>
-    <circle cx="200" cy="360" r="11" fill="#ECBE40"/>
+    <circle cx="200" cy="360" r="16" fill="#8D48E5" opacity="0.15"/>
+    <circle cx="200" cy="360" r="11" fill="#8D48E5"/>
     <use href="#check" x="200" y="360"/>
     <text x="200" y="326" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">GDevelop</text>
   </g>
   <g>
-    <circle cx="280" cy="210" r="16" fill="#F23D91" opacity="0.15"/>
-    <circle cx="280" cy="210" r="11" fill="#F23D91"/>
+    <circle cx="280" cy="210" r="16" fill="#12A9DB" opacity="0.15"/>
+    <circle cx="280" cy="210" r="11" fill="#12A9DB"/>
     <use href="#check" x="280" y="210"/>
     <text x="280" y="254" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">Jogos Digitais</text>
   </g>
   <g>
-    <circle cx="470" cy="210" r="16" fill="#22C3D9" opacity="0.15"/>
-    <circle cx="470" cy="210" r="11" fill="#22C3D9"/>
+    <circle cx="470" cy="210" r="16" fill="#F6B50D" opacity="0.15"/>
+    <circle cx="470" cy="210" r="11" fill="#F6B50D"/>
     <use href="#check" x="470" y="210"/>
     <text x="470" y="176" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">APedê Digital</text>
   </g>
   <g>
-    <circle cx="660" cy="210" r="13" fill="none" stroke="#F23D91" stroke-width="2">
+    <circle cx="660" cy="210" r="13" fill="none" stroke="#E14489" stroke-width="2">
       <animate attributeName="r" values="13;30" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="660" cy="210" r="13" fill="none" stroke="#F23D91" stroke-width="2">
+    <circle cx="660" cy="210" r="13" fill="none" stroke="#E14489" stroke-width="2">
       <animate attributeName="r" values="13;30" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="660" cy="210" r="18" fill="#F23D91" opacity="0.2"/>
-    <circle cx="660" cy="210" r="13" fill="#F23D91"/>
+    <circle cx="660" cy="210" r="18" fill="#E14489" opacity="0.2"/>
+    <circle cx="660" cy="210" r="13" fill="#E14489"/>
     <text x="660" y="215.5" font-size="13" font-weight="700" fill="#06090C" text-anchor="middle">★</text>
-    <text x="660" y="254" font-size="12.5" font-weight="700" fill="#F2A2C0" text-anchor="middle">Mestrado UFRRJ</text>
-    <text x="698" y="195" font-size="12" font-weight="700" fill="#ECBE40" text-anchor="middle" opacity="0">
+    <text x="660" y="254" font-size="12.5" font-weight="700" fill="#F08DB8" text-anchor="middle">Mestrado UFRRJ</text>
+    <text x="698" y="195" font-size="12" font-weight="700" fill="#F6B50D" text-anchor="middle" opacity="0">
       +10 XP
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -20" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="3s" repeatCount="indefinite"/>
@@ -172,8 +172,8 @@
       keyTimes="0;0.0539;0.0833;0.1373;0.1667;0.2206;0.25;0.3039;0.3333;0.3873;0.4167;0.4706;0.5;0.5539;0.5833;0.6373;0.6667;0.7206;0.75;0.8039;0.8333;0.8873;0.9167;0.9706;1">
       <mpath xlink:href="#trail"/>
     </animateMotion>
-    <circle cy="-14" r="5" fill="#F2A2C0" opacity="0.25"/>
-    <circle cy="-14" r="2.2" fill="#F2A2C0">
+    <circle cy="-14" r="5" fill="#F08DB8" opacity="0.25"/>
+    <circle cy="-14" r="2.2" fill="#F08DB8">
       <animate attributeName="opacity" values="1;0.4;1" dur="1s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -188,20 +188,20 @@
     <ellipse cx="0" cy="1" rx="9" ry="2.6" fill="#000000" opacity="0.55"/>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 -2;0 -6;0 -2" dur="1.4s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="-3" rx="6.5" ry="3" fill="#22C3D9" opacity="0.45">
+      <ellipse cx="0" cy="-3" rx="6.5" ry="3" fill="#12A9DB" opacity="0.45">
         <animate attributeName="opacity" values="0.45;0.12;0.45" dur="0.7s" repeatCount="indefinite"/>
       </ellipse>
       <rect x="-10" y="-32" width="20" height="23" rx="8" fill="url(#heroGrad)" stroke="rgba(255,255,255,0.55)" stroke-width="1"/>
-      <rect x="-13.5" y="-21" width="4" height="8" rx="2" fill="#1795A8"/>
-      <rect x="9.5" y="-21" width="4" height="8" rx="2" fill="#1795A8"/>
+      <rect x="-13.5" y="-21" width="4" height="8" rx="2" fill="#8D48E5"/>
+      <rect x="9.5" y="-21" width="4" height="8" rx="2" fill="#8D48E5"/>
       <rect x="-7" y="-28" width="14" height="9.5" rx="4.75" fill="#06090C"/>
       <g>
         <animate attributeName="opacity" values="1;1;0.1;1" keyTimes="0;0.9;0.94;1" dur="3.6s" repeatCount="indefinite"/>
-        <circle cx="-3" cy="-23.2" r="1.7" fill="#7FF3FF"/>
-        <circle cx="3" cy="-23.2" r="1.7" fill="#7FF3FF"/>
+        <circle cx="-3" cy="-23.2" r="1.7" fill="#F6B50D"/>
+        <circle cx="3" cy="-23.2" r="1.7" fill="#F6B50D"/>
       </g>
       <line x1="0" y1="-32" x2="0" y2="-38" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
-      <circle cx="0" cy="-40" r="2.6" fill="#F23D91">
+      <circle cx="0" cy="-40" r="2.6" fill="#E14489">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
       </circle>
     </g>

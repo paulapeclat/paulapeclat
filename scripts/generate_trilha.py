@@ -15,6 +15,7 @@ import base64
 import json
 import math
 from pathlib import Path
+from paleta import AMARELO, AZUL, AZUL_FORTE, PRETO, ROSA, ROSA_CLARO, ROXO, VERDE, VERDE_AGUA, rgba  # noqa: F401
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "trilha.json"
@@ -29,11 +30,8 @@ def objeto(nome: str) -> str:
         return ""
     return "data:image/png;base64," + base64.b64encode(arquivo.read_bytes()).decode("ascii")
 
-CYAN = "#22C3D9"
-PINK = "#F23D91"
-PINK_LIGHT = "#F2A2C0"
-YELLOW = "#ECBE40"
-COLOR_CYCLE = [CYAN, YELLOW, PINK]
+# concluídas giram pelas cores da logo; rosa fica reservado pra estação atual
+COLOR_CYCLE = [AZUL, AMARELO, VERDE, ROXO]
 
 W, H = 1000, 640
 # serpentina: 3 linhas horizontais ligadas por curvas
@@ -131,7 +129,7 @@ def main():
 
     ilhas, nos = [], []
     for i, (est, (x, y, _)) in enumerate(zip(estacoes, pos)):
-        cor = COLOR_CYCLE[i % 3]
+        cor = COLOR_CYCLE[i % len(COLOR_CYCLE)]
         nome = esc(est["nome"])
         acima = i % 2 == 1
         ly = y - 34 if acima else y + 44
@@ -139,19 +137,19 @@ def main():
 
         if est.get("atual"):
             nos.append(f'''  <g>
-    <circle cx="{x:g}" cy="{y}" r="13" fill="none" stroke="{PINK}" stroke-width="2">
+    <circle cx="{x:g}" cy="{y}" r="13" fill="none" stroke="{ROSA}" stroke-width="2">
       <animate attributeName="r" values="13;30" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="{x:g}" cy="{y}" r="13" fill="none" stroke="{PINK}" stroke-width="2">
+    <circle cx="{x:g}" cy="{y}" r="13" fill="none" stroke="{ROSA}" stroke-width="2">
       <animate attributeName="r" values="13;30" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="{x:g}" cy="{y}" r="18" fill="{PINK}" opacity="0.2"/>
-    <circle cx="{x:g}" cy="{y}" r="13" fill="{PINK}"/>
+    <circle cx="{x:g}" cy="{y}" r="18" fill="{ROSA}" opacity="0.2"/>
+    <circle cx="{x:g}" cy="{y}" r="13" fill="{ROSA}"/>
     <text x="{x:g}" y="{y + 5.5}" font-size="13" font-weight="700" fill="#06090C" text-anchor="middle">★</text>
-    <text x="{x:g}" y="{ly}" font-size="12.5" font-weight="700" fill="{PINK_LIGHT}" text-anchor="middle">{nome}</text>
-    <text x="{x + 38:g}" y="{y - 15}" font-size="12" font-weight="700" fill="{YELLOW}" text-anchor="middle" opacity="0">
+    <text x="{x:g}" y="{ly}" font-size="12.5" font-weight="700" fill="{ROSA_CLARO}" text-anchor="middle">{nome}</text>
+    <text x="{x + 38:g}" y="{y - 15}" font-size="12" font-weight="700" fill="{AMARELO}" text-anchor="middle" opacity="0">
       +10 XP
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -20" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="3s" repeatCount="indefinite"/>
@@ -177,9 +175,9 @@ def main():
     svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre {n} estações, da Pedagogia ao Mestrado">
   <defs>
     <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2f86e6"/>
-      <stop offset="65%" stop-color="#6cb8f2"/>
-      <stop offset="100%" stop-color="#a9dcfb"/>
+      <stop offset="0%" stop-color="{AZUL_FORTE}"/>
+      <stop offset="65%" stop-color="{AZUL}"/>
+      <stop offset="100%" stop-color="#A9E2F5"/>
     </linearGradient>
     <radialGradient id="sol" cx="8%" cy="6%" r="38%">
       <stop offset="0%" stop-color="#fff6c8" stop-opacity="0.9"/>
@@ -192,8 +190,8 @@ def main():
       <ellipse cx="12" cy="-14" rx="26" ry="21"/>
     </g>
     <linearGradient id="heroGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#8CD9E6"/>
-      <stop offset="100%" stop-color="{CYAN}"/>
+      <stop offset="0%" stop-color="#7FD3EE"/>
+      <stop offset="100%" stop-color="{AZUL}"/>
     </linearGradient>
     <g id="check">
       <path d="M -4.5 0.5 L -1.5 3.5 L 5 -4.5" fill="none" stroke="#06090C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -250,8 +248,8 @@ def main():
   <!-- faísca companheira (segue a heroína com atraso) -->
   <g>
     {motion.replace('repeatCount="indefinite" rotate="0"', f'repeatCount="indefinite" rotate="0" begin="-{dur - 1.6:g}s"')}
-    <circle cy="-14" r="5" fill="{PINK_LIGHT}" opacity="0.25"/>
-    <circle cy="-14" r="2.2" fill="{PINK_LIGHT}">
+    <circle cy="-14" r="5" fill="{ROSA_CLARO}" opacity="0.25"/>
+    <circle cy="-14" r="2.2" fill="{ROSA_CLARO}">
       <animate attributeName="opacity" values="1;0.4;1" dur="1s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -262,20 +260,20 @@ def main():
     <ellipse cx="0" cy="1" rx="9" ry="2.6" fill="#000000" opacity="0.55"/>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 -2;0 -6;0 -2" dur="1.4s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="-3" rx="6.5" ry="3" fill="{CYAN}" opacity="0.45">
+      <ellipse cx="0" cy="-3" rx="6.5" ry="3" fill="{AZUL}" opacity="0.45">
         <animate attributeName="opacity" values="0.45;0.12;0.45" dur="0.7s" repeatCount="indefinite"/>
       </ellipse>
       <rect x="-10" y="-32" width="20" height="23" rx="8" fill="url(#heroGrad)" stroke="rgba(255,255,255,0.55)" stroke-width="1"/>
-      <rect x="-13.5" y="-21" width="4" height="8" rx="2" fill="#1795A8"/>
-      <rect x="9.5" y="-21" width="4" height="8" rx="2" fill="#1795A8"/>
+      <rect x="-13.5" y="-21" width="4" height="8" rx="2" fill="{ROXO}"/>
+      <rect x="9.5" y="-21" width="4" height="8" rx="2" fill="{ROXO}"/>
       <rect x="-7" y="-28" width="14" height="9.5" rx="4.75" fill="#06090C"/>
       <g>
         <animate attributeName="opacity" values="1;1;0.1;1" keyTimes="0;0.9;0.94;1" dur="3.6s" repeatCount="indefinite"/>
-        <circle cx="-3" cy="-23.2" r="1.7" fill="#7FF3FF"/>
-        <circle cx="3" cy="-23.2" r="1.7" fill="#7FF3FF"/>
+        <circle cx="-3" cy="-23.2" r="1.7" fill="{AMARELO}"/>
+        <circle cx="3" cy="-23.2" r="1.7" fill="{AMARELO}"/>
       </g>
       <line x1="0" y1="-32" x2="0" y2="-38" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
-      <circle cx="0" cy="-40" r="2.6" fill="{PINK}">
+      <circle cx="0" cy="-40" r="2.6" fill="{ROSA}">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
       </circle>
     </g>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Paula Peclat — Pedagogue, Media Education Researcher, Digital Educator" width="100%">
+<img src="assets/banner.png" alt="Paula Peclat, Tech Education" width="100%">
 
 <a href="https://paulapeclat.com.br"><img src="assets/typing.svg" alt="typing" height="40"></a>
 
@@ -27,12 +27,12 @@
 
 ### 🧠 Research interests
 
-![media education & media literacy](https://img.shields.io/badge/media%20education%20%26%20media%20literacy-F23D91?style=flat-square)
-![childhoods](https://img.shields.io/badge/childhoods-22C3D9?style=flat-square)
-![digital media](https://img.shields.io/badge/digital%20media-F2A2C0?style=flat-square)
-![educational technology](https://img.shields.io/badge/educational%20technology-ECBE40?style=flat-square)
-![digital games](https://img.shields.io/badge/digital%20games-8CD9E6?style=flat-square)
-![education policy for the digital context](https://img.shields.io/badge/education%20policy%20for%20the%20digital%20context-F23D91?style=flat-square)
+![media education & media literacy](https://img.shields.io/badge/media%20education%20%26%20media%20literacy-E14489?style=flat-square)
+![childhoods](https://img.shields.io/badge/childhoods-12A9DB?style=flat-square)
+![digital media](https://img.shields.io/badge/digital%20media-8D48E5?style=flat-square)
+![educational technology](https://img.shields.io/badge/educational%20technology-E98504?style=flat-square)
+![digital games](https://img.shields.io/badge/digital%20games-80C733?style=flat-square)
+![education policy for the digital context](https://img.shields.io/badge/education%20policy%20for%20the%20digital%20context-6C36D0?style=flat-square)
 
 <br>
 
@@ -154,7 +154,7 @@ I'm open to:
 
 ### 📫 Contact & links
 
-[![Website](https://img.shields.io/badge/paulapeclat.com.br-22C3D9?style=flat-square&logo=googlechrome&logoColor=white)](https://paulapeclat.com.br)
+[![Website](https://img.shields.io/badge/paulapeclat.com.br-12A9DB?style=flat-square&logo=googlechrome&logoColor=white)](https://paulapeclat.com.br)
 [![Lattes CV](https://img.shields.io/badge/Lattes%20CV-4B7CB6?style=flat-square)](https://lattes.cnpq.br/7801922150368918)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6535-7090)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulapeclat/)

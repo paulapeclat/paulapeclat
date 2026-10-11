@@ -8,11 +8,13 @@ Pra trocar as letras ou o balão, é só mudar LETRAS e BALAO e rodar o script.
 """
 from pathlib import Path
 
+from paleta import AMARELO, AZUL, BRANCO, LARANJA, PRETO, ROSA, ROSA_CLARO, ROXO, VERDE
+
 ROOT = Path(__file__).resolve().parent.parent
 SAIDA = ROOT / "assets" / "construtor.svg"
 
 LETRAS = ["A", "P", "E", "D", "Ê"]
-CORES = ["#a855f7", "#fbbf24", "#38bdf8", "#ec4899", "#84cc16"]
+CORES = [ROXO, AMARELO, AZUL, ROSA, VERDE]  # mesma ordem das cores da logo
 TITULO = "em construção"
 SUBTITULO = "tudo o que aprendi em sala, virando produto"
 BALAO = "tá quase pronta! 🧱"
@@ -83,24 +85,24 @@ def personagem() -> str:
     """mesmo boneco de blocos do site da Dev Academy, agora de capacete e martelo"""
     return f'''
   <g class="construtor">
-    <g class="perna esq"><rect x="40" y="118" width="16" height="48" rx="4" fill="#ECBE40"/><rect x="38" y="158" width="20" height="10" rx="3" fill="#3f3f46"/></g>
-    <g class="perna dir"><rect x="64" y="118" width="16" height="48" rx="4" fill="#ECBE40"/><rect x="62" y="158" width="20" height="10" rx="3" fill="#3f3f46"/></g>
-    <g class="braco esq"><rect x="16" y="68" width="13" height="42" rx="6" fill="#F2A2C0"/></g>
-    <rect x="30" y="64" width="60" height="56" rx="5" fill="#22C3D9"/>
+    <g class="perna esq"><rect x="40" y="118" width="16" height="48" rx="4" fill="{AMARELO}"/><rect x="38" y="158" width="20" height="10" rx="3" fill="#3f3f46"/></g>
+    <g class="perna dir"><rect x="64" y="118" width="16" height="48" rx="4" fill="{AMARELO}"/><rect x="62" y="158" width="20" height="10" rx="3" fill="#3f3f46"/></g>
+    <g class="braco esq"><rect x="16" y="68" width="13" height="42" rx="6" fill="{ROSA_CLARO}"/></g>
+    <rect x="30" y="64" width="60" height="56" rx="5" fill="{AZUL}"/>
     <rect x="30" y="64" width="60" height="56" rx="5" fill="url(#brilho)"/>
-    <rect x="30" y="98" width="60" height="7" fill="#fbbf24"/>
+    <rect x="30" y="98" width="60" height="7" fill="{AMARELO}"/>
     <rect x="52" y="98" width="7" height="7" fill="#3f3f46"/>
     <rect x="46" y="72" width="28" height="3" rx="1.5" fill="#fff" opacity=".35"/>
-    <rect x="36" y="10" width="48" height="48" rx="6" fill="#F2A2C0"/>
+    <rect x="36" y="10" width="48" height="48" rx="6" fill="{ROSA_CLARO}"/>
     <circle cx="51" cy="34" r="4.5" fill="#18181b"/><circle cx="69" cy="34" r="4.5" fill="#18181b"/>
     <circle cx="52.5" cy="32.5" r="1.4" fill="#fff"/><circle cx="70.5" cy="32.5" r="1.4" fill="#fff"/>
     <path d="M50 45 Q60 52 70 45" stroke="#18181b" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <circle cx="44" cy="44" r="3.5" fill="#ec4899" opacity=".45"/><circle cx="76" cy="44" r="3.5" fill="#ec4899" opacity=".45"/>
-    <path d="M30 18 Q30 -4 60 -4 Q90 -4 90 18 Z" fill="#fbbf24"/>
-    <rect x="26" y="15" width="68" height="7" rx="3.5" fill="#f59e0b"/>
-    <rect x="56" y="-4" width="8" height="20" rx="3" fill="#f59e0b"/>
+    <circle cx="44" cy="44" r="3.5" fill="{ROSA}" opacity=".45"/><circle cx="76" cy="44" r="3.5" fill="{ROSA}" opacity=".45"/>
+    <path d="M30 18 Q30 -4 60 -4 Q90 -4 90 18 Z" fill="{AMARELO}"/>
+    <rect x="26" y="15" width="68" height="7" rx="3.5" fill="{LARANJA}"/>
+    <rect x="56" y="-4" width="8" height="20" rx="3" fill="{LARANJA}"/>
     <g class="braco dir martelo">
-      <rect x="91" y="68" width="13" height="42" rx="6" fill="#F2A2C0"/>
+      <rect x="91" y="68" width="13" height="42" rx="6" fill="{ROSA_CLARO}"/>
       <rect x="95" y="94" width="6" height="40" rx="2" fill="#a16207" transform="rotate(-90 97.5 106)"/>
       <rect x="118" y="92" width="14" height="28" rx="3" fill="#a1a1aa" transform="rotate(-90 125 106)"/>
     </g>
@@ -135,18 +137,18 @@ def gerar() -> str:
     return f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animação de um construtor de blocos de capacete que entra andando e monta, bloco por bloco, as letras {''.join(LETRAS)}">
 <defs>
   <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0b0b12"/><stop offset="1" stop-color="#120a1a"/>
+    <stop offset="0" stop-color="{PRETO}"/><stop offset="1" stop-color="#0E0618"/>
   </linearGradient>
   <linearGradient id="brilho" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/>
   </linearGradient>
-  <radialGradient id="luz" cx=".75" cy=".2" r=".6"><stop offset="0" stop-color="#a855f7" stop-opacity=".22"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+  <radialGradient id="luz" cx=".75" cy=".2" r=".6"><stop offset="0" stop-color="{ROXO}" stop-opacity=".22"/><stop offset="1" stop-color="{ROXO}" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
   text {{ font-family: Poppins, "Segoe UI", Helvetica, Arial, sans-serif }}
   .letra {{ font-size: 38px; font-weight: 800; fill: #fff }}
   .kicker {{ font-size: 13px; letter-spacing: .3em; fill: #a1a1aa; font-weight: 600 }}
-  .titulo {{ font-size: 30px; font-weight: 800; fill: #f4f4f5 }}
+  .titulo {{ font-size: 30px; font-weight: 800; fill: {BRANCO} }}
   .sub {{ font-size: 15px; fill: #d4d4d8 }}
   .balao-txt {{ font-size: 15px; font-weight: 700; fill: #18181b }}
 
@@ -195,9 +197,9 @@ def gerar() -> str:
 
 <rect width="{W}" height="{H}" rx="18" fill="url(#fundo)"/>
 <rect width="{W}" height="{H}" rx="18" fill="url(#luz)"/>
-<circle class="estrela" cx="1180" cy="40" r="3" fill="#fbbf24"/>
-<circle class="estrela d1" cx="1230" cy="150" r="4" fill="#ec4899"/>
-<circle class="estrela d2" cx="360" cy="40" r="2.5" fill="#38bdf8"/>
+<circle class="estrela" cx="1180" cy="40" r="3" fill="{AMARELO}"/>
+<circle class="estrela d1" cx="1230" cy="150" r="4" fill="{ROSA}"/>
+<circle class="estrela d2" cx="360" cy="40" r="2.5" fill="{AZUL}"/>
 <line x1="40" y1="{CHAO}" x2="{W - 40}" y2="{CHAO}" stroke="#3f3f46" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"/>
 
 <text x="60" y="88" class="kicker">&lt;/&gt; {TITULO.upper()}</text>
@@ -207,8 +209,8 @@ def gerar() -> str:
 {personagem()}
 
 <g class="balao">
-  <rect x="{bx}" y="14" width="186" height="40" rx="20" fill="#fafafa"/>
-  <path d="M{bx + 26} 52 L{bx + 18} 66 L{bx + 42} 52 Z" fill="#fafafa"/>
+  <rect x="{bx}" y="14" width="186" height="40" rx="20" fill="{BRANCO}"/>
+  <path d="M{bx + 26} 52 L{bx + 18} 66 L{bx + 42} 52 Z" fill="{BRANCO}"/>
   <text x="{bx + 93}" y="40" text-anchor="middle" class="balao-txt">{BALAO}</text>
 </g>
 </svg>

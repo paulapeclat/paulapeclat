@@ -9,6 +9,7 @@ Uso local/teste: passe o usuário como argumento, ex.: python generate_stats.py 
 import os
 import sys
 import requests
+from paleta import AMARELO, AZUL, AZUL_FORTE, PRETO, ROSA, ROSA_CLARO, ROXO, VERDE, VERDE_AGUA, rgba  # noqa: F401
 
 API = "https://api.github.com"
 
@@ -74,16 +75,16 @@ def compute_stats(repos):
 
 # Paleta real de paulapeclat.com.br
 COLORS = {
-    "bg": "#000000",
-    "cyan": "#22C3D9",
-    "pink": "#F23D91",
-    "pink_light": "#F2A2C0",
-    "yellow": "#ECBE40",
+    "bg": PRETO,
+    "cyan": AZUL,
+    "pink": ROSA,
+    "pink_light": ROXO,
+    "yellow": AMARELO,
     "text": "#FFFFFF",
     "text_secondary": "rgba(255,255,255,0.65)",
 }
 
-LANG_COLOR_CYCLE = [COLORS["cyan"], COLORS["pink"], COLORS["yellow"], COLORS["pink_light"], "#8CD9E6"]
+LANG_COLOR_CYCLE = [AZUL, ROXO, AMARELO, VERDE, ROSA]
 
 
 def render_svg(stats):

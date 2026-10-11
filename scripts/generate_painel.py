@@ -19,17 +19,15 @@ DATA_FILE = ROOT / "data" / "painel.json"
 ALCANCE_FILE = ROOT / "data" / "alcance.json"
 OUT_FILE = ROOT / "assets" / "painel.svg"
 
-# paleta da logo, ajustada pra ler bem no fundo escuro
-CYAN = "#0284c7"
-CYAN_CLARO = "#38bdf8"
-PINK = "#ec4899"
-AMBER = "#d97706"
-PURPLE = "#a855f7"
-GREEN = "#65a30d"
-# rampa sequencial (concreto → abstrato), um só tom do claro pro escuro
-RAMPA = ["#e9d5ff", "#d8b4fe", "#c084fc", "#a855f7", "#9333ea", "#7e22ce", "#6b21a8"]
+from paleta import AMARELO, AZUL, BRANCO, PRETO, RAMPA_ROXO as RAMPA, ROSA, ROXO, VERDE
 
-TEXTO = "#f4f4f5"
+CYAN = AZUL
+CYAN_CLARO = AZUL
+PINK = ROSA
+AMBER = AMARELO
+PURPLE = ROXO
+
+TEXTO = BRANCO
 TEXTO_2 = "#a1a1aa"
 TEXTO_3 = "#71717a"
 LINHA = "rgba(255,255,255,0.08)"
@@ -73,7 +71,7 @@ def radar(competencias, cx=257, cy=415, r=100) -> str:
 
     for c, v, a in zip(competencias, vals, ang):
         px, py = cx + r * v * math.cos(a), cy + r * v * math.sin(a)
-        partes.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4.5" fill="{CYAN_CLARO}" stroke="#0b0b12" stroke-width="2"><title>{esc(c["nome"])}: {c["valor"]}</title></circle>')
+        partes.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4.5" fill="{CYAN_CLARO}" stroke="{PRETO}" stroke-width="2"><title>{esc(c["nome"])}: {c["valor"]}</title></circle>')
         lx, ly = cx + (r + 22) * math.cos(a), cy + (r + 22) * math.sin(a)
         ancora = "middle" if abs(math.cos(a)) < 0.3 else ("start" if math.cos(a) > 0 else "end")
         dy = -6 if math.sin(a) < -0.9 else (14 if math.sin(a) > 0.9 else 4)
@@ -123,10 +121,10 @@ def main():
     anos = date.today().year - d["inicio_docencia"]
 
     tiles = kpis([
-        (anos, f"anos em sala de aula, desde {d['inicio_docencia']}", CYAN_CLARO),
-        (n_estados, "estados com alunos meus", PINK),
-        (d.get("paises", 1), "países com aulas", AMBER),
-        (len(d["curriculo"]), "ferramentas no currículo", PURPLE),
+        (anos, f"anos em sala de aula, desde {d['inicio_docencia']}", ROXO),
+        (n_estados, "estados com alunos meus", AZUL),
+        (d.get("paises", 1), "países com aulas", VERDE),
+        (len(d["curriculo"]), "ferramentas no currículo", AMARELO),
     ])
 
     svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de competências da Educação Tecnológica Paula Peclat: {anos} anos em sala de aula, alunos em {n_estados} estados, gráfico radar de competências docentes e escada do currículo do concreto ao abstrato">
@@ -151,7 +149,7 @@ def main():
     </style>
   </defs>
 
-  <rect width="{W}" height="{H}" rx="18" fill="#000"/>
+  <rect width="{W}" height="{H}" rx="18" fill="{PRETO}"/>
   <rect width="{W}" height="{H}" rx="18" fill="url(#pGlow1)"/>
   <rect width="{W}" height="{H}" rx="18" fill="url(#pGlow2)"/>
 
