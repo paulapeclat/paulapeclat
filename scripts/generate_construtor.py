@@ -8,7 +8,7 @@ Pra trocar as letras ou o balão, é só mudar LETRAS e BALAO e rodar o script.
 """
 from pathlib import Path
 
-from paleta import AMARELO, AZUL, BRANCO, LARANJA, PRETO, ROSA, ROSA_CLARO, ROXO, VERDE
+from paleta import AMARELO, AZUL, BRANCO, LARANJA, PRETO, ROSA, ROXO, ROXO_ESCURO, VERDE
 
 ROOT = Path(__file__).resolve().parent.parent
 SAIDA = ROOT / "assets" / "construtor.svg"
@@ -81,28 +81,36 @@ def keyframes_poeira(chega: float) -> str:
     ])
 
 
+PELE = "#C98B62"  # tom de pele do construtor
+BOTA = "#3f3f46"
+
+
 def personagem() -> str:
-    """mesmo boneco de blocos do site da Dev Academy, agora de capacete e martelo"""
+    """construtor de blocos original: camiseta azul, macacão roxo, capacete amarelo e crachá </>"""
     return f'''
   <g class="construtor">
-    <g class="perna esq"><rect x="40" y="118" width="16" height="48" rx="4" fill="{AMARELO}"/><rect x="38" y="158" width="20" height="10" rx="3" fill="#3f3f46"/></g>
-    <g class="perna dir"><rect x="64" y="118" width="16" height="48" rx="4" fill="{AMARELO}"/><rect x="62" y="158" width="20" height="10" rx="3" fill="#3f3f46"/></g>
-    <g class="braco esq"><rect x="16" y="68" width="13" height="42" rx="6" fill="{ROSA_CLARO}"/></g>
-    <rect x="30" y="64" width="60" height="56" rx="5" fill="{AZUL}"/>
-    <rect x="30" y="64" width="60" height="56" rx="5" fill="url(#brilho)"/>
-    <rect x="30" y="98" width="60" height="7" fill="{AMARELO}"/>
-    <rect x="52" y="98" width="7" height="7" fill="#3f3f46"/>
-    <rect x="46" y="72" width="28" height="3" rx="1.5" fill="#fff" opacity=".35"/>
-    <rect x="36" y="10" width="48" height="48" rx="6" fill="{ROSA_CLARO}"/>
+    <g class="perna esq"><rect x="40" y="116" width="17" height="50" rx="4" fill="{ROXO}"/><rect x="37" y="156" width="22" height="12" rx="4" fill="{BOTA}"/></g>
+    <g class="perna dir"><rect x="63" y="116" width="17" height="50" rx="4" fill="{ROXO}"/><rect x="61" y="156" width="22" height="12" rx="4" fill="{BOTA}"/></g>
+    <g class="braco esq"><rect x="16" y="68" width="13" height="42" rx="6" fill="{PELE}"/><rect x="16" y="66" width="13" height="16" rx="5" fill="{AZUL}"/></g>
+    <rect x="30" y="64" width="60" height="56" rx="6" fill="{AZUL}"/>
+    <rect x="38" y="80" width="44" height="40" rx="5" fill="{ROXO}"/>
+    <rect x="40" y="64" width="6" height="18" fill="{ROXO}"/><rect x="74" y="64" width="6" height="18" fill="{ROXO}"/>
+    <circle cx="43" cy="82" r="2.6" fill="{AMARELO}"/><circle cx="77" cy="82" r="2.6" fill="{AMARELO}"/>
+    <rect x="30" y="64" width="60" height="56" rx="6" fill="url(#brilho)"/>
+    <rect x="47" y="88" width="26" height="15" rx="4" fill="{BRANCO}"/>
+    <text x="60" y="99.5" text-anchor="middle" font-size="10" font-weight="800" fill="{ROXO_ESCURO}" font-family="Consolas, monospace">&lt;/&gt;</text>
+    <rect x="30" y="110" width="60" height="6" rx="2" fill="{AMARELO}"/>
+    <rect x="76" y="108" width="10" height="11" rx="2" fill="{LARANJA}"/>
+    <rect x="36" y="10" width="48" height="48" rx="7" fill="{PELE}"/>
     <circle cx="51" cy="34" r="4.5" fill="#18181b"/><circle cx="69" cy="34" r="4.5" fill="#18181b"/>
     <circle cx="52.5" cy="32.5" r="1.4" fill="#fff"/><circle cx="70.5" cy="32.5" r="1.4" fill="#fff"/>
     <path d="M50 45 Q60 52 70 45" stroke="#18181b" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <circle cx="44" cy="44" r="3.5" fill="{ROSA}" opacity=".45"/><circle cx="76" cy="44" r="3.5" fill="{ROSA}" opacity=".45"/>
+    <circle cx="44" cy="44" r="3.5" fill="{ROSA}" opacity=".35"/><circle cx="76" cy="44" r="3.5" fill="{ROSA}" opacity=".35"/>
     <path d="M30 18 Q30 -4 60 -4 Q90 -4 90 18 Z" fill="{AMARELO}"/>
     <rect x="26" y="15" width="68" height="7" rx="3.5" fill="{LARANJA}"/>
     <rect x="56" y="-4" width="8" height="20" rx="3" fill="{LARANJA}"/>
     <g class="braco dir martelo">
-      <rect x="91" y="68" width="13" height="42" rx="6" fill="{ROSA_CLARO}"/>
+      <rect x="91" y="68" width="13" height="42" rx="6" fill="{PELE}"/><rect x="91" y="66" width="13" height="16" rx="5" fill="{AZUL}"/>
       <rect x="95" y="94" width="6" height="40" rx="2" fill="#a16207" transform="rotate(-90 97.5 106)"/>
       <rect x="118" y="92" width="14" height="28" rx="3" fill="#a1a1aa" transform="rotate(-90 125 106)"/>
     </g>
