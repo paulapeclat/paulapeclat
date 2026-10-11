@@ -11,6 +11,7 @@ o workflow update-map.yml regenera a trilha automaticamente.
 
 Uso local: python scripts/generate_trilha.py
 """
+import base64
 import json
 import math
 from pathlib import Path
@@ -18,6 +19,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "trilha.json"
 OUT_FILE = ROOT / "assets" / "trilha-rpg.svg"
+OBJETOS = ROOT / "assets" / "objetos"  # PNGs renderizados por scripts/render_objetos.py
+
+
+def objeto(nome: str) -> str:
+    """PNG do objeto 3D em base64 (SVG usado como imagem no README não carrega arquivo externo)"""
+    arquivo = OBJETOS / f"{nome}.png"
+    if not arquivo.exists():
+        return ""
+    return "data:image/png;base64," + base64.b64encode(arquivo.read_bytes()).decode("ascii")
 
 CYAN = "#22C3D9"
 PINK = "#F23D91"
@@ -152,7 +162,7 @@ def main():
     <circle cx="{x:g}" cy="{y}" r="16" fill="{cor}" opacity="0.15"/>
     <circle cx="{x:g}" cy="{y}" r="11" fill="{cor}"/>
     <use href="#check" x="{x:g}" y="{y}"/>
-    <text x="{x:g}" y="{ly}" font-size="12.5" font-weight="600" fill="rgba(255,255,255,0.85)" text-anchor="middle">{nome}</text>
+    <text x="{x:g}" y="{ly}" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">{nome}</text>
   </g>''')
 
     fx, fy = FIM
@@ -166,84 +176,69 @@ def main():
 
     svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre {n} estações, da Pedagogia ao Mestrado">
   <defs>
-    <radialGradient id="tGlowCyan" cx="12%" cy="18%" r="55%">
-      <stop offset="0%" stop-color="{CYAN}" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="{CYAN}" stop-opacity="0"/>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f86e6"/>
+      <stop offset="65%" stop-color="#6cb8f2"/>
+      <stop offset="100%" stop-color="#a9dcfb"/>
+    </linearGradient>
+    <radialGradient id="sol" cx="8%" cy="6%" r="38%">
+      <stop offset="0%" stop-color="#fff6c8" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#ffe9a0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffe9a0" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="tGlowPink" cx="88%" cy="70%" r="55%">
-      <stop offset="0%" stop-color="{PINK}" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="{PINK}" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="tGlowYellow" cx="50%" cy="105%" r="60%">
-      <stop offset="0%" stop-color="{YELLOW}" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="{YELLOW}" stop-opacity="0"/>
-    </radialGradient>
+    <g id="nuvem">
+      <ellipse cx="0" cy="0" rx="46" ry="15"/>
+      <ellipse cx="-20" cy="-9" rx="22" ry="17"/>
+      <ellipse cx="12" cy="-14" rx="26" ry="21"/>
+    </g>
     <linearGradient id="heroGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#8CD9E6"/>
       <stop offset="100%" stop-color="{CYAN}"/>
     </linearGradient>
-    <filter id="tGrain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
-      <feColorMatrix in="noise" type="matrix"
-        values="0 0 0 0 1
-                0 0 0 0 1
-                0 0 0 0 1
-                0 0 0 0.03 0"/>
-    </filter>
     <g id="check">
       <path d="M -4.5 0.5 L -1.5 3.5 L 5 -4.5" fill="none" stroke="#06090C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <style>
-      text {{ font-family: 'Segoe UI', 'Arial', sans-serif; }}
+      text {{ font-family: 'Segoe UI', 'Arial', sans-serif; paint-order: stroke; stroke: rgba(10,52,110,0.55); stroke-width: 3px; stroke-linejoin: round; }}
+      @keyframes deriva {{ from {{ transform: translateX(0) }} to {{ transform: translateX(1150px) }} }}
+      .nuvens use {{ animation: deriva linear infinite }}
+      @keyframes voo {{ 0%, 100% {{ transform: translate(0, 0) rotate(0deg) }} 50% {{ transform: translate(6px, -10px) rotate(-3deg) }} }}
+      .foguete {{ animation: voo 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center }}
     </style>
   </defs>
 
-  <rect width="{W}" height="{H}" fill="#000000"/>
-  <rect width="{W}" height="{H}" fill="url(#tGlowCyan)"/>
-  <rect width="{W}" height="{H}" fill="url(#tGlowPink)"/>
-  <rect width="{W}" height="{H}" fill="url(#tGlowYellow)"/>
-  <rect width="{W}" height="{H}" filter="url(#tGrain)" opacity="0.5"/>
+  <rect width="{W}" height="{H}" fill="url(#ceu)"/>
+  <rect width="{W}" height="{H}" fill="url(#sol)"/>
 
-  <!-- estrelas -->
-  <g>
-    <circle cx="140" cy="90" r="2.4" fill="{CYAN}"><animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="330" cy="60" r="1.8" fill="{PINK_LIGHT}"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.4s" begin="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="520" cy="110" r="2" fill="{YELLOW}"><animate attributeName="opacity" values="0.4;1;0.4" dur="5s" begin="1.4s" repeatCount="indefinite"/></circle>
-    <circle cx="700" cy="130" r="1.6" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.4s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="880" cy="110" r="2.2" fill="{CYAN}"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" begin="0.4s" repeatCount="indefinite"/></circle>
-    <circle cx="60" cy="300" r="1.7" fill="{PINK}"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.6s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="500" cy="290" r="1.5" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="5.2s" begin="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="950" cy="300" r="2" fill="{YELLOW}"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.2s" begin="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="240" cy="160" r="1.4" fill="#8CD9E6"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" begin="0.2s" repeatCount="indefinite"/></circle>
-    <circle cx="900" cy="580" r="1.8" fill="{PINK_LIGHT}"><animate attributeName="opacity" values="0.4;1;0.4" dur="4.8s" begin="2.2s" repeatCount="indefinite"/></circle>
-    <circle cx="80" cy="600" r="1.6" fill="#FFFFFF"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.1s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <!-- nuvens passando devagar, cada uma num ritmo -->
+  <g class="nuvens" fill="#ffffff">
+    <use href="#nuvem" x="-80" y="130" opacity="0.85" style="animation-duration:95s; animation-delay:-20s"/>
+    <use href="#nuvem" x="-80" y="290" opacity="0.6" transform="scale(0.8)" style="animation-duration:120s; animation-delay:-70s"/>
+    <use href="#nuvem" x="-80" y="440" opacity="0.7" style="animation-duration:105s; animation-delay:-45s"/>
+    <use href="#nuvem" x="-80" y="600" opacity="0.8" style="animation-duration:85s; animation-delay:-5s"/>
+    <use href="#nuvem" x="-80" y="70" opacity="0.5" transform="scale(0.7)" style="animation-duration:140s; animation-delay:-100s"/>
   </g>
 
-  <!-- planetinha surreal -->
-  <g transform="translate(640,58)">
-    <animateTransform attributeName="transform" type="translate" values="640 58;640 52;640 58" dur="9s" repeatCount="indefinite"/>
-    <circle r="13" fill="{PINK}" opacity="0.85"/>
-    <circle r="13" fill="url(#tGlowPink)"/>
-    <ellipse rx="22" ry="5.5" fill="none" stroke="{YELLOW}" stroke-width="1.6" opacity="0.7" transform="rotate(-18)"/>
-  </g>
+  <!-- foguete (modelo Smooth Voxels renderizado com three.js) -->
+  {f'<image class="foguete" href="{objeto("foguete")}" x="575" y="12" width="118" height="118"/>' if objeto("foguete") else ""}
 
   <!-- titulo -->
   <text x="40" y="54" font-size="26" font-weight="800" fill="#FFFFFF" letter-spacing="1">A TRILHA</text>
-  <text x="40" y="78" font-size="13" fill="rgba(255,255,255,0.6)">do concreto ao abstrato · do lúdico ao formal · uma jornada em construção</text>
+  <text x="40" y="78" font-size="13" fill="rgba(255,255,255,0.92)">do concreto ao abstrato · do lúdico ao formal · uma jornada em construção</text>
 
   <!-- chip XP -->
-  <rect x="790" y="30" width="176" height="30" rx="15" fill="rgba(34,195,217,0.12)" stroke="rgba(34,195,217,0.4)"/>
-  <text x="878" y="49" font-size="12" font-weight="600" fill="{CYAN}" text-anchor="middle" letter-spacing="0.5">XP: +∞ curiosidade</text>
+  <rect x="790" y="30" width="176" height="30" rx="15" fill="rgba(10,52,110,0.45)" stroke="rgba(255,255,255,0.6)"/>
+  <text x="878" y="49" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">XP: +∞ curiosidade</text>
 
   <!-- trilha: leito, linha-guia e fluxo de pontos -->
-  <path id="trail" d="{PATH_D}" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="16" stroke-linecap="round"/>
-  <use href="#trail" stroke="rgba(255,255,255,0.14)" stroke-width="2" stroke-dasharray="6 10"/>
-  <path d="{PATH_D}" fill="none" stroke="{CYAN}" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 16" opacity="0.85">
+  <path id="trail" d="{PATH_D}" fill="none" stroke="rgba(10,52,110,0.28)" stroke-width="16" stroke-linecap="round"/>
+  <use href="#trail" stroke="rgba(255,255,255,0.45)" stroke-width="2" stroke-dasharray="6 10"/>
+  <path d="{PATH_D}" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 16" opacity="0.95">
     <animate attributeName="stroke-dashoffset" values="0;-16.1" dur="1.2s" repeatCount="indefinite"/>
   </path>
 
   <!-- ilhas flutuantes sob as estações -->
-  <g fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)">
+  <g fill="rgba(255,255,255,0.75)">
 {chr(10).join(ilhas)}
   </g>
 
@@ -287,7 +282,7 @@ def main():
   </g>
 
   <!-- legenda -->
-  <text x="40" y="618" font-size="11" fill="rgba(255,255,255,0.4)">▣ concluído&#160;&#160;&#160;★ em andamento&#160;&#160;&#160;? em breve · a personagem caminha sozinha, espere e veja</text>
+  <text x="40" y="618" font-size="11" fill="rgba(255,255,255,0.9)">▣ concluído&#160;&#160;&#160;★ em andamento&#160;&#160;&#160;? em breve · a personagem caminha sozinha, espere e veja</text>
 </svg>
 '''
     OUT_FILE.write_text(svg, encoding="utf-8")

@@ -253,17 +253,12 @@ def main():
 
   <!-- ================= BRASIL (contorno real projetado) ================= -->
   <g transform="translate({BR_ORIGIN[0]},{BR_ORIGIN[1]})">
-    <ellipse cx="118" cy="262" rx="125" ry="15" fill="{CYAN}" opacity="0.07"/>
 {ufs_svg}
-    <circle cx="60" cy="256" r="3.4" fill="rgba(34,195,217,0.4)"><animate attributeName="cy" values="256;248;256" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="160" cy="240" r="2.4" fill="rgba(34,195,217,0.3)"><animate attributeName="cy" values="240;233;240" dur="7s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="115" cy="268" r="2" fill="rgba(255,255,255,0.25)"><animate attributeName="cy" values="268;262;268" dur="5.4s" begin="0.5s" repeatCount="indefinite"/></circle>
 
 {render_dots(estados, base)}
 
 {render_base(base)}
 
-    <text x="118" y="278" font-size="12" font-weight="600" fill="{CYAN}" text-anchor="middle" opacity="0.9">{caption}</text>
   </g>
 
   <!-- ================= ILHA NOVA YORK ================= -->
