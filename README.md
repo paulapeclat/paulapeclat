@@ -25,7 +25,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 **Pesquisa.** Faço mestrado em Educação no PPGEduc/UFRRJ, com orientação da Profª Drª Anelise Monteiro do Nascimento. Estudo como as crianças vivem o digital juntas, com os amigos, a partir da Sociologia da Infância (Corsaro, Sarmento). Parto de uma ideia simples que guia tudo o que faço: criança produz cultura, não só consome tela.
 
-**Ensino.** Fundei a [APedê Digital](https://paulapeclat.com.br), onde ensino crianças a programar e criar jogos. Já tive alunos dos 27 estados do Brasil e de fora do país. A gente começa no concreto e vai chegando ao abstrato, passando por GDevelop, microStudio, Roblox/Luau e Python.
+**Ensino.** Ensino crianças a programar e criar jogos pela [Educação Tecnológica Paula Peclat](https://paulapeclat.com.br), que acabou de sair da fase de validação e agora começa a crescer. Já tive alunos dos 27 estados do Brasil e de fora do país. A gente começa no concreto e vai chegando ao abstrato, passando por GDevelop, microStudio, Roblox/Luau e Python.
+
+**APedê Digital.** É o produto novo em que estou colocando tudo o que aprendi nesses anos de sala de aula. Está na reta final de desenvolvimento, e logo conto mais por aqui.
 
 **Projetos.** Gosto de construir as ferramentas que me faltam. Aqui tem script de aula, simulador de sala e análise de dados de jogos, quase sempre nascidos de uma pergunta que surgiu com a turma.
 
