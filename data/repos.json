@@ -11,6 +11,11 @@
       "description": "Perfil gamificado de Paula Peclat. Pedagogia, pesquisa sobre infâncias digitais e criação de jogos com crianças.",
       "topics": ["github-profile", "profile-readme", "github-actions", "gamificacao", "educacao-midiatica"]
     },
+    "paulapeclat.github.io": {
+      "description": "Jogos, apps e projetos de IA criados por crianças nas aulas da Educação Tecnológica Paula Peclat.",
+      "homepage": "https://paulapeclat.github.io",
+      "topics": ["educacao-tecnologica", "programacao-para-criancas", "criancas", "jogos-educativos", "roblox", "gdevelop", "python", "github-pages"]
+    },
     "awesome-educacao-midiatica": {
       "description": "Lista curada de recursos de educação midiática para educadores, pesquisadores e famílias, com foco nas infâncias.",
       "topics": ["awesome", "awesome-list", "educacao-midiatica", "media-literacy", "infancias", "criancas", "sociologia-da-infancia", "recursos-educacionais"]

@@ -25,7 +25,7 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 **Pesquisa.** Faço mestrado em Educação no PPGEduc/UFRRJ, com orientação da Profª Drª Anelise Monteiro do Nascimento. Estudo como as crianças vivem o digital juntas, com os amigos, a partir da Sociologia da Infância (Corsaro, Sarmento). Parto de uma ideia simples que guia tudo o que faço: criança produz cultura, não só consome tela.
 
-**Ensino.** Ensino crianças a programar e criar jogos pela [Educação Tecnológica Paula Peclat](https://paulapeclat.com.br), que acabou de sair da fase de validação e agora começa a crescer. Já tive alunos dos 27 estados do Brasil e de fora do país. A gente começa no concreto e vai chegando ao abstrato, passando por GDevelop, microStudio, Roblox/Luau e Python.
+**Ensino.** Dou aulas online de criação de tecnologias digitais para crianças, como jogos, apps e projetos de IA, pela [Educação Tecnológica Paula Peclat](https://paulapeclat.com.br), que acabou de sair da fase de validação e agora começa a crescer. Os projetos das turmas ficam em [paulapeclat.github.io](https://paulapeclat.github.io). Já tive alunos dos 27 estados do Brasil e de fora do país. A gente começa no concreto e vai chegando ao abstrato, passando por GDevelop, microStudio, Roblox/Luau e Python.
 
 **APedê Digital.** É o produto novo em que estou colocando tudo o que aprendi nesses anos de sala de aula. Está na reta final de desenvolvimento, e logo conto mais por aqui.
 
@@ -169,6 +169,7 @@ Adoro uma parceria! Se você pensa em algum destes caminhos, me chama:
 ### 📫 Contato & redes
 
 [![Site](https://img.shields.io/badge/paulapeclat.com.br-12A9DB?style=flat-square&logo=googlechrome&logoColor=white)](https://paulapeclat.com.br)
+[![Projetos das turmas](https://img.shields.io/badge/projetos%20das%20turmas-8D48E5?style=flat-square&logo=github&logoColor=white)](https://paulapeclat.github.io)
 [![Currículo Lattes](https://img.shields.io/badge/Curr%C3%ADculo%20Lattes-4B7CB6?style=flat-square)](https://lattes.cnpq.br/7801922150368918)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-6535-7090)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulapeclat/)
