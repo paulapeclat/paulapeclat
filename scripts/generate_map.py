@@ -59,25 +59,54 @@ def br(lon, lat):
     return round((lon + 74.0) * BR_SX, 1), round((5.3 - lat) * BR_SY, 1)
 
 
+# ---------------------------------------------------------------- NOVA YORK
+# Os 5 distritos (Manhattan, Brooklyn, Queens, Bronx, Staten Island) com
+# contorno real, guardados em data/nova-york.json.
+NY_FILE = ROOT / "data" / "nova-york.json"
+NY_SX, NY_SY = 290 * 0.758, 290  # cos(40.7°) corrige a longitude
+NY_LON0, NY_LAT0 = -74.26, 40.92
+NY_W, NY_H = 0.56 * NY_SX, 0.42 * NY_SY
+NY_ORIGIN = (440, 40)
+NY_PIN = (-73.985, 40.758)  # Midtown, Manhattan
+
+
+def ny(lon, lat):
+    return round((lon - NY_LON0) * NY_SX, 1), round((NY_LAT0 - lat) * NY_SY, 1)
+
+
+def render_ny():
+    distritos = json.loads(NY_FILE.read_text(encoding="utf-8"))
+    parts = [f'    <g fill="{AMARELO}" fill-opacity="0.55" stroke="{PRETO}" stroke-width="0.7" stroke-linejoin="round">']
+    for nome, aneis in distritos.items():
+        d = " ".join(polygon(anel, ny) for anel in aneis)
+        parts.append(f'      <path d="{d}"><title>{nome}</title></path>')
+    parts.append("    </g>")
+    return "\n".join(parts)
+
+
 # --------------------------------------------------------------- PORTUGAL
-# Contorno simplificado de Portugal continental (lon, lat), sentido horário
-# a partir da foz do rio Minho.
-PT_OUTLINE = [
-    (-8.87, 41.87), (-8.75, 41.40), (-8.66, 41.10), (-8.78, 40.60),
-    (-8.90, 40.15), (-9.08, 39.75), (-9.37, 39.36), (-9.50, 38.78),
-    (-9.18, 38.68), (-9.00, 38.43), (-8.87, 38.00), (-8.82, 37.55),
-    (-8.99, 37.02), (-8.50, 37.07), (-7.90, 37.00), (-7.40, 37.17),
-    (-7.45, 37.60), (-7.10, 38.20), (-7.15, 38.88), (-6.95, 39.40),
-    (-7.00, 39.67), (-6.86, 40.00), (-6.80, 40.36), (-6.85, 40.85),
-    (-6.20, 41.35), (-6.55, 41.70), (-6.55, 41.94), (-7.20, 41.87),
-    (-7.90, 41.85), (-8.20, 42.15), (-8.75, 41.94),
-]
-PT_SX, PT_SY = 8.9, 11.5
-PT_ORIGIN = (765, 118)
+# Os 18 distritos de Portugal continental com contorno real, em data/portugal.json.
+PT_FILE = ROOT / "data" / "portugal.json"
+PT_SY = 37
+PT_SX = PT_SY * 0.77  # cos(39.5°)
+PT_LON0, PT_LAT0 = -9.55, 42.16
+PT_W, PT_H = 3.35 * PT_SX, 5.22 * PT_SY
+PT_ORIGIN = (800, 130)
+PT_PIN = (-9.14, 38.72)  # Lisboa
 
 
 def pt(lon, lat):
-    return round((lon + 9.55) * PT_SX, 1), round((42.15 - lat) * PT_SY, 1)
+    return round((lon - PT_LON0) * PT_SX, 1), round((PT_LAT0 - lat) * PT_SY, 1)
+
+
+def render_pt():
+    distritos = json.loads(PT_FILE.read_text(encoding="utf-8"))
+    parts = [f'    <g fill="{AZUL}" fill-opacity="0.55" stroke="{PRETO}" stroke-width="0.7" stroke-linejoin="round">']
+    for nome, aneis in distritos.items():
+        d = " ".join(polygon(anel, pt) for anel in aneis)
+        parts.append(f'      <path d="{d}"><title>{nome}</title></path>')
+    parts.append("    </g>")
+    return "\n".join(parts)
 
 
 def esc(s: str) -> str:
@@ -176,11 +205,16 @@ def main():
     by = BR_ORIGIN[1] + br(*UF_COORDS[base])[1]
 
     # rotas: base → Nova York (pin abs ~495,58) e base → Portugal (pin abs ~780,112)
-    rota_ny = f"M {bx:g} {by:g} Q {bx + (495 - bx) * 0.45:.0f} 28 495 58"
-    rota_pt = f"M {bx:g} {by:g} Q {bx + (780 - bx) * 0.55:.0f} 2 780 112"
+    ny_pin = ny(*NY_PIN)
+    nx, nyy = NY_ORIGIN[0] + ny_pin[0], NY_ORIGIN[1] + ny_pin[1]
+    rota_ny = f"M {bx:g} {by:g} Q {bx + (nx - bx) * 0.45:.0f} 20 {nx:g} {nyy:g}"
+    ny_svg = render_ny()
+    pt_pin = pt(*PT_PIN)
+    px, py = PT_ORIGIN[0] + pt_pin[0], PT_ORIGIN[1] + pt_pin[1]
+    rota_pt = f"M {bx:g} {by:g} Q {bx + (px - bx) * 0.55:.0f} 30 {px:g} {py:g}"
+    pt_svg = render_pt()
 
     ufs_svg, _ = render_ufs(estados)
-    portugal_path = polygon(PT_OUTLINE, pt)
 
     svg = f'''<svg viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Mapa de alcance com geografia real: {caption}, Portugal e Nova York, com rotas animadas partindo da base {base}">
   <defs>
@@ -258,41 +292,29 @@ def main():
 
   </g>
 
-  <!-- ================= ILHA NOVA YORK ================= -->
-  <g transform="translate(455,60)">
-    <animateTransform attributeName="transform" type="translate" values="455 60;455 54;455 60" dur="7s" repeatCount="indefinite"/>
-    <ellipse cx="40" cy="46" rx="48" ry="10" fill="rgba(246,181,13,0.10)" stroke="rgba(246,181,13,0.45)" stroke-width="1.4"/>
-    <g fill="rgba(246,181,13,0.28)" stroke="{AMARELO}" stroke-width="1">
-      <rect x="14" y="16" width="8" height="30"/>
-      <rect x="26" y="6" width="9" height="40"/>
-      <rect x="39" y="18" width="8" height="28"/>
-      <rect x="51" y="10" width="9" height="36"/>
-      <rect x="64" y="24" width="7" height="22"/>
-    </g>
-    <circle cx="30.5" cy="14" r="1" fill="{AMARELO}"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
-    <circle cx="55.5" cy="18" r="1" fill="{AMARELO}"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="30.5" cy="26" r="1" fill="{AMARELO}"><animate attributeName="opacity" values="1;0.3;1" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></circle>
-    <circle cx="40" cy="-8" r="10" fill="none" stroke="{AMARELO}" stroke-width="1.4">
+  <!-- ================= NOVA YORK (5 distritos, contorno real) ================= -->
+  <g transform="translate({NY_ORIGIN[0]},{NY_ORIGIN[1]})">
+    <animateTransform attributeName="transform" type="translate" values="{NY_ORIGIN[0]} {NY_ORIGIN[1]};{NY_ORIGIN[0]} {NY_ORIGIN[1] - 6};{NY_ORIGIN[0]} {NY_ORIGIN[1]}" dur="7s" repeatCount="indefinite"/>
+{ny_svg}
+    <circle cx="{ny_pin[0]:g}" cy="{ny_pin[1]:g}" r="10" fill="none" stroke="{AMARELO}" stroke-width="1.4">
       <animate attributeName="r" values="4;16" dur="2.6s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="40" cy="-8" r="4.5" fill="{AMARELO}" stroke="#FFFFFF" stroke-width="1"/>
-    <text x="40" y="74" font-size="13" font-weight="700" fill="rgba(255,255,255,0.85)" text-anchor="middle">Nova York</text>
+    <circle cx="{ny_pin[0]:g}" cy="{ny_pin[1]:g}" r="4.5" fill="{AMARELO}" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="{NY_W / 2:g}" y="{NY_H + 22:g}" font-size="13" font-weight="700" fill="rgba(255,255,255,0.85)" text-anchor="middle">Nova York</text>
   </g>
 
-  <!-- ================= PORTUGAL (contorno real projetado) ================= -->
+  <!-- ================= PORTUGAL (18 distritos, contorno real) ================= -->
   <g transform="translate({PT_ORIGIN[0]},{PT_ORIGIN[1]})">
     <animateTransform attributeName="transform" type="translate" values="{PT_ORIGIN[0]} {PT_ORIGIN[1]};{PT_ORIGIN[0]} {PT_ORIGIN[1] - 6};{PT_ORIGIN[0]} {PT_ORIGIN[1]}" dur="8s" repeatCount="indefinite"/>
-    <ellipse cx="15" cy="66" rx="36" ry="8.5" fill="rgba(18,169,219,0.08)" stroke="rgba(18,169,219,0.35)" stroke-width="1.2"/>
-    <path d="{portugal_path}"
-      fill="rgba(18,169,219,0.12)" stroke="{AZUL}" stroke-width="1.5" stroke-linejoin="round"/>
-    <circle cx="15" cy="-6" r="10" fill="none" stroke="{AZUL}" stroke-width="1.4">
+{pt_svg}
+    <circle cx="{pt_pin[0]:g}" cy="{pt_pin[1]:g}" r="10" fill="none" stroke="{AZUL}" stroke-width="1.4">
       <animate attributeName="r" values="4;16" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="15" cy="-6" r="4.5" fill="{AZUL}" stroke="#FFFFFF" stroke-width="1"/>
-    <text x="15" y="90" font-size="13" font-weight="700" fill="rgba(255,255,255,0.85)" text-anchor="middle">Portugal</text>
-    <text x="15" y="106" font-size="10.5" font-weight="600" fill="{AZUL}" text-anchor="middle" opacity="0.85">aulas online</text>
+    <circle cx="{pt_pin[0]:g}" cy="{pt_pin[1]:g}" r="4.5" fill="{AZUL}" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="{PT_W / 2:g}" y="{PT_H + 22:g}" font-size="13" font-weight="700" fill="rgba(255,255,255,0.85)" text-anchor="middle">Portugal</text>
+    <text x="{PT_W / 2:g}" y="{PT_H + 38:g}" font-size="10.5" font-weight="600" fill="{AZUL}" text-anchor="middle" opacity="0.85">aulas online</text>
   </g>
 
   <!-- ================= ROTAS ================= -->
