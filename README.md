@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Paula Peclat — Pedagoga, Pesquisadora em Educação Midiática, Educadora Digital" width="100%">
+<img src="assets/banner.png" alt="Paula Peclat, Educação Tecnológica" width="100%">
 
 <a href="https://paulapeclat.com.br"><img src="assets/typing.svg" alt="typing" height="40"></a>
 
-<a href="https://paulapeclat.com.br"><strong>→ paulapeclat.com.br</strong></a> ·
+<a href="https://paulapeclat.com.br"><strong>paulapeclat.com.br</strong></a> ·
 <a href="https://instagram.com/paulapeclat.oficial"><strong>@paulapeclat.oficial</strong></a>
 
 <br><br>
@@ -15,13 +15,19 @@
 
 <br>
 
+Oi! Eu sou a Paula, mas na sala de aula todo mundo me chama de **Profe Paula** 👋
+
+Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças criando jogos, artigos sobre infâncias e scripts que eu mesma uso nas aulas. Este perfil é meio caderno de campo, meio fliperama. Fique à vontade pra mexer em tudo.
+
+<br>
+
 ### 🔭 O que eu faço
 
-**Pesquisa** — Mestrado em Educação (PPGEduc/UFRRJ), sob orientação da Profª Drª Anelise Monteiro do Nascimento. Trabalho na interseção de **educação midiática**, infâncias e tecnologia: investigo infâncias digitais a partir da Sociologia da Infância (Corsaro, Sarmento), tratando crianças como produtoras de cultura, não consumidoras passivas de mídia.
+**Pesquisa.** Faço mestrado em Educação no PPGEduc/UFRRJ, com orientação da Profª Drª Anelise Monteiro do Nascimento. Estudo como as crianças vivem o digital juntas, com os amigos, a partir da Sociologia da Infância (Corsaro, Sarmento). Parto de uma ideia simples que guia tudo o que faço: criança produz cultura, não só consome tela.
 
-**Ensino** — Fundadora da [APedê Digital](https://paulapeclat.com.br), plataforma de educação em tecnologia para crianças, com alunos de todos os 27 estados do Brasil e no exterior. Currículo em Python, Roblox/Luau, GDevelop e microStudio, com progressão do concreto ao abstrato.
+**Ensino.** Fundei a [APedê Digital](https://paulapeclat.com.br), onde ensino crianças a programar e criar jogos. Já tive alunos dos 27 estados do Brasil e de fora do país. A gente começa no concreto e vai chegando ao abstrato, passando por GDevelop, microStudio, Roblox/Luau e Python.
 
-**Projetos** — Ferramentas que atravessam pesquisa e prática: scripts educacionais, simuladores de sala de aula, análises de dados de jogos.
+**Projetos.** Gosto de construir as ferramentas que me faltam. Aqui tem script de aula, simulador de sala e análise de dados de jogos, quase sempre nascidos de uma pergunta que surgiu com a turma.
 
 <br>
 
@@ -39,40 +45,40 @@
 ### 🎮 A Trilha
 
 <div align="center">
-<img src="assets/trilha-rpg.svg" alt="Trilha da jornada — da Pedagogia às especializações, de JavaScript e Python a Jogos Digitais, até a APedê Digital e o Mestrado UFRRJ" width="100%">
+<img src="assets/trilha-rpg.svg" alt="Trilha da jornada, da Pedagogia às especializações, de JavaScript e Python a Jogos Digitais, até a APedê Digital e o Mestrado UFRRJ" width="100%">
 <br>
-<sub>gerada a partir de <code>data/trilha.json</code> — cada nova conquista é uma linha no JSON</sub>
+<sub>cada conquista nova vira uma linha em <code>data/trilha.json</code> e a trilha se redesenha sozinha</sub>
 </div>
 
 <br>
 
-### 🧭 Expedição Estelar — jogue agora
+### 🧭 Expedição Estelar, vem jogar!
 
-Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-preenchida e um robô processa sua jogada em ~30 segundos. Colete a ⭐!
+Inventei um joguinho coletivo pra quem passa por aqui. Escolha uma seta, clique em "Create" na issue que abrir e, em uns 30 segundos, um robô move a exploradora por você. Será que você pega a ⭐?
 
 <div align="center">
 
-<img src="assets/expedicao.svg" alt="Tabuleiro da Expedição Estelar — jogo coletivo controlado por issues" width="100%">
+<img src="assets/expedicao.svg" alt="Tabuleiro da Expedição Estelar, jogo coletivo controlado por issues" width="100%">
 
 <table>
 <tr>
 <td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cnorte&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬆️<br><strong>norte</strong></a></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cnorte&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬆️<br><strong>norte</strong></a></td>
 <td></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Coeste&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬅️ <strong>oeste</strong></a></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Coeste&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬅️ <strong>oeste</strong></a></td>
 <td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cleste&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80"><strong>leste</strong> ➡️</a></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cleste&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80"><strong>leste</strong> ➡️</a></td>
 </tr>
 <tr>
 <td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Csul&body=S%C3%B3%20clique%20em%20%22Create%22%20%E2%80%94%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬇️<br><strong>sul</strong></a></td>
+<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Csul&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬇️<br><strong>sul</strong></a></td>
 <td></td>
 </tr>
 </table>
 
-<sub>o tabuleiro pode levar alguns minutos para atualizar por causa do cache de imagens do GitHub</sub>
+<sub>se o tabuleiro demorar a mudar, é o cache de imagens do GitHub. Dá uns minutinhos!</sub>
 
 </div>
 
@@ -84,26 +90,26 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 🟢 Finalizando a qualificação do mestrado
 <!--STATUS-END-->
 
-<sub>(esta linha é atualizada automaticamente — ver `scripts/update_status.py`)</sub>
+<sub>essa linha se atualiza sozinha via `scripts/update_status.py`</sub>
 
 <br>
 
-### ✨ Recurso do dia — educação midiática
+### ✨ Recurso do dia em educação midiática
 
 <!--RECURSO-START-->
-🎯 **[5Rights Foundation](https://5rightsfoundation.com)** — Direitos digitais de crianças e adolescentes; incidência em design e regulação.
+🎯 **[EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online)**: rede europeia de pesquisa sobre crianças e internet.
 <!--RECURSO-END-->
 
-<sub>um recurso novo por dia, direto da minha lista curada <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
+<sub>todo dia sorteio um recurso da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
 
 <br>
 
 ### 🗺️ Mapa de Alcance
 
 <div align="center">
-<img src="assets/mapa-alcance.svg" alt="Mapa de alcance com geografia real — alunos de todos os 27 estados do Brasil, Portugal e Nova York, com rotas partindo do Rio de Janeiro" width="100%">
+<img src="assets/mapa-alcance.svg" alt="Mapa de alcance com alunos de todos os 27 estados do Brasil, Portugal e Nova York, com rotas partindo do Rio de Janeiro" width="100%">
 <br>
-<sub>gerado a partir de <code>data/alcance.json</code> — contornos projetados de coordenadas geográficas reais</sub>
+<sub>todo lugar de onde já veio aluno meu, desenhado a partir de <code>data/alcance.json</code> com coordenadas reais</sub>
 </div>
 
 <br>
@@ -111,14 +117,14 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 ### 🕹️ Ficha de Jogadora
 
 <div align="center">
-<img src="assets/rpg-card.svg" alt="Ficha RPG — habilidades, XP do mestrado e conquistas" width="49%">&nbsp;<img src="assets/stats.svg" alt="GitHub stats" width="45%">
+<img src="assets/rpg-card.svg" alt="Ficha RPG com habilidades, XP do mestrado e conquistas" width="49%">&nbsp;<img src="assets/stats.svg" alt="GitHub stats" width="45%">
 </div>
 
 <br>
 
 ### 🛠️ Ferramentas & tecnologias
 
-**Criação de jogos e apps — do concreto ao abstrato, na ordem em que ensino**
+**Criação de jogos e apps, na ordem em que eu ensino**
 
 ![Code.org](https://img.shields.io/badge/Code.org-00ADBC?style=flat-square&logoColor=white)
 ![Thunkable](https://img.shields.io/badge/Thunkable-FFB300?style=flat-square&logoColor=black)
@@ -167,9 +173,9 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
 
 <div align="center">
 
-<img src="assets/hero-3d.webp" alt="Cena 3D surreal — icosaedro com anel, lua orbitando e ilhas flutuantes na paleta do site" width="100%">
+<img src="assets/hero-3d.webp" alt="Cena 3D surreal com icosaedro com anel, lua orbitando e ilhas flutuantes na paleta do site" width="100%">
 
-<sub>Cena Three.js renderizada automaticamente em <code>scripts/render-3d-hero.js</code> — loop perfeito, sem JavaScript no README</sub>
+<sub>uma cena em Three.js que <code>scripts/render-3d-hero.js</code> renderiza sozinho, em loop, sem nenhum JavaScript no README</sub>
 
 </div>
 
@@ -182,26 +188,26 @@ Qualquer pessoa pode mover a exploradora! Clique numa seta, envie a issue pré-p
   <img src="assets/portfolio-3d-preview.webp" alt="Preview 3D do portfólio" width="600">
 </a>
 <br>
-<sub>Prévia gerada automaticamente a partir de paulapeclat.com.br</sub>
+<sub>clique pra visitar meu portfólio em 3D</sub>
 </div>
 
 <br>
 
-### 📚 Metodologia
+### 📚 Como eu trabalho
 
-- **Criança-centrada** — Escuto, observo e construo a partir das curiosidades das crianças
-- **Prático-reflexiva** — Teoria informando prática; prática gerando novos dados
-- **Progressivo** — Do concreto ao abstrato, do lúdico ao formal
-- **Colaborativa** — Espaço aberto para construção conjunta
+- **Começo pela criança.** Escuto, observo e monto a aula a partir do que ela tem curiosidade de saber.
+- **Teoria e prática andam juntas.** A pesquisa muda minha aula, e a aula me devolve perguntas novas pra pesquisa.
+- **Um passo de cada vez.** Do concreto ao abstrato, da brincadeira ao código.
+- **Ninguém cria sozinho.** A sala é um espaço de construção coletiva, e eu também aprendo com a turma.
 
 <br>
 
-### 💼 Colaborações Abertas
+### 💼 Bora fazer algo juntos?
 
-Estou aberta a:
-- **Pesquisa** em educação midiática, infâncias digitais, educação em tecnologia, game design educacional
-- **Ensino** via parcerias em oficinas, cursos, mentoria de projetos
-- **Desenvolvimento** de ferramentas educacionais e simuladores pedagógicos
+Adoro uma parceria! Se você pensa em algum destes caminhos, me chama:
+- **Pesquisa** sobre educação midiática, infâncias digitais e game design educacional
+- **Oficinas, cursos e mentorias** pra crianças ou pra educadores
+- **Ferramentas educacionais** e simuladores pedagógicos
 - **Consultoria** em políticas educacionais para o contexto digital
 
 <br>
@@ -218,5 +224,5 @@ Estou aberta a:
 ---
 
 <div align="center">
-<sub>Profile gamificado e atualizado automaticamente — ver <a href="https://github.com/paulapeclat/paulapeclat/tree/main/scripts">scripts</a> e <a href="https://github.com/paulapeclat/paulapeclat/tree/main/.github/workflows">workflows</a> · <a href="README.en.md">🇺🇸 English version</a></sub>
+<sub>feito com carinho, código e muitos robôzinhos. Veja os <a href="https://github.com/paulapeclat/paulapeclat/tree/main/scripts">scripts</a> e <a href="https://github.com/paulapeclat/paulapeclat/tree/main/.github/workflows">workflows</a> · <a href="README.en.md">🇺🇸 English version</a></sub>
 </div>

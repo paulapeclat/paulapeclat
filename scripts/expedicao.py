@@ -106,7 +106,7 @@ def render(state: dict) -> None:
     chip_w = round(len(chip_text) * 6.5) + 34
     chip_x = 960 - chip_w
 
-    svg = f'''<svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Expedição Estelar — jogo interativo: exploradora na posição {state['pos'][0]},{state['pos'][1]}, {state['estrelas']} estrelas coletadas">
+    svg = f'''<svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Expedição Estelar, jogo interativo com a exploradora na posição {state['pos'][0]},{state['pos'][1]}, {state['estrelas']} estrelas coletadas">
   <defs>
     <radialGradient id="eGlowCyan" cx="10%" cy="10%" r="60%">
       <stop offset="0%" stop-color="{CYAN}" stop-opacity="0.22"/>
@@ -147,7 +147,7 @@ def render(state: dict) -> None:
   <circle cx="50" cy="510" r="1.6" fill="{PINK}"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5.2s" begin="1.1s" repeatCount="indefinite"/></circle>
 
   <text x="40" y="56" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="1">EXPEDIÇÃO ESTELAR</text>
-  <text x="40" y="80" font-size="13" fill="rgba(255,255,255,0.6)">um jogo coletivo — qualquer visitante move a exploradora abrindo uma issue</text>
+  <text x="40" y="80" font-size="13" fill="rgba(255,255,255,0.6)">um jogo coletivo · qualquer visitante move a exploradora abrindo uma issue</text>
 
   <rect x="{chip_x}" y="34" width="{chip_w}" height="30" rx="15" fill="rgba(236,190,64,0.12)" stroke="rgba(236,190,64,0.45)"/>
   <text x="{chip_x + chip_w / 2:g}" y="53" font-size="12.5" font-weight="700" fill="{YELLOW}" text-anchor="middle">{chip_text}</text>
@@ -195,7 +195,7 @@ def render(state: dict) -> None:
   <!-- rodapé -->
   <text x="40" y="496" font-size="12.5" fill="rgba(255,255,255,0.6)">{ultimos}</text>
   <text x="960" y="496" font-size="12.5" fill="rgba(255,255,255,0.4)" text-anchor="end">movimentos: {state['movimentos']}</text>
-  <text x="40" y="522" font-size="11.5" fill="rgba(255,255,255,0.35)">colete a ★ — use as setas abaixo do mapa; o robô processa sua jogada em ~30s</text>
+  <text x="40" y="522" font-size="11.5" fill="rgba(255,255,255,0.35)">colete a ★ · use as setas abaixo do mapa; o robô processa sua jogada em ~30s</text>
 </svg>
 '''
     OUT_FILE.write_text(svg, encoding="utf-8")
@@ -209,7 +209,7 @@ def move(direcao: str, user: str) -> str:
     if direcao not in DIRECOES:
         render(state)
         return (
-            f"❓ Direção `{direcao}` inválida — use **norte**, **sul**, **leste** ou **oeste**. "
+            f"❓ Direção `{direcao}` inválida. Use **norte**, **sul**, **leste** ou **oeste**. "
             "Volte ao perfil e clique numa das setas!"
         )
 
@@ -219,7 +219,7 @@ def move(direcao: str, user: str) -> str:
     if not (0 <= nx < COLS and 0 <= ny < ROWS):
         render(state)
         return (
-            f"🧱 Opa, @{user} — a exploradora bateu na borda do mapa! "
+            f"🧱 Opa, @{user}, a exploradora bateu na borda do mapa! "
             "O movimento não foi aplicado. Tente outra direção."
         )
 
@@ -232,7 +232,7 @@ def move(direcao: str, user: str) -> str:
         respawn_star(state)
         msg = (
             f"⭐ **@{user} coletou uma estrela!** Total: **{state['estrelas']}**. "
-            "Uma nova estrela apareceu no mapa — obrigada por jogar! "
+            "Uma nova estrela apareceu no mapa. Obrigada por jogar! "
             "O tabuleiro no perfil atualiza em instantes."
         )
     else:

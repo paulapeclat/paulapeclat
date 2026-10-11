@@ -1,0 +1,40 @@
+name: Metadados dos repositórios
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/repos.json"
+      - "scripts/sync_metadados.py"
+  schedule:
+    - cron: "40 11 * * 1"   # toda segunda, 11:40 UTC (~08:40 em Brasília), pra atualizar o relatório
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Aplicar metadados e gerar relatório
+        env:
+          METADADOS_TOKEN: ${{ secrets.METADADOS_TOKEN }}
+        run: python scripts/sync_metadados.py
+
+      - name: Comitar relatório (se mudou)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/metadados-relatorio.md
+          git diff --cached --quiet || git commit -m "chore: atualiza relatório de metadados dos repositórios"
+          git pull --rebase origin main
+          git push

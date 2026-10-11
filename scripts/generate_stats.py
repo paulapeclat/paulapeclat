@@ -117,7 +117,7 @@ def render_svg(stats):
   <rect width="{width}" height="{height}" rx="16" fill="url(#glow)"/>
   <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="16" fill="none" stroke="rgba(255,255,255,0.08)"/>
 
-  <text x="24" y="38" font-size="16" font-weight="700" fill="{COLORS['text']}">GitHub — atividade</text>
+  <text x="24" y="38" font-size="16" font-weight="700" fill="{COLORS['text']}">GitHub · atividade</text>
 
   <text x="24" y="78" font-size="28" font-weight="800" fill="{COLORS['cyan']}">{stats['total_repos']}</text>
   <text x="24" y="96" font-size="11" fill="{COLORS['text_secondary']}">REPOSITÓRIOS</text>

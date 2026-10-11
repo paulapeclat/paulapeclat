@@ -1,0 +1,19 @@
+{
+  "_como_usar": "Edite este arquivo e comite. O workflow 'Metadados dos repositórios' aplica descrição, site e tópicos em todos os repos listados em 'repos' e gera data/metadados-relatorio.md com o que ainda falta nos outros.",
+
+  "padrao": {
+    "homepage": "https://paulapeclat.com.br",
+    "topics": ["educacao", "paulapeclat"]
+  },
+
+  "repos": {
+    "paulapeclat": {
+      "description": "Perfil gamificado da Profe Paula. Pedagogia, pesquisa sobre infâncias digitais e criação de jogos com crianças.",
+      "topics": ["github-profile", "profile-readme", "github-actions", "gamificacao", "educacao-midiatica"]
+    },
+    "awesome-educacao-midiatica": {
+      "description": "Lista curada de recursos de educação midiática para educadores, pesquisadores e famílias, com foco nas infâncias.",
+      "topics": ["awesome", "awesome-list", "educacao-midiatica", "media-literacy", "infancias", "criancas", "sociologia-da-infancia", "recursos-educacionais"]
+    }
+  }
+}

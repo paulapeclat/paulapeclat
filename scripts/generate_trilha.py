@@ -164,7 +164,7 @@ def main():
     <text x="{fx}" y="{fy - 26}" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" text-anchor="middle">próximo nível</text>
   </g>'''
 
-    svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre {n} estações — da Pedagogia ao Mestrado">
+    svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Trilha da jornada de Paula Peclat, estilo mapa de jogo, com personagem caminhando entre {n} estações, da Pedagogia ao Mestrado">
   <defs>
     <radialGradient id="tGlowCyan" cx="12%" cy="18%" r="55%">
       <stop offset="0%" stop-color="{CYAN}" stop-opacity="0.28"/>
@@ -229,7 +229,7 @@ def main():
 
   <!-- titulo -->
   <text x="40" y="54" font-size="26" font-weight="800" fill="#FFFFFF" letter-spacing="1">A TRILHA</text>
-  <text x="40" y="78" font-size="13" fill="rgba(255,255,255,0.6)">do concreto ao abstrato · do lúdico ao formal — uma jornada em construção</text>
+  <text x="40" y="78" font-size="13" fill="rgba(255,255,255,0.6)">do concreto ao abstrato · do lúdico ao formal · uma jornada em construção</text>
 
   <!-- chip XP -->
   <rect x="790" y="30" width="176" height="30" rx="15" fill="rgba(34,195,217,0.12)" stroke="rgba(34,195,217,0.4)"/>
@@ -287,7 +287,7 @@ def main():
   </g>
 
   <!-- legenda -->
-  <text x="40" y="618" font-size="11" fill="rgba(255,255,255,0.4)">▣ concluído&#160;&#160;&#160;★ em andamento&#160;&#160;&#160;? em breve — a personagem caminha sozinha, espere e veja</text>
+  <text x="40" y="618" font-size="11" fill="rgba(255,255,255,0.4)">▣ concluído&#160;&#160;&#160;★ em andamento&#160;&#160;&#160;? em breve · a personagem caminha sozinha, espere e veja</text>
 </svg>
 '''
     OUT_FILE.write_text(svg, encoding="utf-8")

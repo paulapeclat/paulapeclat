@@ -37,8 +37,8 @@ def main():
     print(f"Recurso de hoje: {nome} ({len(recursos)} na rotação)")
 
     for readme, texto in [
-        (ROOT / "README.md", f"🎯 **[{nome}]({url})** — {desc}."),
-        (ROOT / "README.en.md", f"🎯 **[{nome}]({url})** — {desc}. <sub>(PT)</sub>"),
+        (ROOT / "README.md", f"🎯 **[{nome}]({url})**: {desc}."),
+        (ROOT / "README.en.md", f"🎯 **[{nome}]({url})**: {desc}. <sub>(PT)</sub>"),
     ]:
         if not readme.exists():
             continue
