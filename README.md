@@ -15,7 +15,7 @@
 
 <br>
 
-Oi! Eu sou a Paula, mas na sala de aula todo mundo me chama de **Profe Paula** 👋
+Oi! Eu sou a Paula Peclat 👋
 
 Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças criando jogos, artigos sobre infâncias e scripts que eu mesma uso nas aulas. Este perfil é meio caderno de campo, meio fliperama. Fique à vontade pra mexer em tudo.
 
@@ -88,7 +88,7 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 <br>
 
-### 📊 Painel da Profe
+### 📊 Educação Tecnológica Paula Peclat
 
 <div align="center">
 <img src="assets/painel.svg" alt="Painel no estilo learning analytics com minhas competências docentes, a trilha do currículo e o progresso do mestrado" width="100%">

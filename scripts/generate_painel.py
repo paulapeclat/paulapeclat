@@ -129,7 +129,7 @@ def main():
         (len(d["curriculo"]), "ferramentas no currículo", PURPLE),
     ])
 
-    svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de competências da Profe Paula: {anos} anos em sala de aula, alunos em {n_estados} estados, gráfico radar de competências docentes e escada do currículo do concreto ao abstrato">
+    svg = f'''<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de competências da Educação Tecnológica Paula Peclat: {anos} anos em sala de aula, alunos em {n_estados} estados, gráfico radar de competências docentes e escada do currículo do concreto ao abstrato">
   <defs>
     <radialGradient id="pGlow1" cx="12%" cy="90%" r="60%"><stop offset="0" stop-color="{CYAN}" stop-opacity=".22"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></radialGradient>
     <radialGradient id="pGlow2" cx="90%" cy="8%" r="55%"><stop offset="0" stop-color="{PURPLE}" stop-opacity=".18"/><stop offset="1" stop-color="{PURPLE}" stop-opacity="0"/></radialGradient>
