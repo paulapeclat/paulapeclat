@@ -29,6 +29,10 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 **APedê Digital.** É o produto novo em que estou colocando tudo o que aprendi nesses anos de sala de aula. Está na reta final de desenvolvimento, e logo conto mais por aqui.
 
+<div align="center">
+<img src="assets/construtor.svg" alt="Construtor de blocos montando as letras da APedê" width="100%">
+</div>
+
 **Projetos.** Gosto de construir as ferramentas que me faltam. Aqui tem script de aula, simulador de sala e análise de dados de jogos, quase sempre nascidos de uma pergunta que surgiu com a turma.
 
 <br>
@@ -50,38 +54,6 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 <img src="assets/trilha-rpg.svg" alt="Trilha da jornada, da Pedagogia às especializações, de JavaScript e Python a Jogos Digitais, até a APedê Digital e o Mestrado UFRRJ" width="100%">
 <br>
 <sub>cada conquista nova vira uma linha em <code>data/trilha.json</code> e a trilha se redesenha sozinha</sub>
-</div>
-
-<br>
-
-### 🧭 Expedição Estelar, vem jogar!
-
-Inventei um joguinho coletivo pra quem passa por aqui. Escolha uma seta, clique em "Create" na issue que abrir e, em uns 30 segundos, um robô move a exploradora por você. Será que você pega a ⭐?
-
-<div align="center">
-
-<img src="assets/expedicao.svg" alt="Tabuleiro da Expedição Estelar, jogo coletivo controlado por issues" width="100%">
-
-<table>
-<tr>
-<td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cnorte&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬆️<br><strong>norte</strong></a></td>
-<td></td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Coeste&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬅️ <strong>oeste</strong></a></td>
-<td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cleste&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80"><strong>leste</strong> ➡️</a></td>
-</tr>
-<tr>
-<td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Csul&body=S%C3%B3%20clique%20em%20%22Create%22%2C%20o%20rob%C3%B4%20processa%20sua%20jogada%20e%20fecha%20esta%20issue%20sozinho%21%20%F0%9F%9A%80">⬇️<br><strong>sul</strong></a></td>
-<td></td>
-</tr>
-</table>
-
-<sub>se o tabuleiro demorar a mudar, é o cache de imagens do GitHub. Dá uns minutinhos!</sub>
-
 </div>
 
 <br>
@@ -116,10 +88,14 @@ Inventei um joguinho coletivo pra quem passa por aqui. Escolha uma seta, clique 
 
 <br>
 
-### 🕹️ Ficha de Jogadora
+### 📊 Painel da Profe
 
 <div align="center">
-<img src="assets/rpg-card.svg" alt="Ficha RPG com habilidades, XP do mestrado e conquistas" width="49%">&nbsp;<img src="assets/stats.svg" alt="GitHub stats" width="45%">
+<img src="assets/painel.svg" alt="Painel no estilo learning analytics com minhas competências docentes, a trilha do currículo e o progresso do mestrado" width="100%">
+<br>
+<sub>inspirado nos Learning Analytics Dashboards, gerado a partir de <code>data/painel.json</code></sub>
+<br><br>
+<img src="assets/stats.svg" alt="Atividade no GitHub" width="60%">
 </div>
 
 <br>

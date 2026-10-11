@@ -1,0 +1,24 @@
+{
+  "titulo": "PAINEL DA PROFE",
+  "subtitulo": "competências e habilidades que coloco em jogo no desenvolvimento das aulas",
+  "inicio_docencia": 2007,
+  "paises": 3,
+  "competencias": [
+    { "nome": "Ensino", "valor": 95 },
+    { "nome": "Mediação com crianças", "valor": 90 },
+    { "nome": "Pesquisa", "valor": 85 },
+    { "nome": "Game design", "valor": 75 },
+    { "nome": "Produção de mídia", "valor": 70 },
+    { "nome": "Programação", "valor": 65 }
+  ],
+  "curriculo": [
+    { "ferramenta": "Code.org", "tipo": "blocos" },
+    { "ferramenta": "Thunkable", "tipo": "blocos + apps" },
+    { "ferramenta": "MakeCode Arcade", "tipo": "blocos ↔ JavaScript" },
+    { "ferramenta": "microStudio", "tipo": "código simples" },
+    { "ferramenta": "GDevelop", "tipo": "eventos" },
+    { "ferramenta": "Roblox Studio", "tipo": "Luau" },
+    { "ferramenta": "Python", "tipo": "texto puro" }
+  ],
+  "mestrado": { "rotulo": "Mestrado PPGEduc/UFRRJ · qualificação", "percentual": 78 }
+}

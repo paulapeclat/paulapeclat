@@ -2,13 +2,11 @@
 """
 Gera assets/mapa-alcance.svg a partir de data/alcance.json.
 
-Os contornos do Brasil e de Portugal são projetados de coordenadas
-geográficas reais (longitude/latitude do litoral e das fronteiras), e os
-estados usam o centroide real de cada UF — o mapa é fidedigno, não um
-polígono à mão livre.
+Os contornos de cada estado vêm da malha real das UFs (data/brasil-ufs.json)
+e Portugal é projetado de coordenadas reais do litoral e da fronteira.
 
-Paula só edita data/alcance.json (base, lista de estados, textos) e comita —
-o workflow regenera o mapa automaticamente.
+Paula só edita data/alcance.json (base, lista de estados, textos) e comita.
+O workflow regenera o mapa automaticamente.
 
 Uso local: python scripts/generate_map.py
 """
@@ -27,27 +25,20 @@ PINK_LIGHT = "#F2A2C0"
 YELLOW = "#ECBE40"
 
 # ---------------------------------------------------------------- BRASIL
-# Contorno simplificado do Brasil (lon, lat) — litoral e fronteiras reais,
-# sentido horário a partir do Monte Caburaí/RR (ponto mais ao norte).
-BRASIL_OUTLINE = [
-    (-60.20, 5.27), (-59.50, 4.40), (-56.50, 1.90), (-54.60, 2.30),
-    (-52.60, 2.50), (-51.60, 4.20), (-51.00, 1.80), (-49.90, 1.10),
-    (-48.40, -0.70), (-44.30, -2.40), (-41.80, -2.90), (-38.50, -3.70),
-    (-35.50, -5.11), (-34.79, -7.15), (-35.00, -9.00), (-36.40, -10.50),
-    (-38.50, -13.00), (-39.00, -16.30), (-39.70, -18.30), (-40.30, -20.30),
-    (-41.90, -22.90), (-43.20, -23.05), (-45.00, -23.80), (-46.40, -24.00),
-    (-48.00, -25.40), (-48.60, -26.70), (-48.60, -28.50), (-50.20, -30.00),
-    (-51.50, -31.80), (-52.40, -32.60), (-53.37, -33.74),
-    # fronteira oeste, do Chuí para o norte
-    (-55.60, -30.80), (-57.60, -30.20), (-56.00, -28.50), (-54.70, -26.60),
-    (-54.60, -25.50), (-54.30, -24.00), (-55.80, -22.30), (-56.50, -21.50),
-    (-57.80, -20.70), (-57.70, -19.00), (-58.40, -17.30), (-60.20, -16.27),
-    (-63.10, -12.50), (-65.30, -10.70), (-66.60, -9.90), (-69.60, -10.95),
-    (-70.60, -9.80), (-72.20, -9.40), (-73.60, -8.50), (-73.99, -7.35),
-    (-72.90, -5.10), (-69.90, -4.20), (-69.40, -1.50), (-69.80, 0.60),
-    (-67.10, 1.70), (-66.90, 3.60), (-64.70, 4.20), (-63.40, 3.90),
-    (-61.30, 4.50),
-]
+# Contornos reais de cada UF (lon, lat), simplificados a partir da malha do
+# IBGE e guardados em data/brasil-ufs.json. Cada UF pode ter mais de um anel
+# (ilhas grandes, como Marajó no PA).
+UFS_FILE = ROOT / "data" / "brasil-ufs.json"
+
+# tom de cada região, na paleta do site
+REGIOES = {
+    "Norte": (["AC", "AM", "AP", "PA", "RO", "RR", "TO"], CYAN),
+    "Nordeste": (["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"], PINK),
+    "Centro-Oeste": (["DF", "GO", "MS", "MT"], YELLOW),
+    "Sudeste": (["ES", "MG", "RJ", "SP"], PINK_LIGHT),
+    "Sul": (["PR", "RS", "SC"], "#8CD9E6"),
+}
+COR_UF = {uf: cor for ufs, cor in REGIOES.values() for uf in ufs}
 
 # Centroide aproximado de cada UF (lon, lat)
 UF_COORDS = {
@@ -99,6 +90,21 @@ def esc(s: str) -> str:
 def polygon(points, proj):
     coords = [proj(lon, lat) for lon, lat in points]
     return "M " + " L ".join(f"{x:g} {y:g}" for x, y in coords) + " Z"
+
+
+def render_ufs(estados):
+    ufs = json.loads(UFS_FILE.read_text(encoding="utf-8"))
+    parts = ['    <g stroke="#0b0b12" stroke-width="0.9" stroke-linejoin="round">']
+    for uf, aneis in ufs.items():
+        ativo = uf in estados
+        cor = COR_UF.get(uf, CYAN)
+        d = " ".join(polygon(anel, br) for anel in aneis)
+        parts.append(
+            f'      <path d="{d}" fill="{cor}" fill-opacity="{0.55 if ativo else 0.12}"><title>{uf}</title></path>'
+        )
+    parts.append("    </g>")
+    contorno = " ".join(polygon(anel, br) for aneis in ufs.values() for anel in aneis)
+    return "\n".join(parts), contorno
 
 
 def render_dots(estados, base):
@@ -176,7 +182,7 @@ def main():
     rota_ny = f"M {bx:g} {by:g} Q {bx + (495 - bx) * 0.45:.0f} 28 495 58"
     rota_pt = f"M {bx:g} {by:g} Q {bx + (780 - bx) * 0.55:.0f} 2 780 112"
 
-    brasil_path = polygon(BRASIL_OUTLINE, br)
+    ufs_svg, _ = render_ufs(estados)
     portugal_path = polygon(PT_OUTLINE, pt)
 
     svg = f'''<svg viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Mapa de alcance com geografia real: {caption}, Portugal e Nova York, com rotas animadas partindo da base {base}">
@@ -243,13 +249,12 @@ def main():
   </g>
 
   <text x="40" y="56" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="1">MAPA DE ALCANCE</text>
-  <text x="40" y="80" font-size="13" fill="rgba(255,255,255,0.6)">aulas, alunos e pesquisa — do Rio de Janeiro para o mundo</text>
+  <text x="40" y="80" font-size="13" fill="rgba(255,255,255,0.6)">aulas, alunos e pesquisa · do Rio de Janeiro para o mundo</text>
 
   <!-- ================= BRASIL (contorno real projetado) ================= -->
   <g transform="translate({BR_ORIGIN[0]},{BR_ORIGIN[1]})">
     <ellipse cx="118" cy="262" rx="125" ry="15" fill="{CYAN}" opacity="0.07"/>
-    <path d="{brasil_path}"
-      fill="rgba(34,195,217,0.10)" stroke="{CYAN}" stroke-width="1.6" stroke-linejoin="round"/>
+{ufs_svg}
     <circle cx="60" cy="256" r="3.4" fill="rgba(34,195,217,0.4)"><animate attributeName="cy" values="256;248;256" dur="6s" repeatCount="indefinite"/></circle>
     <circle cx="160" cy="240" r="2.4" fill="rgba(34,195,217,0.3)"><animate attributeName="cy" values="240;233;240" dur="7s" begin="1s" repeatCount="indefinite"/></circle>
     <circle cx="115" cy="268" r="2" fill="rgba(255,255,255,0.25)"><animate attributeName="cy" values="268;262;268" dur="5.4s" begin="0.5s" repeatCount="indefinite"/></circle>
@@ -328,7 +333,7 @@ def main():
 </svg>
 '''
     OUT_FILE.write_text(svg, encoding="utf-8")
-    print(f"Mapa gerado: {OUT_FILE} ({n} estados, base {base}, contorno com {len(BRASIL_OUTLINE)} pontos)")
+    print(f"Mapa gerado: {OUT_FILE} ({n} estados, base {base}, contornos de 27 UFs)")
 
 
 if __name__ == "__main__":

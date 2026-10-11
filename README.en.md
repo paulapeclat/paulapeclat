@@ -46,38 +46,6 @@
 
 <br>
 
-### 🧭 Star Expedition — play now
-
-Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a bot processes your move in ~30 seconds. Collect the ⭐! <sub>(the bot replies in Portuguese 🇧🇷)</sub>
-
-<div align="center">
-
-<img src="assets/expedicao.svg" alt="Star Expedition board — collective game controlled through GitHub issues" width="100%">
-
-<table>
-<tr>
-<td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cnorte&body=Just%20click%20%22Create%22%20%E2%80%94%20the%20bot%20processes%20your%20move%20and%20closes%20this%20issue%20automatically%21%20%F0%9F%9A%80">⬆️<br><strong>north</strong></a></td>
-<td></td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Coeste&body=Just%20click%20%22Create%22%20%E2%80%94%20the%20bot%20processes%20your%20move%20and%20closes%20this%20issue%20automatically%21%20%F0%9F%9A%80">⬅️ <strong>west</strong></a></td>
-<td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Cleste&body=Just%20click%20%22Create%22%20%E2%80%94%20the%20bot%20processes%20your%20move%20and%20closes%20this%20issue%20automatically%21%20%F0%9F%9A%80"><strong>east</strong> ➡️</a></td>
-</tr>
-<tr>
-<td></td>
-<td align="center"><a href="https://github.com/paulapeclat/paulapeclat/issues/new?title=expedicao%7Cmover%7Csul&body=Just%20click%20%22Create%22%20%E2%80%94%20the%20bot%20processes%20your%20move%20and%20closes%20this%20issue%20automatically%21%20%F0%9F%9A%80">⬇️<br><strong>south</strong></a></td>
-<td></td>
-</tr>
-</table>
-
-<sub>the board may take a few minutes to refresh due to GitHub's image cache</sub>
-
-</div>
-
-<br>
-
 ### 📌 Now
 
 <!--STATUS-START-->
@@ -108,10 +76,12 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 
 <br>
 
-### 🕹️ Player Card
+### 📊 Teacher Dashboard
 
 <div align="center">
-<img src="assets/rpg-card.svg" alt="RPG card — skills, master's XP and unlocked achievements" width="49%">&nbsp;<img src="assets/stats.svg" alt="GitHub stats" width="45%">
+<img src="assets/painel.svg" alt="Learning-analytics style dashboard with my teaching competencies, curriculum path and master's progress (in Portuguese)" width="100%">
+<br><br>
+<img src="assets/stats.svg" alt="GitHub activity" width="60%">
 </div>
 
 <br>
