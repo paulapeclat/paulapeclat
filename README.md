@@ -71,7 +71,7 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recurso do dia em educação midiática
 
 <!--RECURSO-START-->
-🎯 **[EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online)**: rede europeia de pesquisa sobre crianças e internet.
+🎯 **[5Rights Foundation](https://5rightsfoundation.com)**: Direitos digitais de crianças e adolescentes; incidência em design e regulação.
 <!--RECURSO-END-->
 
 <sub>todo dia sorteio um recurso da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

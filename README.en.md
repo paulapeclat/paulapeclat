@@ -59,7 +59,7 @@
 ### ✨ Resource of the day — media education
 
 <!--RECURSO-START-->
-🎯 **[5Rights Foundation](https://5rightsfoundation.com)** — Direitos digitais de crianças e adolescentes; incidência em design e regulação. <sub>(PT)</sub>
+🎯 **[5Rights Foundation](https://5rightsfoundation.com)**: Direitos digitais de crianças e adolescentes; incidência em design e regulação. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
