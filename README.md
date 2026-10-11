@@ -171,30 +171,6 @@ Inventei um joguinho coletivo pra quem passa por aqui. Escolha uma seta, clique 
 
 <br>
 
-### 🪐 Objetos 3D
-
-<div align="center">
-
-<img src="assets/hero-3d.webp" alt="Cena 3D surreal com icosaedro com anel, lua orbitando e ilhas flutuantes na paleta do site" width="100%">
-
-<sub>uma cena em Three.js que <code>scripts/render-3d-hero.js</code> renderiza sozinho, em loop, sem nenhum JavaScript no README</sub>
-
-</div>
-
-<br>
-
-### 🌐 Ver em 3D
-
-<div align="center">
-<a href="https://paulapeclat.com.br">
-  <img src="assets/portfolio-3d-preview.webp" alt="Preview 3D do portfólio" width="600">
-</a>
-<br>
-<sub>clique pra visitar meu portfólio em 3D</sub>
-</div>
-
-<br>
-
 ### 📚 Como eu trabalho
 
 - **Começo pela criança.** Escuto, observo e monto a aula a partir do que ela tem curiosidade de saber.

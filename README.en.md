@@ -163,30 +163,6 @@ Anyone can move the explorer! Click an arrow, submit the pre-filled issue, and a
 
 <br>
 
-### 🪐 3D Objects
-
-<div align="center">
-
-<img src="assets/hero-3d.webp" alt="Surreal 3D scene — ringed icosahedron, orbiting moon and floating islands in the site's palette" width="100%">
-
-<sub>Three.js scene rendered automatically by <code>scripts/render-3d-hero.js</code> — perfect loop, no JavaScript in the README</sub>
-
-</div>
-
-<br>
-
-### 🌐 See it in 3D
-
-<div align="center">
-<a href="https://paulapeclat.com.br">
-  <img src="assets/portfolio-3d-preview.webp" alt="3D portfolio preview" width="600">
-</a>
-<br>
-<sub>Preview generated automatically from paulapeclat.com.br</sub>
-</div>
-
-<br>
-
 ### 📚 Methodology
 
 - **Child-centered** — I listen, observe and build from children's own curiosities
