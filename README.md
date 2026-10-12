@@ -71,7 +71,7 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 🎯 **[5Rights Foundation](https://5rightsfoundation.com)**: Direitos digitais de crianças e adolescentes; incidência em design e regulação.
 <!--RECURSO-END-->
 
-<sub>todo dia sorteio um recurso da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
+<sub>todo dia aparece aqui um recurso novo da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
 
 <br>
 
