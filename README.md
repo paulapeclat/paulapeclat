@@ -68,7 +68,7 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recurso do dia em educação midiática
 
 <!--RECURSO-START-->
-🎯 **[5Rights Foundation](https://5rightsfoundation.com)**: Direitos digitais de crianças e adolescentes; incidência em design e regulação.
+🎯 **[EduCapes](https://educapes.capes.gov.br)**: Repositório de recursos educacionais abertos mantido pela CAPES.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui um recurso novo da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
