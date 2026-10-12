@@ -3,6 +3,9 @@
 Atualiza a seção "Recurso do dia" no README.md e README.en.md com um item
 da lista curada awesome-educacao-midiatica, rotacionando por dia do ano.
 
+Só entram referências brasileiras: sites com domínio .br, mais as
+iniciativas brasileiras que usam outro domínio (lista BRASILEIROS_SEM_BR).
+
 Roda diariamente via .github/workflows/recurso-do-dia.yml.
 
 Uso local: python scripts/recurso_do_dia.py
@@ -10,6 +13,7 @@ Uso local: python scripts/recurso_do_dia.py
 import datetime
 import re
 import sys
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -19,7 +23,14 @@ FONTE = "https://raw.githubusercontent.com/paulapeclat/awesome-educacao-midiatic
 START = "<!--RECURSO-START-->"
 END = "<!--RECURSO-END-->"
 PATTERN = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
+BRASILEIROS_SEM_BR = {"aosfatos.org"}
 ENTRADA = re.compile(r"^- \[(.+?)\]\((https?://[^\s)]+)\) — (.+?)\.?\s*$", re.MULTILINE)
+
+
+def eh_brasileiro(url: str) -> bool:
+    host = urllib.parse.urlparse(url).hostname or ""
+    host = host.removeprefix("www.")
+    return host.endswith(".br") or host in BRASILEIROS_SEM_BR
 
 
 def main():
@@ -29,7 +40,7 @@ def main():
     with urllib.request.urlopen(FONTE, timeout=30) as r:
         lista = r.read().decode("utf-8")
 
-    recursos = ENTRADA.findall(lista)
+    recursos = [r for r in ENTRADA.findall(lista) if eh_brasileiro(r[1])]
     if not recursos:
         raise SystemExit("erro: nenhum recurso encontrado na lista curada")
 
