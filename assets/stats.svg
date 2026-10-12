@@ -9,11 +9,11 @@
     </style>
   </defs>
 
-  <rect width="480" height="260" rx="16" fill="#000000"/>
+  <rect width="480" height="260" rx="16" fill="#000104"/>
   <rect width="480" height="260" rx="16" fill="url(#glow)"/>
   <rect x="0.5" y="0.5" width="479" height="259" rx="16" fill="none" stroke="rgba(255,255,255,0.08)"/>
 
-  <text x="24" y="38" font-size="16" font-weight="700" fill="#FFFFFF">GitHub — atividade</text>
+  <text x="24" y="38" font-size="16" font-weight="700" fill="#FFFFFF">GitHub · atividade</text>
 
   <text x="24" y="78" font-size="28" font-weight="800" fill="#12A9DB">10</text>
   <text x="24" y="96" font-size="11" fill="rgba(255,255,255,0.65)">REPOSITÓRIOS</text>
@@ -32,7 +32,7 @@
         
     <text x="24" y="176" font-size="13" fill="rgba(255,255,255,0.65)">Python</text>
     <rect x="140" y="164" width="240" height="10" rx="5" fill="rgba(255,255,255,0.08)"/>
-    <rect x="140" y="164" width="240" height="10" rx="5" fill="#E14489"/>
+    <rect x="140" y="164" width="240" height="10" rx="5" fill="#8D48E5"/>
         
     <text x="24" y="202" font-size="13" fill="rgba(255,255,255,0.65)">HTML</text>
     <rect x="140" y="190" width="240" height="10" rx="5" fill="rgba(255,255,255,0.08)"/>
@@ -40,10 +40,10 @@
         
     <text x="24" y="228" font-size="13" fill="rgba(255,255,255,0.65)">Luau</text>
     <rect x="140" y="216" width="240" height="10" rx="5" fill="rgba(255,255,255,0.08)"/>
-    <rect x="140" y="216" width="120" height="10" rx="5" fill="#8D48E5"/>
+    <rect x="140" y="216" width="120" height="10" rx="5" fill="#80C733"/>
         
     <text x="24" y="254" font-size="13" fill="rgba(255,255,255,0.65)">JavaScript</text>
     <rect x="140" y="242" width="240" height="10" rx="5" fill="rgba(255,255,255,0.08)"/>
-    <rect x="140" y="242" width="120" height="10" rx="5" fill="#80C733"/>
+    <rect x="140" y="242" width="120" height="10" rx="5" fill="#E14489"/>
         
 </svg>
