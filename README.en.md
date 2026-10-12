@@ -40,8 +40,6 @@
 
 <div align="center">
 <img src="assets/trilha-rpg.svg" alt="Journey trail — from Pedagogy through specializations, JavaScript and Python to Digital Games, APedê Digital and the Master's at UFRRJ" width="100%">
-<br>
-<sub>generated from <code>data/trilha.json</code> — every new milestone is one line of JSON</sub>
 </div>
 
 <br>
@@ -52,7 +50,6 @@
 🟢 Finishing my master's qualifying exam
 <!--STATUS-END-->
 
-<sub>(this line updates automatically — see `scripts/update_status.py`)</sub>
 
 <br>
 
@@ -70,8 +67,6 @@
 
 <div align="center">
 <img src="assets/mapa-alcance.svg" alt="Reach map with real geography — students from all 27 Brazilian states, Portugal and New York, with routes departing from Rio de Janeiro" width="100%">
-<br>
-<sub>generated from <code>data/alcance.json</code> — outlines projected from real geographic coordinates</sub>
 </div>
 
 <br>
@@ -164,5 +159,5 @@ I'm open to:
 ---
 
 <div align="center">
-<sub>Gamified profile, updated automatically — see <a href="https://github.com/paulapeclat/paulapeclat/tree/main/scripts">scripts</a> and <a href="https://github.com/paulapeclat/paulapeclat/tree/main/.github/workflows">workflows</a> · <a href="README.md">🇧🇷 versão em português</a></sub>
+<sub><a href="README.md">🇧🇷 versão em português</a></sub>
 </div>

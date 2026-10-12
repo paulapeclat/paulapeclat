@@ -52,8 +52,6 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 <div align="center">
 <img src="assets/trilha-rpg.svg" alt="Trilha da jornada, da Pedagogia às especializações, de JavaScript e Python a Jogos Digitais, até a APedê Digital e o Mestrado UFRRJ" width="100%">
-<br>
-<sub>cada conquista nova vira uma linha em <code>data/trilha.json</code> e a trilha se redesenha sozinha</sub>
 </div>
 
 <br>
@@ -64,7 +62,6 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 🟢 Finalizando a qualificação do mestrado
 <!--STATUS-END-->
 
-<sub>essa linha se atualiza sozinha via `scripts/update_status.py`</sub>
 
 <br>
 
@@ -82,8 +79,6 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 <div align="center">
 <img src="assets/mapa-alcance.svg" alt="Mapa de alcance com alunos de todos os 27 estados do Brasil, Portugal e Nova York, com rotas partindo do Rio de Janeiro" width="100%">
-<br>
-<sub>todo lugar de onde já veio aluno meu, desenhado a partir de <code>data/alcance.json</code> com coordenadas reais</sub>
 </div>
 
 <br>
@@ -92,8 +87,6 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 <div align="center">
 <img src="assets/painel.svg" alt="Painel no estilo learning analytics com minhas competências docentes, a trilha do currículo e o progresso do mestrado" width="100%">
-<br>
-<sub>inspirado nos Learning Analytics Dashboards, gerado a partir de <code>data/painel.json</code></sub>
 <br><br>
 <img src="assets/stats.svg" alt="Atividade no GitHub" width="60%">
 </div>
@@ -179,5 +172,5 @@ Adoro uma parceria! Se você pensa em algum destes caminhos, me chama:
 ---
 
 <div align="center">
-<sub>feito com carinho, código e muitos robôzinhos. Veja os <a href="https://github.com/paulapeclat/paulapeclat/tree/main/scripts">scripts</a> e <a href="https://github.com/paulapeclat/paulapeclat/tree/main/.github/workflows">workflows</a> · <a href="README.en.md">🇺🇸 English version</a></sub>
+<sub><a href="README.en.md">🇺🇸 English version</a></sub>
 </div>
