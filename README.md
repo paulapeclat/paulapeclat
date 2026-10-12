@@ -65,13 +65,15 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 
 <br>
 
-### ✨ Recurso do dia em educação midiática
+### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🎯 **[EduCapes](https://educapes.capes.gov.br)**: Repositório de recursos educacionais abertos mantido pela CAPES.
+🇧🇷 **Brasil** · [EduCapes](https://educapes.capes.gov.br): Repositório de recursos educacionais abertos mantido pela CAPES.
+
+🌍 **Mundo** · [Media Education Lab](https://mediaeducationlab.com): Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
 <!--RECURSO-END-->
 
-<sub>todo dia aparece aqui um recurso novo da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
+<sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
 
 <br>
 

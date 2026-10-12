@@ -53,13 +53,15 @@
 
 <br>
 
-### ✨ Resource of the day — media education
+### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🎯 **[EduCapes](https://educapes.capes.gov.br)**: Repositório de recursos educacionais abertos mantido pela CAPES. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [EduCapes](https://educapes.capes.gov.br): Repositório de recursos educacionais abertos mantido pela CAPES. <sub>(PT)</sub>
+
+🌍 **World** · [Media Education Lab](https://mediaeducationlab.com): Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
-<sub>one new resource every day, straight from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
+<sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
 
 <br>
 

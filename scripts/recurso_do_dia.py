@@ -3,8 +3,10 @@
 Atualiza a seção "Recurso do dia" no README.md e README.en.md com um item
 da lista curada awesome-educacao-midiatica, rotacionando por dia do ano.
 
-Só entram referências brasileiras: sites com domínio .br, mais as
-iniciativas brasileiras que usam outro domínio (lista BRASILEIROS_SEM_BR).
+Mostra dois recursos por dia, cada um com a sua rotação:
+  🇧🇷 Brasil: sites com domínio .br, mais as iniciativas brasileiras que usam
+     outro domínio (lista BRASILEIROS_SEM_BR)
+  🌍 Mundo: todo o resto da lista
 
 Roda diariamente via .github/workflows/recurso-do-dia.yml.
 
@@ -40,16 +42,29 @@ def main():
     with urllib.request.urlopen(FONTE, timeout=30) as r:
         lista = r.read().decode("utf-8")
 
-    recursos = [r for r in ENTRADA.findall(lista) if eh_brasileiro(r[1])]
-    if not recursos:
-        raise SystemExit("erro: nenhum recurso encontrado na lista curada")
+    todos = ENTRADA.findall(lista)
+    brasil = [r for r in todos if eh_brasileiro(r[1])]
+    mundo = [r for r in todos if not eh_brasileiro(r[1])]
+    if not brasil or not mundo:
+        raise SystemExit("erro: a lista precisa ter recursos brasileiros e internacionais")
 
-    nome, url, desc = recursos[datetime.date.today().toordinal() % len(recursos)]
-    print(f"Recurso de hoje: {nome} ({len(recursos)} na rotação)")
+    hoje = datetime.date.today().toordinal()
+    br_nome, br_url, br_desc = brasil[hoje % len(brasil)]
+    mu_nome, mu_url, mu_desc = mundo[hoje % len(mundo)]
+    print(f"Brasil: {br_nome} ({len(brasil)} na rotação) | Mundo: {mu_nome} ({len(mundo)} na rotação)")
+
+    pt = (
+        f"🇧🇷 **Brasil** · [{br_nome}]({br_url}): {br_desc}.\n\n"
+        f"🌍 **Mundo** · [{mu_nome}]({mu_url}): {mu_desc}."
+    )
+    en = (
+        f"🇧🇷 **Brazil** · [{br_nome}]({br_url}): {br_desc}. <sub>(PT)</sub>\n\n"
+        f"🌍 **World** · [{mu_nome}]({mu_url}): {mu_desc}. <sub>(PT)</sub>"
+    )
 
     for readme, texto in [
-        (ROOT / "README.md", f"🎯 **[{nome}]({url})**: {desc}."),
-        (ROOT / "README.en.md", f"🎯 **[{nome}]({url})**: {desc}. <sub>(PT)</sub>"),
+        (ROOT / "README.md", pt),
+        (ROOT / "README.en.md", en),
     ]:
         if not readme.exists():
             continue
