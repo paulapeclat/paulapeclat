@@ -89,20 +89,25 @@ def radar(competencias, cx=257, cy=415, r=100) -> str:
     return "\n    ".join(partes)
 
 
-def escada(curriculo, x0=520, y0=262, largura=225, altura_linha=31) -> str:
+def escada(curriculo, x0=520, y0=258, largura=200, altura_max=238) -> str:
     n = len(curriculo)
+    # a altura da linha encolhe pra caber qualquer número de ferramentas no cartão
+    altura_linha = min(31, altura_max / n)
+    barra = max(12, altura_linha - 5)
+    fonte = 12 if altura_linha >= 24 else 11
     partes = []
     for i, item in enumerate(curriculo):
         y = y0 + i * altura_linha
+        meio = y + altura_linha / 2
         w = largura * (i + 1) / n
-        cor = RAMPA[min(i, len(RAMPA) - 1)]
-        partes.append(f'<text x="{x0 + 118}" y="{y + 16}" text-anchor="end" class="eixo">{esc(item["ferramenta"])}</text>')
-        partes.append(f'<rect x="{x0 + 128}" y="{y + 3}" width="{w:.1f}" height="19" rx="4" fill="{cor}"><title>{esc(item["ferramenta"])}: {esc(item["tipo"])}</title></rect>')
-        partes.append(f'<text x="{x0 + 136 + w:.1f}" y="{y + 16}" class="tipo">{esc(item["tipo"])}</text>')
+        cor = RAMPA[round(i * (len(RAMPA) - 1) / max(1, n - 1))]
+        partes.append(f'<text x="{x0 + 148}" y="{meio + 4:.1f}" text-anchor="end" class="eixo" font-size="{fonte}">{esc(item["ferramenta"])}</text>')
+        partes.append(f'<rect x="{x0 + 158}" y="{meio - barra / 2:.1f}" width="{w:.1f}" height="{barra:.1f}" rx="4" fill="{cor}"><title>{esc(item["ferramenta"])}: {esc(item["tipo"])}</title></rect>')
+        partes.append(f'<text x="{x0 + 166 + w:.1f}" y="{meio + 4:.1f}" class="tipo">{esc(item["tipo"])}</text>')
     yb = y0 + n * altura_linha + 6
-    partes.append(f'<line x1="{x0 + 128}" y1="{yb}" x2="{x0 + 128 + largura}" y2="{yb}" stroke="{LINHA}"/>')
-    partes.append(f'<text x="{x0 + 128}" y="{yb + 16}" class="mini">concreto</text>')
-    partes.append(f'<text x="{x0 + 128 + largura}" y="{yb + 16}" text-anchor="end" class="mini">abstrato →</text>')
+    partes.append(f'<line x1="{x0 + 158}" y1="{yb:.1f}" x2="{x0 + 158 + largura}" y2="{yb:.1f}" stroke="{LINHA}"/>')
+    partes.append(f'<text x="{x0 + 158}" y="{yb + 16:.1f}" class="mini">concreto</text>')
+    partes.append(f'<text x="{x0 + 158 + largura}" y="{yb + 16:.1f}" text-anchor="end" class="mini">abstrato →</text>')
     return "\n    ".join(partes)
 
 

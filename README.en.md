@@ -87,10 +87,14 @@
 
 ![Code.org](https://img.shields.io/badge/Code.org-00ADBC?style=flat-square&logoColor=white)
 ![Thunkable](https://img.shields.io/badge/Thunkable-FFB300?style=flat-square&logoColor=black)
+![MIT App Inventor](https://img.shields.io/badge/MIT%20App%20Inventor-A4C639?style=flat-square&logoColor=white)
 ![Microsoft MakeCode Arcade](https://img.shields.io/badge/Microsoft%20MakeCode%20Arcade-EF4A81?style=flat-square&logoColor=white)
 ![microStudio](https://img.shields.io/badge/microStudio-00BCD4?style=flat-square&logoColor=white)
 ![GDevelop](https://img.shields.io/badge/GDevelop-FFA500?style=flat-square&logo=gdevelop&logoColor=white)
+![Unity Visual Scripting](https://img.shields.io/badge/Unity%20Visual%20Scripting-222C37?style=flat-square&logo=unity&logoColor=white)
 ![Roblox Studio](https://img.shields.io/badge/Roblox%20Studio-000000?style=flat-square&logo=roblox&logoColor=white)
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 
 **Languages & code**
 

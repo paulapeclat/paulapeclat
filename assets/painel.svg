@@ -48,7 +48,7 @@
   <g>
     <rect x="744" y="96" width="223" height="78" rx="12" fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.08)"/>
     <rect x="744" y="112" width="3" height="46" rx="1.5" fill="#F6B50D"/>
-    <text x="764" y="140" class="kpi">7</text>
+    <text x="764" y="140" class="kpi">11</text>
     <text x="764" y="160" class="rot">ferramentas no currículo</text>
   </g>
 
@@ -85,30 +85,42 @@
   <text x="520" y="222" class="h2">TRILHA DO CURRÍCULO</text>
   <text x="520" y="239" class="h2s">a ordem em que ensino, do concreto ao abstrato</text>
   <g>
-    <text x="638" y="278" text-anchor="end" class="eixo">Code.org</text>
-    <rect x="648" y="265" width="32.1" height="19" rx="4" fill="#E4D3FA"><title>Code.org: blocos</title></rect>
-    <text x="688.1" y="278" class="tipo">blocos</text>
-    <text x="638" y="309" text-anchor="end" class="eixo">Thunkable</text>
-    <rect x="648" y="296" width="64.3" height="19" rx="4" fill="#CDB0F5"><title>Thunkable: blocos + apps</title></rect>
-    <text x="720.3" y="309" class="tipo">blocos + apps</text>
-    <text x="638" y="340" text-anchor="end" class="eixo">MakeCode Arcade</text>
-    <rect x="648" y="327" width="96.4" height="19" rx="4" fill="#B48BF0"><title>MakeCode Arcade: blocos ↔ JavaScript</title></rect>
-    <text x="752.4" y="340" class="tipo">blocos ↔ JavaScript</text>
-    <text x="638" y="371" text-anchor="end" class="eixo">microStudio</text>
-    <rect x="648" y="358" width="128.6" height="19" rx="4" fill="#9E68EA"><title>microStudio: código simples</title></rect>
-    <text x="784.6" y="371" class="tipo">código simples</text>
-    <text x="638" y="402" text-anchor="end" class="eixo">GDevelop</text>
-    <rect x="648" y="389" width="160.7" height="19" rx="4" fill="#8D48E5"><title>GDevelop: eventos</title></rect>
-    <text x="816.7" y="402" class="tipo">eventos</text>
-    <text x="638" y="433" text-anchor="end" class="eixo">Roblox Studio</text>
-    <rect x="648" y="420" width="192.9" height="19" rx="4" fill="#7A3AD4"><title>Roblox Studio: Luau</title></rect>
-    <text x="848.9" y="433" class="tipo">Luau</text>
-    <text x="638" y="464" text-anchor="end" class="eixo">Python</text>
-    <rect x="648" y="451" width="225.0" height="19" rx="4" fill="#6C36D0"><title>Python: texto puro</title></rect>
-    <text x="881.0" y="464" class="tipo">texto puro</text>
-    <line x1="648" y1="485" x2="873" y2="485" stroke="rgba(255,255,255,0.08)"/>
-    <text x="648" y="501" class="mini">concreto</text>
-    <text x="873" y="501" text-anchor="end" class="mini">abstrato →</text>
+    <text x="668" y="272.8" text-anchor="end" class="eixo" font-size="11">Code.org</text>
+    <rect x="678" y="260.5" width="18.2" height="16.6" rx="4" fill="#E4D3FA"><title>Code.org: blocos</title></rect>
+    <text x="704.2" y="272.8" class="tipo">blocos</text>
+    <text x="668" y="294.5" text-anchor="end" class="eixo" font-size="11">Thunkable</text>
+    <rect x="678" y="282.1" width="36.4" height="16.6" rx="4" fill="#CDB0F5"><title>Thunkable: blocos e apps</title></rect>
+    <text x="722.4" y="294.5" class="tipo">blocos e apps</text>
+    <text x="668" y="316.1" text-anchor="end" class="eixo" font-size="11">MIT App Inventor</text>
+    <rect x="678" y="303.8" width="54.5" height="16.6" rx="4" fill="#CDB0F5"><title>MIT App Inventor: blocos e apps</title></rect>
+    <text x="740.5" y="316.1" class="tipo">blocos e apps</text>
+    <text x="668" y="337.7" text-anchor="end" class="eixo" font-size="11">MakeCode Arcade</text>
+    <rect x="678" y="325.4" width="72.7" height="16.6" rx="4" fill="#B48BF0"><title>MakeCode Arcade: blocos ↔ JavaScript</title></rect>
+    <text x="758.7" y="337.7" class="tipo">blocos ↔ JavaScript</text>
+    <text x="668" y="359.4" text-anchor="end" class="eixo" font-size="11">microStudio</text>
+    <rect x="678" y="347.0" width="90.9" height="16.6" rx="4" fill="#B48BF0"><title>microStudio: código simples</title></rect>
+    <text x="776.9" y="359.4" class="tipo">código simples</text>
+    <text x="668" y="381.0" text-anchor="end" class="eixo" font-size="11">GDevelop</text>
+    <rect x="678" y="368.7" width="109.1" height="16.6" rx="4" fill="#9E68EA"><title>GDevelop: eventos</title></rect>
+    <text x="795.1" y="381.0" class="tipo">eventos</text>
+    <text x="668" y="402.6" text-anchor="end" class="eixo" font-size="11">Unity Visual Scripting</text>
+    <rect x="678" y="390.3" width="127.3" height="16.6" rx="4" fill="#8D48E5"><title>Unity Visual Scripting: blocos no Unity</title></rect>
+    <text x="813.3" y="402.6" class="tipo">blocos no Unity</text>
+    <text x="668" y="424.3" text-anchor="end" class="eixo" font-size="11">Roblox Studio</text>
+    <rect x="678" y="412.0" width="145.5" height="16.6" rx="4" fill="#8D48E5"><title>Roblox Studio: Luau</title></rect>
+    <text x="831.5" y="424.3" class="tipo">Luau</text>
+    <text x="668" y="445.9" text-anchor="end" class="eixo" font-size="11">Godot</text>
+    <rect x="678" y="433.6" width="163.6" height="16.6" rx="4" fill="#7A3AD4"><title>Godot: GDScript</title></rect>
+    <text x="849.6" y="445.9" class="tipo">GDScript</text>
+    <text x="668" y="467.5" text-anchor="end" class="eixo" font-size="11">Unity</text>
+    <rect x="678" y="455.2" width="181.8" height="16.6" rx="4" fill="#7A3AD4"><title>Unity: C#</title></rect>
+    <text x="867.8" y="467.5" class="tipo">C#</text>
+    <text x="668" y="489.2" text-anchor="end" class="eixo" font-size="11">Python</text>
+    <rect x="678" y="476.9" width="200.0" height="16.6" rx="4" fill="#6C36D0"><title>Python: texto puro</title></rect>
+    <text x="886.0" y="489.2" class="tipo">texto puro</text>
+    <line x1="678" y1="502.0" x2="878" y2="502.0" stroke="rgba(255,255,255,0.08)"/>
+    <text x="678" y="518.0" class="mini">concreto</text>
+    <text x="878" y="518.0" text-anchor="end" class="mini">abstrato →</text>
   </g>
   <g>
     <text x="520" y="540" class="eixo">Mestrado PPGEduc/UFRRJ · qualificação</text>
