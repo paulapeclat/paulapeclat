@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [EduCapes](https://educapes.capes.gov.br): Repositório de recursos educacionais abertos mantido pela CAPES.
+🇧🇷 **Brasil** · [Plataforma MEC RED](https://plataformaintegrada.mec.gov.br): Plataforma do MEC de recursos educacionais digitais para professores.
 
-🌍 **Mundo** · [Media Education Lab](https://mediaeducationlab.com): Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
+🌍 **Mundo** · [MediaSmarts](https://mediasmarts.ca): Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês).
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
