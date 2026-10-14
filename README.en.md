@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Plataforma MEC RED](https://plataformaintegrada.mec.gov.br): Plataforma do MEC de recursos educacionais digitais para professores. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc): Periódico brasileiro de referência na interface comunicação/educação. <sub>(PT)</sub>
 
-🌍 **World** · [MediaSmarts](https://mediasmarts.ca): Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês). <sub>(PT)</sub>
+🌍 **World** · [Common Sense Media](https://www.commonsensemedia.org): Resenhas e guias de mídia para famílias, organizados por idade (inglês). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
