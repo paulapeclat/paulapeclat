@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc): Periódico brasileiro de referência na interface comunicação/educação. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [BNCC — Base Nacional Comum Curricular](http://basenacionalcomum.mec.gov.br): A Competência Geral 5 trata de cultura digital; base para inserir educação midiática no currículo. <sub>(PT)</sub>
 
-🌍 **World** · [Common Sense Media](https://www.commonsensemedia.org): Resenhas e guias de mídia para famílias, organizados por idade (inglês). <sub>(PT)</sub>
+🌍 **World** · [Common Sense Education](https://www.commonsense.org/education): Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
