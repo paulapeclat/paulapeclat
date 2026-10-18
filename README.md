@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Lei 15.100/2025 — uso de celulares nas escolas](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15100.htm): Restringe o uso de dispositivos móveis na educação básica; contexto essencial para o debate de mediação escolar.
+🇧🇷 **Brasil** · [Marco Civil da Internet — Lei 12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm): Princípios, garantias e deveres para o uso da internet no Brasil.
 
-🌍 **Mundo** · [Global Kids Online](http://globalkidsonline.net): Rede internacional de pesquisa sobre infâncias e internet (LSE/UNICEF).
+🌍 **Mundo** · [Currículo de Alfabetização Midiática e Informacional para Professores (UNESCO)](https://unesdoc.unesco.org): Documento de referência da UNESCO para formação docente em AMI/MIL.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
