@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Marco Civil da Internet — Lei 12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm): Princípios, garantias e deveres para o uso da internet no Brasil.
+🇧🇷 **Brasil** · [LGPD — Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm): Proteção de dados pessoais, com atenção especial a crianças e adolescentes (art. 14).
 
-🌍 **Mundo** · [Currículo de Alfabetização Midiática e Informacional para Professores (UNESCO)](https://unesdoc.unesco.org): Documento de referência da UNESCO para formação docente em AMI/MIL.
+🌍 **Mundo** · [Code.org — formação para educadores](https://code.org/educate): Trilhas gratuitas de ciência da computação com foco pedagógico (inglês/português parcial).
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
