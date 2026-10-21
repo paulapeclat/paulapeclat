@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Estatuto da Criança e do Adolescente (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm): Fundamento dos direitos de crianças e adolescentes, inclusive no ambiente digital. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br): Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo. <sub>(PT)</sub>
 
-🌍 **World** · [Code.org](https://code.org): Programação em blocos com trilhas estruturadas por faixa etária. <sub>(PT)</sub>
+🌍 **World** · [Scratch](https://scratch.mit.edu): Criação de histórias, jogos e animações; comunidade e remix como prática de cultura participativa. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
