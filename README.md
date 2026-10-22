@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br): Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo.
+🇧🇷 **Brasil** · [SaferNet Brasil](https://www.safernet.org.br): Cidadania digital, enfrentamento a violências online e canal de denúncias.
 
-🌍 **Mundo** · [Scratch](https://scratch.mit.edu): Criação de histórias, jogos e animações; comunidade e remix como prática de cultura participativa.
+🌍 **Mundo** · [Thunkable](https://thunkable.com): Criação de aplicativos móveis por blocos.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
