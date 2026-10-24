@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Instituto Alana](https://alana.org.br): Direitos da criança, incluindo o programa Criança e Consumo e o debate sobre publicidade infantil. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br): Governança da internet no Brasil; publicações e princípios. <sub>(PT)</sub>
 
-🌍 **World** · [Microsoft MakeCode Arcade](https://arcade.makecode.com): Jogos retrô por blocos com transição gradual para JavaScript/Python. <sub>(PT)</sub>
+🌍 **World** · [microStudio](https://microstudio.dev): Engine de jogos leve e gratuita, ponte entre blocos e código. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
