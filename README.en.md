@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br): Governança da internet no Brasil; publicações e princípios. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Instituto Vero](https://vero.org.br): Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo. <sub>(PT)</sub>
 
-🌍 **World** · [microStudio](https://microstudio.dev): Engine de jogos leve e gratuita, ponte entre blocos e código. <sub>(PT)</sub>
+🌍 **World** · [GDevelop](https://gdevelop.io): Engine de jogos sem código (eventos), open source. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

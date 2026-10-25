@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br): Governança da internet no Brasil; publicações e princípios.
+🇧🇷 **Brasil** · [Instituto Vero](https://vero.org.br): Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo.
 
-🌍 **Mundo** · [microStudio](https://microstudio.dev): Engine de jogos leve e gratuita, ponte entre blocos e código.
+🌍 **Mundo** · [GDevelop](https://gdevelop.io): Engine de jogos sem código (eventos), open source.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
