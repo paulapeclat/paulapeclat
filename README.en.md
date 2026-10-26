@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Instituto Vero](https://vero.org.br): Educação midiática e cidadania digital, com foco em jovens e criadores de conteúdo. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Redes Cordiais](https://redescordiais.com.br): Formação de influenciadores e jovens para o combate à desinformação e o diálogo online. <sub>(PT)</sub>
 
-🌍 **World** · [GDevelop](https://gdevelop.io): Engine de jogos sem código (eventos), open source. <sub>(PT)</sub>
+🌍 **World** · [Roblox Studio + Roblox Education](https://education.roblox.com): Criação de experiências 3D com Luau; materiais educacionais oficiais. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
