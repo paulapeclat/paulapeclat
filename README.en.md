@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Redes Cordiais](https://redescordiais.com.br): Formação de influenciadores e jovens para o combate à desinformação e o diálogo online. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Lupa Educação](https://lupa.uol.com.br/educacao): Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas. <sub>(PT)</sub>
 
-🌍 **World** · [Roblox Studio + Roblox Education](https://education.roblox.com): Criação de experiências 3D com Luau; materiais educacionais oficiais. <sub>(PT)</sub>
+🌍 **World** · [Teachable Machine](https://teachablemachine.withgoogle.com): Treinamento de modelos de IA sem código; ótima porta de entrada para discutir vieses e dados. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
