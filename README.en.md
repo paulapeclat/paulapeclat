@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [TIC Kids Online Brasil (CETIC.br)](https://cetic.br/pesquisa/kids-online/): Principal levantamento nacional sobre uso de internet por crianças e adolescentes. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [CETIC.br](https://cetic.br): Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação; dados sobre TIC em educação, domicílios e cultura. <sub>(PT)</sub>
 
-🌍 **World** · [Data Detox Kit (Tactical Tech)](https://datadetoxkit.org): Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português. <sub>(PT)</sub>
+🌍 **World** · [Comunicar](https://www.revistacomunicar.com): Revista ibero-americana de comunicação e educação, indexada internacionalmente. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
