@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [CETIC.br](https://cetic.br): Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação; dados sobre TIC em educação, domicílios e cultura.
+🇧🇷 **Brasil** · [Cursos EducaMídia](https://educamidia.org.br): Formações gratuitas em educação midiática para educadores brasileiros.
 
-🌍 **Mundo** · [Comunicar](https://www.revistacomunicar.com): Revista ibero-americana de comunicação e educação, indexada internacionalmente.
+🌍 **Mundo** · [UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy): Programa global de alfabetização midiática e informacional; Semana Global de MIL.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

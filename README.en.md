@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [CETIC.br](https://cetic.br): Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação; dados sobre TIC em educação, domicílios e cultura. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Cursos EducaMídia](https://educamidia.org.br): Formações gratuitas em educação midiática para educadores brasileiros. <sub>(PT)</sub>
 
-🌍 **World** · [Comunicar](https://www.revistacomunicar.com): Revista ibero-americana de comunicação e educação, indexada internacionalmente. <sub>(PT)</sub>
+🌍 **World** · [UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy): Programa global de alfabetização midiática e informacional; Semana Global de MIL. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
