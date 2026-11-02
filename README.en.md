@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br): Material aberto e didático sobre segurança digital, mantido pelo CERT.br. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [InternetSegura.br (NIC.br)](https://internetsegura.br): Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas. <sub>(PT)</sub>
 
-🌍 **World** · [EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online): Rede europeia de pesquisa sobre crianças e internet. <sub>(PT)</sub>
+🌍 **World** · [5Rights Foundation](https://5rightsfoundation.com): Direitos digitais de crianças e adolescentes; incidência em design e regulação. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
