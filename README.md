@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc): Periódico brasileiro de referência na interface comunicação/educação.
+🇧🇷 **Brasil** · [BNCC — Base Nacional Comum Curricular](http://basenacionalcomum.mec.gov.br): A Competência Geral 5 trata de cultura digital; base para inserir educação midiática no currículo.
 
-🌍 **Mundo** · [Common Sense Media](https://www.commonsensemedia.org): Resenhas e guias de mídia para famílias, organizados por idade (inglês).
+🌍 **Mundo** · [Common Sense Education](https://www.commonsense.org/education): Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês).
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
