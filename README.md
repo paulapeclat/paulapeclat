@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [BNCC — Base Nacional Comum Curricular](http://basenacionalcomum.mec.gov.br): A Competência Geral 5 trata de cultura digital; base para inserir educação midiática no currículo.
+🇧🇷 **Brasil** · [Lei 14.533/2023 — Política Nacional de Educação Digital (PNED)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14533.htm): Estrutura a educação digital no Brasil em quatro eixos, incluindo capacitação e letramento digital.
 
-🌍 **Mundo** · [Common Sense Education](https://www.commonsense.org/education): Currículos de cidadania digital e avaliações de mídia para famílias e escolas (inglês).
+🌍 **Mundo** · [NAMLE — National Association for Media Literacy Education](https://namle.net): Rede norte-americana de educação midiática (inglês).
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
