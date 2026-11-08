@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Lei 14.533/2023 — Política Nacional de Educação Digital (PNED)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14533.htm): Estrutura a educação digital no Brasil em quatro eixos, incluindo capacitação e letramento digital. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Lei 15.100/2025 — uso de celulares nas escolas](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15100.htm): Restringe o uso de dispositivos móveis na educação básica; contexto essencial para o debate de mediação escolar. <sub>(PT)</sub>
 
-🌍 **World** · [NAMLE — National Association for Media Literacy Education](https://namle.net): Rede norte-americana de educação midiática (inglês). <sub>(PT)</sub>
+🌍 **World** · [Global Kids Online](http://globalkidsonline.net): Rede internacional de pesquisa sobre infâncias e internet (LSE/UNICEF). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
