@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Marco Civil da Internet — Lei 12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm): Princípios, garantias e deveres para o uso da internet no Brasil. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [LGPD — Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm): Proteção de dados pessoais, com atenção especial a crianças e adolescentes (art. 14). <sub>(PT)</sub>
 
-🌍 **World** · [Currículo de Alfabetização Midiática e Informacional para Professores (UNESCO)](https://unesdoc.unesco.org): Documento de referência da UNESCO para formação docente em AMI/MIL. <sub>(PT)</sub>
+🌍 **World** · [Code.org — formação para educadores](https://code.org/educate): Trilhas gratuitas de ciência da computação com foco pedagógico (inglês/português parcial). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
