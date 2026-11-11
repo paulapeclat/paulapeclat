@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [LGPD — Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm): Proteção de dados pessoais, com atenção especial a crianças e adolescentes (art. 14). <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Estatuto da Criança e do Adolescente (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm): Fundamento dos direitos de crianças e adolescentes, inclusive no ambiente digital. <sub>(PT)</sub>
 
-🌍 **World** · [Code.org — formação para educadores](https://code.org/educate): Trilhas gratuitas de ciência da computação com foco pedagógico (inglês/português parcial). <sub>(PT)</sub>
+🌍 **World** · [Code.org](https://code.org): Programação em blocos com trilhas estruturadas por faixa etária. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
