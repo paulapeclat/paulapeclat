@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Estatuto da Criança e do Adolescente (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm): Fundamento dos direitos de crianças e adolescentes, inclusive no ambiente digital.
+🇧🇷 **Brasil** · [EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br): Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo.
 
-🌍 **Mundo** · [Code.org](https://code.org): Programação em blocos com trilhas estruturadas por faixa etária.
+🌍 **Mundo** · [Scratch](https://scratch.mit.edu): Criação de histórias, jogos e animações; comunidade e remix como prática de cultura participativa.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
