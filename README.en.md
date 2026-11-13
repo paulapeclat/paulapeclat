@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [EducaMídia (Instituto Palavra Aberta)](https://educamidia.org.br): Principal programa brasileiro de educação midiática; materiais gratuitos, formação e currículo. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [SaferNet Brasil](https://www.safernet.org.br): Cidadania digital, enfrentamento a violências online e canal de denúncias. <sub>(PT)</sub>
 
-🌍 **World** · [Scratch](https://scratch.mit.edu): Criação de histórias, jogos e animações; comunidade e remix como prática de cultura participativa. <sub>(PT)</sub>
+🌍 **World** · [Thunkable](https://thunkable.com): Criação de aplicativos móveis por blocos. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
