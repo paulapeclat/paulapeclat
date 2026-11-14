@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [SaferNet Brasil](https://www.safernet.org.br): Cidadania digital, enfrentamento a violências online e canal de denúncias.
+🇧🇷 **Brasil** · [Instituto Alana](https://alana.org.br): Direitos da criança, incluindo o programa Criança e Consumo e o debate sobre publicidade infantil.
 
-🌍 **Mundo** · [Thunkable](https://thunkable.com): Criação de aplicativos móveis por blocos.
+🌍 **Mundo** · [Microsoft MakeCode Arcade](https://arcade.makecode.com): Jogos retrô por blocos com transição gradual para JavaScript/Python.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
