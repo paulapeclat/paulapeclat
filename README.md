@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Instituto Alana](https://alana.org.br): Direitos da criança, incluindo o programa Criança e Consumo e o debate sobre publicidade infantil.
+🇧🇷 **Brasil** · [CGI.br — Comitê Gestor da Internet no Brasil](https://cgi.br): Governança da internet no Brasil; publicações e princípios.
 
-🌍 **Mundo** · [Microsoft MakeCode Arcade](https://arcade.makecode.com): Jogos retrô por blocos com transição gradual para JavaScript/Python.
+🌍 **Mundo** · [microStudio](https://microstudio.dev): Engine de jogos leve e gratuita, ponte entre blocos e código.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
