@@ -7,8 +7,8 @@ Gerado por `scripts/sync_metadados.py`. Repos com pendência aparecem primeiro n
 | [glossario](https://github.com/paulapeclat/glossario) | 1 | 0 | tópicos, licença, site |
 | [ZOoORP](https://github.com/paulapeclat/ZOoORP) | 1 | 0 | descrição, tópicos, site |
 | [CasePy](https://github.com/paulapeclat/CasePy) | 0 | 0 | descrição, tópicos, site |
-| [missao-algoritmo](https://github.com/paulapeclat/missao-algoritmo) | 1 | 0 | tópicos, site |
 | [regras-malucas-kit](https://github.com/paulapeclat/regras-malucas-kit) | 1 | 0 | tópicos, site |
+| [missao-algoritmo](https://github.com/paulapeclat/missao-algoritmo) | 1 | 0 | tópicos |
 | [analise-dados-jogos](https://github.com/paulapeclat/analise-dados-jogos) | 0 | 7 | site |
 | [primeiro-jogo-gdevelop](https://github.com/paulapeclat/primeiro-jogo-gdevelop) | 0 | 7 | site |
 | [paulapeclat](https://github.com/paulapeclat/paulapeclat) | 2 | 7 | ✅ ok |
