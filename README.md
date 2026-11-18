@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Redes Cordiais](https://redescordiais.com.br): Formação de influenciadores e jovens para o combate à desinformação e o diálogo online.
+🇧🇷 **Brasil** · [Lupa Educação](https://lupa.uol.com.br/educacao): Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas.
 
-🌍 **Mundo** · [Roblox Studio + Roblox Education](https://education.roblox.com): Criação de experiências 3D com Luau; materiais educacionais oficiais.
+🌍 **Mundo** · [Teachable Machine](https://teachablemachine.withgoogle.com): Treinamento de modelos de IA sem código; ótima porta de entrada para discutir vieses e dados.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
