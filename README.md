@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Lupa Educação](https://lupa.uol.com.br/educacao): Braço educativo da Agência Lupa: oficinas e cursos de checagem de fatos para escolas.
+🇧🇷 **Brasil** · [Aos Fatos](https://aosfatos.org): Agência de checagem de fatos com projetos de letramento informacional.
 
-🌍 **Mundo** · [Teachable Machine](https://teachablemachine.withgoogle.com): Treinamento de modelos de IA sem código; ótima porta de entrada para discutir vieses e dados.
+🌍 **Mundo** · [Canva para Educação](https://www.canva.com/pt_br/educacao/): Produção de mídia (design, apresentações, vídeo) com contas educacionais gratuitas.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
