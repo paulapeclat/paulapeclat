@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Aos Fatos](https://aosfatos.org): Agência de checagem de fatos com projetos de letramento informacional.
+🇧🇷 **Brasil** · [TIC Kids Online Brasil (CETIC.br)](https://cetic.br/pesquisa/kids-online/): Principal levantamento nacional sobre uso de internet por crianças e adolescentes.
 
-🌍 **Mundo** · [Canva para Educação](https://www.canva.com/pt_br/educacao/): Produção de mídia (design, apresentações, vídeo) com contas educacionais gratuitas.
+🌍 **Mundo** · [Data Detox Kit (Tactical Tech)](https://datadetoxkit.org): Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
