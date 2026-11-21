@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [TIC Kids Online Brasil (CETIC.br)](https://cetic.br/pesquisa/kids-online/): Principal levantamento nacional sobre uso de internet por crianças e adolescentes.
+🇧🇷 **Brasil** · [CETIC.br](https://cetic.br): Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação; dados sobre TIC em educação, domicílios e cultura.
 
-🌍 **Mundo** · [Data Detox Kit (Tactical Tech)](https://datadetoxkit.org): Guia para hábitos digitais mais saudáveis — privacidade, bem-estar e desinformação — com versão em português.
+🌍 **Mundo** · [Comunicar](https://www.revistacomunicar.com): Revista ibero-americana de comunicação e educação, indexada internacionalmente.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
