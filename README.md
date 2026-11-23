@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Cursos EducaMídia](https://educamidia.org.br): Formações gratuitas em educação midiática para educadores brasileiros.
+🇧🇷 **Brasil** · [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br): Material aberto e didático sobre segurança digital, mantido pelo CERT.br.
 
-🌍 **Mundo** · [UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy): Programa global de alfabetização midiática e informacional; Semana Global de MIL.
+🌍 **Mundo** · [EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online): Rede europeia de pesquisa sobre crianças e internet.
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>

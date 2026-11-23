@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [Cursos EducaMídia](https://educamidia.org.br): Formações gratuitas em educação midiática para educadores brasileiros. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Cartilha de Segurança para Internet (CERT.br)](https://cartilha.cert.br): Material aberto e didático sobre segurança digital, mantido pelo CERT.br. <sub>(PT)</sub>
 
-🌍 **World** · [UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy): Programa global de alfabetização midiática e informacional; Semana Global de MIL. <sub>(PT)</sub>
+🌍 **World** · [EU Kids Online](https://www.lse.ac.uk/media-and-communications/research/research-projects/eu-kids-online): Rede europeia de pesquisa sobre crianças e internet. <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
