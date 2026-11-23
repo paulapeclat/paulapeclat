@@ -11,7 +11,7 @@ Gerado por `scripts/sync_metadados.py`. Repos com pendência aparecem primeiro n
 | [missao-algoritmo](https://github.com/paulapeclat/missao-algoritmo) | 1 | 0 | tópicos |
 | [analise-dados-jogos](https://github.com/paulapeclat/analise-dados-jogos) | 0 | 7 | site |
 | [primeiro-jogo-gdevelop](https://github.com/paulapeclat/primeiro-jogo-gdevelop) | 0 | 7 | site |
-| [paulapeclat](https://github.com/paulapeclat/paulapeclat) | 2 | 7 | ✅ ok |
+| [paulapeclat](https://github.com/paulapeclat/paulapeclat) | 3 | 7 | ✅ ok |
 | [awesome-educacao-midiatica](https://github.com/paulapeclat/awesome-educacao-midiatica) | 1 | 10 | ✅ ok |
 | [paulapeclat.github.io](https://github.com/paulapeclat/paulapeclat.github.io) | 1 | 10 | ✅ ok |
 | [primeiro-jogo-roblox](https://github.com/paulapeclat/primeiro-jogo-roblox) | 0 | 10 | ✅ ok |
