@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [InternetSegura.br (NIC.br)](https://internetsegura.br): Portal do NIC.br com guias de uso seguro da internet para crianças, famílias e escolas.
+🇧🇷 **Brasil** · [EduCapes](https://educapes.capes.gov.br): Repositório de recursos educacionais abertos mantido pela CAPES.
 
-🌍 **Mundo** · [5Rights Foundation](https://5rightsfoundation.com): Direitos digitais de crianças e adolescentes; incidência em design e regulação.
+🌍 **Mundo** · [Media Education Lab](https://mediaeducationlab.com): Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês).
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
