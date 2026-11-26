@@ -56,9 +56,9 @@
 ### ✨ Media education resources of the day, from Brazil to the world
 
 <!--RECURSO-START-->
-🇧🇷 **Brazil** · [EduCapes](https://educapes.capes.gov.br): Repositório de recursos educacionais abertos mantido pela CAPES. <sub>(PT)</sub>
+🇧🇷 **Brazil** · [Plataforma MEC RED](https://plataformaintegrada.mec.gov.br): Plataforma do MEC de recursos educacionais digitais para professores. <sub>(PT)</sub>
 
-🌍 **World** · [Media Education Lab](https://mediaeducationlab.com): Laboratório de Renee Hobbs (EUA) com materiais e pesquisa em educação midiática (inglês). <sub>(PT)</sub>
+🌍 **World** · [MediaSmarts](https://mediasmarts.ca): Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês). <sub>(PT)</sub>
 <!--RECURSO-END-->
 
 <sub>every day, one Brazilian and one international resource from my curated list <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
