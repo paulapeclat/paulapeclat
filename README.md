@@ -68,9 +68,9 @@ Sou pedagoga, pesquisadora e game developer. Passo os dias entre crianças crian
 ### ✨ Recursos do dia em educação midiática, do Brasil para o mundo
 
 <!--RECURSO-START-->
-🇧🇷 **Brasil** · [Plataforma MEC RED](https://plataformaintegrada.mec.gov.br): Plataforma do MEC de recursos educacionais digitais para professores.
+🇧🇷 **Brasil** · [Comunicação & Educação (ECA-USP)](https://www.revistas.usp.br/comueduc): Periódico brasileiro de referência na interface comunicação/educação.
 
-🌍 **Mundo** · [MediaSmarts](https://mediasmarts.ca): Centro canadense de literacia digital e midiática, com currículos por faixa etária (inglês/francês).
+🌍 **Mundo** · [Common Sense Media](https://www.commonsensemedia.org): Resenhas e guias de mídia para famílias, organizados por idade (inglês).
 <!--RECURSO-END-->
 
 <sub>todo dia aparece aqui uma referência brasileira e uma internacional da minha lista <a href="https://github.com/paulapeclat/awesome-educacao-midiatica">awesome-educacao-midiatica</a> ⭐</sub>
